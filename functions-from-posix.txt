@@ -1,0 +1,548 @@
+POSIX functions (sorted by man page size):
+setpwent: UNIX V7 (1979/01)
+random: 4.1cBSD (1983/04/02)
+sem_wait: Solaris 2.5 (~1994/12/16)
+getpwent: UNIX V7 (1979/01)
+remque: 4.1cBSD (1983/04/02)
+mkstemp: 4.3BSD (1986/06/06)
+getgrent: UNIX V7 (1979/01)
+setgrent: UNIX V7 (1979/01)
+setlogmask: 4.3BSD (1986/06/06), first added in a commit from 1984/04/25
+funlockfile: OSF/1 1.10 (1992/01/20)
+ftrylockfile: FreeBSD 1.1 (1994/05/05), NetBSD 1.0 (1994/11/29)
+setnetent: 4.1cBSD (1983/04/02)
+munlockall: System V Release 4 (~1989/07/12)
+gethostent: 4.1cBSD (1983/04/02)
+srandom: 4.1cBSD (1983/04/02)
+setutxent: System V Release 4 (~1989/07/12)
+fexecve: glibc 1.09.5 (1995/02/18)
+stat: UNIX PDP7 (1970/01)
+sethostent: 4.1cBSD (1983/04/02)
+pthread_testcancel: OSF/1 1.10 (1992/01/20)
+sigpause: 4BSD (1980/11/16)
+setprotoent: 4.1cBSD (1983/04/02)
+strnlen: System V Release 3.0.1 (~1986/02/25)
+setservent: 4.1cBSD (1983/04/02)
+opendir: 4.1cBSD (1983/04/02)
+getchar_unlocked: OSF/1 (~1994/03/02), FreeBSD 1.1 (1994/05/05), NetBSD 1.0 (1994/11/29)
+setstate: 4.1cBSD (1983/04/02)
+setpriority: 4.1cBSD (1983/04/02)
+pthread_cond_signal: OSF/1 1.10 (1992/01/20)
+pathconf: System V Release 4 (~1989/07/12), MINIX 1.5 (1990/06/01)
+mrand48: System V Release 1 (~1983/01)
+lstat: 4.1cBSD (1983/04/02)
+dprintf: glibc 1.06 (1993/05/23)
+putchar_unlocked: OSF/1 (~1994/03/02)
+l64a: System III (~1980/07/15)
+syslog: 4.1cBSD (1983/04/02)
+statvfs: System V Release 4 (~1989/07/12)
+pread: Solaris 2.5 (~1995/10/30)
+lrand48: System V Release 1 (~1983/01)
+sigrelse: 4BSD (1980/11/16)
+pthread_setconcurrency: glibc 2.1 (1999/02/04), first added in a commit from 1998/03/13
+pututxline: System V Release 4 (~1989/07/12)
+openlog: 4.1cBSD (1983/04/02)
+munlock: System V Release 4 (~1989/07/12)
+stpcpy: Somewhere in GNU stuff, first found in textutils 1.3, sometime before 1991/07/08
+strndup: glibc 1.90 (1996/06/09), first added in a commit from 1996/05/23
+setrlimit: 4.1cBSD (1983/04/02)
+putc_unlocked: OSF/1 (~1994/03/02)
+pthread_attr_init: FreeBSD 1.1 (1994/05/05)
+sigwaitinfo: Solaris 2.5 (~1995/10/30)
+wcsnlen: ReactOS 0.0.7 (1996/01/23)
+tsearch: System V Release 1 (~1983/01)
+tfind: System V Release 2 (~1984/07/26)
+pwrite: Solaris 2.5 (~1995/10/30)
+clock_settime: OSF/1 1.10 (1992/01/20)
+waitpid: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1988/11/29
+twalk: System V Release 1 (~1983/01)
+openat: OpenSolaris (2005/06/14)
+jrand48: System V Release 1 (~1983/01)
+pthread_rwlock_wrlock: FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, glibc 2.1 (1999/02/04), first added in a commit from 1998/03/11
+erand48: System V Release 1 (~1983/01)
+pthread_setspecific: OSF/1 1.10 (1992/01/20)
+pthread_mutexattr_init: AIX 4.1.3 (1995/07/07)
+pthread_rwlock_tryrdlock: FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, glibc 2.1 (1999/02/04), first added in a commit from 1998/03/11
+pthread_mutex_trylock: OSF/1 1.10 (1992/02/27)
+setitimer: 4.1cBSD (1983/04/02)
+srand48: System V Release 1 (~1983/01)
+wcpcpy: glibc 1.90 (1996/06/09)
+pthread_mutexattr_settype: glibc 2.1 (1999/02/04), first added in a commit from 1998/07/08
+pthread_attr_setdetachstate: AIX 4.1.3 (1995/07/07)
+pthread_attr_setstacksize: OSF/1 1.10 (1992/02/27)
+ntohl: 4.1BSD (1981/11/24)
+pthread_barrierattr_init: glibc 2.2 (2000/11/09), first added in a commit from 2000/06/21
+nrand48: System V Release 1 (~1983/01)
+getline: Somewhere in GNU stuff, first found in GNU uucp, somewhere before 1993/11/01
+pthread_condattr_init: AIX 4.1.3 (1995/07/07)
+pthread_attr_setguardsize: glibc 2.1 (1999/02/04), first added in a commit from 1998/03/13
+FD_CLR: UNIX V8 (1985/02)
+stpncpy: glibc 1.07 (1994/01/17)
+posix_trace_flush: Seems unimplemented rn ????
+lcong48: System V Release 1 (~1983/01)
+sigprocmask: System V Release 4 (~1989/07/12)
+pthread_attr_setstack: glibc 2.2 (2000/11/09), first added in a commit from 2000/09/11
+pthread_rwlockattr_init: FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, glibc 2.1 (1999/02/04), first added in a commit from 1998/03/11
+posix_trace_attr_init: Seems unimplemented rn ????
+getutxent: System V Release 4 (~1989/07/12)
+pthread_attr_setscope: AIX 4.1.3 (1995/07/07)
+posix_trace_shutdown: Seems unimplemented rn ????
+seed48: System V Release 1 (~1983/01)
+fchmodat: glibc 2.4 (2006/03/06), first added in a commit from 2006/01/05, Linux 2.6.16 (2006/03/19), first added in a commit from 2006/01/18
+scandir: 4.1cBSD (1983/04/02)
+pthread_mutexattr_setpshared: AIX 4.1.3 (1995/07/07)
+pthread_mutexattr_setrobust: OpenSolaris (2008/11/07), glibc 2.12 (2010/05/03), first added in a commit from 2010/01/14
+posix_trace_open: Seems unimplemented rn ????
+posix_spawnattr_init: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+faccessat: glibc 2.4 (2006/03/06), first added in a commit from 2006/01/06, Linux 2.6.16 (2006/03/19), first added in a commit from 2006/01/18
+select: 4.1cBSD (1983/04/02)
+posix_trace_get_status: Seems unimplemented rn ????
+lfind: System V Release 2 (~1984/07/26)
+pthread_condattr_setclock: OpenSolaris (2005/06/14)
+pthread_attr_setschedparam: AIX 4.1.3 (1995/07/07)
+pthread_condattr_setpshared: AIX 4.1.3 (1995/07/07)
+pthread_attr_setschedpolicy: AIX 4.1.3 (1995/07/07)
+getprotobyname: 4.1cBSD (1983/04/02)
+strncasecmp: 4.3BSD Tahoe (1988/06/15)
+wcpncpy: glibc 1.90 (1996/06/09), first added in a commit from 1996/05/01
+pthread_mutex_init: OSF/1 1.10 (1992/02/27)
+pthread_attr_setinheritsched: OSF/1 1.10 (1992/02/27)
+getaddrinfo: glibc 2.0 (1997/01/26), first added in a commit from 1996/10/21
+getpmsg: System V Release 4 (~1989/07/12)
+getnetbyaddr: 4.1cBSD (1983/04/02)
+posix_trace_attr_getname: Seems unimplemented rn ????
+pthread_barrierattr_setpshared: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/06/21
+fchownat: OpenSolaris (2005/06/14)
+getservbyname: 4.1cBSD (1983/04/02)
+posix_trace_attr_setname: Seems unimplemented rn ????
+pthread_rwlockattr_setpshared: FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, glibc 2.1 (1999/02/04), first added in a commit from 1998/03/11
+posix_trace_set_filter: Seems unimplemented rn ????
+posix_spawnattr_setflags: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/15
+wcsnrtombs: glibc 1.93 (1996/08/29), first added in a commit from 1996/06/26
+posix_spawnattr_setpgroup: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/15
+wcsncasecmp: glibc 2.1 (1999/02/04), first added in a commit from 1997/02/25
+utimensat: glibc 2.6 (2007/05/15), first added in a commit from 2007/05/10, Linux 2.6.22 (2007/06/08), first added in a commit from 2007/05/08
+pthread_mutexattr_setprotocol: AIX 4.1.3 (1995/07/07)
+posix_trace_eventid_open: Seems unimplemented rn ????
+pthread_setschedparam: AIX 4.1.3 (1995/07/07)
+pthread_mutexattr_setprioceiling: AIX 4.1.3 (1995/07/07)
+posix_trace_attr_setstreamsize: Seems unimplemented rn ????
+posix_trace_trid_eventid_open: Seems unimplemented rn ????
+pthread_mutex_setprioceiling: AIX 4.1.3 (1995/07/07)
+posix_trace_attr_setstreamfullpolicy: Seems unimplemented rn ????
+posix_trace_attr_getstreamsize: Seems unimplemented rn ????
+posix_spawnattr_setschedpolicy: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/15
+posix_trace_attr_getstreamfullpolicy: Seems unimplemented rn ????
+posix_spawnattr_setsigmask: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+posix_trace_attr_setinherited: Seems unimplemented rn ????
+posix_spawnp: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+posix_trace_attr_setlogsize: Seems unimplemented rn ????
+mq_timedsend: Linux 2.6.7 (2004/06/15), first added in a commit from 2004/04/11
+posix_spawnattr_setsigdefault: glibc 2.2 (2000/11/09), first added in a commit from 2000/05/01 (although already present as posix_spawnattr_setdefault since 2000/04/15)
+posix_spawnattr_setschedparam: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+mq_timedreceive: Linux 2.6.7 (2004/06/15), first added in a commit from 2004/04/11
+posix_spawn_file_actions_addopen: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+posix_trace_trygetnext_event: Seems unimplemented rn ????
+posix_trace_timedgetnext_event: Seems unimplemented rn ????
+ffs: 4.1cBSD (1983/04/02)
+sync: UNIX V3 (1973/02), but doesn't seem to ensure full filesystem cache commit until UNIX V4 (1973/11)
+gethostid: 4.1cBSD (1983/04/02)
+toascii: UNIX V7 (1979/01)
+getppid: Bell 32V (1979/05/02)
+if_nametoindex: glibc 2.1 (1999/02/04), first added in a commit from 1997/05/21
+getpid: UNIX V5 (1974/06)
+isascii: UNIX V7 (1979/01)
+if_freenameindex: glibc 2.1 (1999/02/04), first added in a commit from 1997/05/21
+pthread_self: OSF/1 1.10 (1992/01/20)
+telldir: 4.1cBSD (1983/04/02)
+isastream: System V Release 4 (~1989/07/12)
+iconv_close: OSF/1 (~1994/03/02)
+swab: UNIX V7 (1979/01)
+_toupper: System III (~1980/07/15)
+catclose: System V Release 4 (~1989/07/12)
+_tolower: System III (~1980/07/15)
+sigpending: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1989/08/27
+cfgetospeed: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1988/10/08
+sigfillset: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1989/08/26
+tcgetsid: System V Release 4 (~1989/07/12)
+isatty: UNIX V7 (1979/01)
+memccpy: System V Release 1 (~1983/01)
+gethostname: 4.1cBSD (1983/04/02)
+gettimeofday: 4.1cBSD (1983/04/02)
+getsid: System V Release 4 (~1989/07/12)
+getpgrp: System III (~1980/07/15)
+setpgrp: PWB/UNIX 1.0 (1977/07/01)
+unlockpt: System V Release 3.2 (~1987)
+if_indextoname: glibc 2.1 (1999/02/04), first added in a commit from 1997/05/21
+sched_get_priority_max: OSF/1 1.10 (1992/02/27)
+getpgid: System V Release 4 (~1989/07/12)
+wcwidth: OSF/1 (~1994/03/02)
+sched_yield: OSF/1 1.10 (1992/02/27)
+htonl: 4.1cBSD (1983/04/02)
+sched_rr_get_interval: Linux 1.3.55 (1996/01/01) contains the syscall, but it is unimplemented until Linux 2.1.30 (1997/03/10)
+getgid: UNIX V4 (1973/11)
+getegid: UNIX V7 (1979/01)
+geteuid: UNIX V7 (1979/01)
+if_nameindex: glibc 2.1 (1999/02/04), first added in a commit from 1997/05/21
+wcswidth: OSF/1 (~1994/03/02)
+pthread_getcpuclockid: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/13
+timer_delete: OSF/1 1.10 (1992/02/27)
+gai_strerror: glibc 2.1 (1999/02/04), first added in a commit from 1997/02/19
+wcsdup: glibc 1.90 (1996/06/09), first added in a commit from 1996/02/08
+pthread_equal: OSF/1 1.10 (1992/02/27)
+sched_getscheduler: OSF/1 1.10 (1992/02/27)
+unsetenv: 4.3BSD Tahoe (1988/06/15)
+seteuid: 4.1cBSD (1983/04/02)
+rewinddir: 4.1cBSD (1983/04/02)
+tcgetpgrp: System V Release 4 (~1989/07/12)
+setegid: 4.1cBSD (1983/04/02)
+mq_close: IRIX 6.5.5 (~1999/06/30)
+sem_destroy: OSF/1 (~1994/03/02) seems to contain this routine, but it actually destroys a named semaphore, the real routine doesn't come until Solaris 2.5 (~1995/10/30)
+sched_getparam: OSF/1 (~1994/03/02)
+freelocale: glibc 2.1 (1999/02/04), first added in a commit from 1997/02/15
+killpg: 4BSD (1980/11/16)
+siglongjmp: System V Release 4 (~1989/07/12)
+setgid: UNIX V4 (1973/11)
+getuid: UNIX PDP7 (1970/01)
+closedir: 4.1cBSD (1983/04/02), first added in a commit from 1982/02/11
+clock_getcpuclockid: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/11
+cfsetispeed: 4.3BSD Reno (1990/06/01), first added in a commit from 1988/10/07, System V Release 4 (~1989/07/12)
+cfsetospeed: 4.3BSD Reno (1990/06/01), first added in a commit from 1988/10/07, System V Release 4 (~1989/07/12)
+fileno: PWB/UNIX 1.0 (1977/07/01)
+sem_getvalue: Solaris 2.5 (~1995/10/30)
+pause: LSX (1976) 
+siginterrupt: 4.3BSD (1986/06/06), first added in a commit from 1985/03/11
+grantpt: System V Release 3 (1987)
+fchdir: 4.3BSD Reno (1990/06/01), first added in a commit from 1989/06/07, System V Release 4 (~1989/07/12)
+ptsname: System V Release 3 (1987)
+sigaddset: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1989/08/26
+tcdrain: System V Release 4 (~1989/07/12)
+sigdelset: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1989/08/26
+mq_getattr: Solaris 2.5 (~1995/10/30)
+aio_error: OSF/1 1.10 (1992/02/27)
+sigismember: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1989/08/26
+posix_trace_start: Seems unimplemented rn ????
+creat: UNIX PDP7 (1970/01)
+pthread_spin_unlock: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/13
+shutdown: 4.1cBSD (1983/04/02), first added in a commit from 1982/12/04
+fdatasync: Solaris 2.5 (~1995/10/30), Linux 1.3.55 (1996/01/01), glibc 1.90 (1996/06/09), first added in a commit from 1996/04/28, OpenBSD 1.2 (1996/07/01), first added in a commit from 1996/05/22
+posix_spawn_file_actions_destroy: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+posix_spawnattr_getpgroup: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+getrusage: 4.1cBSD (1983/04/02), first added in a commit from 1982/09/04
+sem_close: Solaris 2.5 (~1995/10/30)
+pthread_attr_getstacksize: OSF/1 1.10 (1992/02/27)
+posix_spawnattr_getsigmask: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+aio_return: OSF/1 1.10 (1992/02/27)
+strsignal: 4.3BSD Net 2 (1991/08/20)
+getsockname: 4.2BSD (1983/08), first added in a commit from 1983/03/19
+catgets: System V Release 4 (~1989/07/12)
+posix_trace_eventtypelist_getnext_id: Seems unimplemented rn ????
+strcasecmp: 4.3BSD Tahoe (1988/06/15), first added in a commit from 1987/07/02, System V Release 4 (~1989/07/12)
+posix_spawnattr_getsigdefault: glibc 2.2 (2000/11/09), first added in a commit from 2000/05/01, although posix_spawnattr_getdefault (another name for it) was present since 2000/04/15
+posix_spawnattr_getschedpolicy: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+mq_setattr: IRIX 6.5.5 (~1999/06/30)
+pthread_barrierattr_destroy: glibc 2.2 (2000/11/09), first added in a commit from 2000/06/21
+posix_spawnattr_getschedparam: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+getpeername: 4.2BSD (1983/08), first added in a commit from 1983/07/25
+umask: UNIX V7 (1979/01)
+tcflush: System V Release 4 (~1989/07/12)
+pthread_rwlockattr_destroy: OpenBSD 2.4 (1998/12/01), first added in a commit from 1998/11/09, FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, glibc 2.1 (1999/02/04), first added in a commit from 1998/03/11, IRIX 6.5.5 (~1999/06/30)
+tcsetpgrp: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1988/10/07, bash 1.05 (1990/03/03)
+tcsendbreak: System V Release 4 (~1989/07/12)
+shmdt: System V Release 1 (~1983/01)
+setkey: PWB/UNIX 1.0 (1977/07/01) contains a static version of it in its crypt implementation, but it is not rendered public until UNIX V7 (1979/01)
+pthread_condattr_getclock: glibc 2.3.3 (2003/12/01), first added in a commit from 2003/03/18 
+sem_init: Solaris 2.5 (~1995/10/30)
+chdir: UNIX PDP7 (1970/01)
+posix_spawnattr_getflags: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/15
+sem_trywait: Solaris 2.5 (~1995/10/30)
+pthread_spin_lock: glibc 2.2 (2000/11/09), first added in a commit from 2000/04/13
+dlerror: System V Release 4 (~1989/07/12)
+uselocale: glibc 2.3 (2002/10/10), first added in a commit from 2002/08/04, uClibc 0.9.24 (2003/12/16), first added in a commit from 2003/08/01
+j0: UNIX V7 (1979/01)
+wcscasecmp: glibc 2.1 (1999/02/04), first added in a commit from 1997/02/25
+sem_post: Solaris 2.5 (~1995/10/30)
+_longjmp: 4.2BSD (1983/08), first added in a commit from 1983/06/30
+endhostent: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/25
+encrypt: PWB/UNIX 1.0 (1977/07/01) contains a static version of it in its crypt implementation, but it is not rendered public until UNIX V7 (1979/01)
+setsid: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1988/10/18, 
+readv: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/22
+dirfd: 4.3BSD Tahoe (1988/06/15), first added in a commit from 1986/12/22
+iconv_open: OSF/1 (~1994/03/02)
+pthread_condattr_getpshared: Solaris 2.5 (~1995/10/30)
+sem_unlink: IRIX 6.5.5 (~1999/06/30)
+strdup: Can be found in a pascal implementation in 4.1cBSD (1983/04/02), which was first added in a commit from 1982/01/18, but is not added to libc until UNIX V8 (1985/02)
+ttyname: UNIX V7 (1979/01)
+tcflow: System V Release 4 (~1989/07/12)
+pthread_mutexattr_getpshared: Solaris 2.5 (~1995/10/30)
+pthread_rwlockattr_getpshared: OpenBSD 2.4 (1998/12/01), first added in a commit from FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, glibc 2.1 (1999/02/04), first added in a commit from 1998/03/11,  IRIX 6.5.5 (~1999/06/30)
+nice: It appears under its very old name of hog somewhere between UNIX V1 (1971/11/03) and UNIX V2 (1972/12/06), but the real name doesn't appear until UNIX V3 (1973/02)
+pthread_attr_getscope: AIX 4.1.3 (1993/09/23)
+seekdir: 4.1cBSD (1983/04/02), first added in a commit from 1982/02/21
+aio_cancel: OSF/1 1.10 (1992/01/20)
+pthread_mutexattr_getprioceiling: IRIX 6.5.5 (~1999/06/30), FreeBSD 3.3.0 (1999/09/16), first added in a commit from 1999/04/01, OpenBSD 2.6 (1999/12/01), first added in a commit from 1999/05/26, Solaris 8 (~2000/10/14)
+posix_trace_get_attr: Seems unimplemented rn ????
+pthread_detach: FreeBSD 1.1.0 (1994/05/05), NetBSD 1.0 (1994/11/29), first added in a commit from 1994/02/07, AIX 4.1.3 (1995/07/07)
+pthread_attr_getschedpolicy: AIX 4.1.3 (1995/07/07)
+posix_trace_clear: Seems unimplemented rn ????
+pthread_rwlock_unlock: glibc 2.0.92 (1998/03/25), first added in a commit from 1998/03/11, OpenBSD 2.4 (1998/12/01), first added in a commit from 1998/11/09, FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, IRIX 6.5.5 (~1999/06/30)
+pthread_mutexattr_gettype: glibc 2.0.95 (1998/07/29), first added in a commit from 1998/07/08, OpenBSD 2.4 (1998/12/01), first added in a commit from 1998/07/21, IRIX 6.5.5 (~1999/06/30)
+mq_unlink: IRIX 6.5.5 (~1999/06/30), Solaris 8 (~2000/10/14)
+uname: PWB/UNIX 1.0 (1977/07/01)
+pthread_condattr_destroy: AIX 4.1.3 (1995/07/07)
+y0: UNIX V7 (1979/01)
+posix_fadvise: glibc 2.3.2 (2003/03/01), first added in a commit from 2003/02/05
+basename: At least one program in System V Release 1 (~1980/07/15) seems to contain a conforming implementation of it, but it doesn't appear in a system library until System V Release 3.0.1 (~1986/02/25)
+fchmod: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/10
+pthread_barrierattr_getpshared: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/06/21
+posix_trace_attr_destroy: Seems unimplemented rn ????
+inet_addr: 4.1cBSD (1983/04/02), first added in a commit from 1982/10/05
+pthread_mutex_consistent: OpenSolaris (2008/11/07)
+tzset: System III (~1980/07/15)
+endprotoent: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/25
+posix_mem_offset: OpenQNX (2009/08/30)
+pthread_kill: AIX 4.1.3 (1995/07/07)
+fchown: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/10
+posix_fallocate: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/14
+getsockopt: 4.1cBSD (1983/04/02), first added in a commit from 1983/01/13
+pthread_rwlock_trywrlock: glibc 2.0.92 (1998/03/25), first added in a commit from 1998/03/11, OpenBSD 2.4 (1998/12/01), first added in a commit from 1998/11/09, FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, IRIX 6.5.5 (~1999/06/30)
+pthread_attr_getdetachstate: AIX 4.1.3 (1995/07/07)
+posix_trace_attr_getclockres: Seems unimplemented rn ????
+posix_madvise: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/14
+listen: 4.1cBSD (1983/04/02), first added in a commit from 1982/10/03
+ulimit: System III (~1980/07/15)
+posix_memalign: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/14
+a64l: System III (~1980/07/15)
+endnetent: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/25
+posix_trace_close: Seems unimplemented rn ????
+pthread_attr_getinheritsched: AIX 4.1.3 (1995/07/07)
+sigsuspend: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1989/11/11
+pthread_setschedprio: glibc 2.3.4 (2004/12/29), first added in a commit from 2004/11/24, OpenSolaris (2005/06/14)
+psiginfo: System V Release 4 (~1989/07/12)
+shm_unlink: OSF/1 (~1994/03/02)
+pthread_getconcurrency: glibc 2.0.92 (1998/03/25), first added in a commit from 1998/03/13, IRIX 6.5.5 (~1999/06/30)
+pthread_attr_getschedparam: AIX 4.1.3 (1995/07/07)
+aio_suspend: glibc 2.0.92 (1998/03/25), first added in a commit from 1997/12/04, FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1997/06/06, IRIX 6.5.5 (~1999/06/30)
+mlock: System V Release 4 (~1989/07/12)
+posix_trace_get_filter: Seems unimplemented rn ????
+setregid: 4.1cBSD (1983/04/02), first added in a commit from 1982/11/13
+dirname: System V Release 3.0.1 (~1986/02/25)
+pthread_barrier_wait: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/06/21
+putenv: System V Release 2 (~1984/07/26)
+sigsetjmp: System V Release 4 (~1989/07/12), Amsterdam Compiler Kit (1990/01/22), 4.3BSD Reno (1990/06/01) 
+munmap: 4.1cBSD (1983/04/02), first added in a commit from 1983/04/01
+pthread_mutex_getprioceiling: AIX 4.1.3 (1995/07/07)
+pthread_spin_destroy: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/05/25
+writev: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/22 
+posix_spawn_file_actions_adddup2: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/15
+pthread_getspecific: FreeBSD 2.2.5 (1997/10/21), first added in a commit from 1997/06/24, perl 5.005 (1998/07/24), first added in a commit from 1997/12/13, glibc 2.0.92 (1998/03/25), first added in a commit from 1998/03/11, OpenBSD 2.4 (1998/12/01), first added in a commit from 1998/07/21
+duplocale: glibc 2.0.92 (1998/03/25), first added in a commit from 1997/02/15
+ftruncate: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/10
+tempnam: System V Release 1 (~1983/01)
+posix_trace_eventset_add: Seems unimplemented rn ????
+setreuid: 4.1cBSD (1983/04/02), first added in a commit from 1982/11/13
+getgroups: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/24
+endservent: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/25
+pthread_barrier_destroy: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/06/21
+msgget: System V Release 1 (~1983/01)
+truncate: 4.1cBSD (1983/04/02), first added in a commit from 1982/08/10
+sigemptyset: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1989/08/26
+fstat: UNIX V1 (1971/11/03)
+getitimer: 4.1cBSD (1983/04/02), first added in a commit from 1982/09/04
+fdetach: System V Release 4 (~1989/07/12)
+lsearch: System III (~1980/07/15)
+sockatmark: Perl 5.7.1 (2001/04/10), first added in a commit from 2001/03/26, glibc 2.2.4 (2001/08/15), first added in a commit from 2001/06/01
+ctermid: System III (~1980/07/15)
+sched_setparam: OSF/1 (~1994/03/02)
+shmctl: System V Release 1 (~1983/01)
+shmat: System V Release 1 (~1983/01)
+pthread_rwlock_timedwrlock: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/06/26
+endgrent: UNIX V7 (1979/01)
+msgctl: System V Release 1 (~1983/01)
+pthread_cancel: OSF/1 1.10 (1992/01/20)
+mprotect: 4.1cBSD (1983/04/02), first added in a commit from 1983/04/01
+pthread_exit: OSF/1 1.10 (1992/01/20)
+dlclose: System V Release 4 (~1989/07/12)
+lchown: System V Release 4 (~1989/07/12)
+nanosleep: OSF/1 1.10 (1992/01/20)
+posix_typed_mem_get_info: OpenQNX (2009/08/30)
+mlockall: System V Release 4 (~1989/07/12)
+pthread_rwlock_timedrdlock: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/06/26
+tcgetattr: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1988/10/07
+setsockopt: 4.1cBSD (1983/04/02), first added in a commit from 1983/01/13
+posix_openpt: glibc 2.2.1 (2001/01/13), first added in a commit from 2001/01/09
+posix_trace_eventid_equal: Seems unimplemented rn ????
+posix_spawnattr_destroy: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/15
+setenv: 4.3BSD (1986/06/06) has an implementation in the login program, first added in a commit from 1985/09/19, but it doesn't appear in libc until 4.3BSD Tahoe (1988/06/15), first added in a commit from 1987/12/24
+crypt: UNIX V3 (1973/02)
+sigwait: AIX 4.1.3 (1995/07/07)
+shmget: System V Release 1 (~1983/01), 4.3BSD Reno (1990/06/01), first added in a commit from 
+nl_langinfo: System V Release 4 (~1989/07/12)
+cfgetispeed: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1988/10/07
+ftok: System V Release 1 (~1983/01)
+fdopen: UNIX V7 (1979/01)
+pthread_rwlock_destroy: glibc 2.0.92 (1998/03/25), first added in a commit from 1998/03/11, OpenBSD 2.4 (1998/12/01), first added in a commit from 1998/11/09, FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, IRIX 6.5.5 (~1999/06/30)
+posix_trace_event: Seems unimplemented rn ????
+pthread_mutexattr_getrobust: OpenSolaris (2008/11/07)
+open_memstream: glibc 1.06 (1993/05/23)
+fstatvfs: System V Release 4 (~1989/07/12)
+pthread_once: OSF/1 1.10 (1992/01/20)
+lseek: PWB/UNIX 1.0 (1977/07/01)
+sched_setscheduler: OSF/1 1.10 (1992/01/20)
+accept: 4.1cBSD (1983/04/02), first added in a commit from 1981/11/18
+utime: PWB/UNIX 1.0 (1977/07/01)
+inet_ntop: glibc 1.90 (1996/06/09), FreeBSD 2.2.0 (1997/03/17), first added in a commit from 1996/08/29, OpenBSD 2.1 (1997/06/01), first added in a commit from 1997/03/12
+semget: System V Release 1 (~1983/01)
+fnmatch: 4.3BSD Reno (1990/06/01), first added in a commit from 1989/12/19
+pthread_rwlock_rdlock: glibc 2.0.92 (1998/03/25), first added in a commit from 1998/03/11, OpenBSD 2.4 (1998/12/01), first added in a commit from 1998/11/09, FreeBSD 3.0.0 (1999/01/21), first added in a commit from 1998/09/07, IRIX 6.5.5 (~1999/06/30)
+endpwent: UNIX V7 (1979/01)
+pipe: UNIX V3 (1973/02)
+socketpair: 4.1cBSD (1983/04/02)
+aio_fsync: glibc 2.0.92 (1998/03/25), first added in a commit from 1997/12/04, IRIX 6.5.5 (~1999/06/30)
+pthread_key_delete: AIX 4.1.3 (1995/07/07)
+posix_trace_attr_getlogsize: Seems unimplemented rn ????
+socket: 4.1cBSD (1983/04/02), first added in a commit from 1981/11/07
+insque: 4.1cBSD (1983/04/02), first added in a commit from 1982/12/15 
+initstate: 4.1cBSD (1983/04/02), first added in a commit from 1982/11/22
+mq_notify: IRIX 6.5.5 (~1999/06/30), Solaris 8 (~2000/10/14)
+pthread_getschedparam: AIX 4.1.3 (1995/07/07)
+pthread_mutexattr_getprotocol: IRIX 6.5.5 (~1999/06/30), FreeBSD 3.3.0 (1999/09/16), first added in a commit from 1999/04/01, OpenBSD 2.6 (1999/12/01), first added in a commit from 1999/05/26, Solaris 8 (~2000/10/14)
+pthread_attr_getguardsize: glibc 2.0.92 (1998/03/25), first added in a commit from 1998/03/13, IRIX 6.5.5 (~1999/06/30)
+pthread_setcancelstate: AIX 4.1.3 (1995/07/07)
+pthread_attr_getstack: glibc 2.1.94 (2000/09/19), first added in a commit from 2000/09/11
+getpriority: 4.1cBSD (1983/04/02), first added in a commit from 1982/09/04
+flockfile: OSF/1 1.10 (1992/01/20)
+fsync: 4.1cBSD (1983/04/02), first added in a commit from 1982/11/13
+sigaltstack: System V Release 4 (~1989/07/12)
+sighold: 4BSD (1980/11/16)
+msync: System V Release 4 (~1989/07/12)
+mq_receive: IRIX 6.5.5 (~1999/06/30), Solaris 8 (~2000/10/14)
+mq_send: IRIX 6.5.5 (~1999/06/30), Solaris 8 (~2000/10/14)
+getgrnam: UNIX V7 (1979/01)
+catopen: System V Release 4 (~1989/07/12)
+mkdtemp: OpenBSD 2.2 (1997/12/01), first added in a commit from 1997/06/20, FreeBSD 2.2.6 (1998/03/24), first added in a commit from 1998/03/04
+realpath: System V Release 4 (~1989/07/12)
+pthread_cond_destroy: OSF/1 1.10 (1992/01/20)
+setpgid: System V Release 4 (~1989/07/12), bash 1.05 (1990/03/03)
+endutxent: System V Release 4 (~1989/07/12)
+pclose: UNIX V7 (1979/01)
+hcreate: System V Release 1 (~1983/01)
+alarm: LSX (1976)
+newlocale: glibc 2.0.92 (1998/03/25), first added in a commit from 1997/02/15 
+dup: UNIX V3 (1973/02)
+dlsym: System V Release 4 (~1989/07/12)
+posix_trace_attr_getinherited: Seems unimplemented rn ????
+aio_read: OSF/1 (~1994/03/02)
+send: 4.2BSD (1983/08), first added in a commit from 1982/12/04
+getlogin: UNIX V7 (1979/01)
+times: UNIX V3 (1973/02)
+aio_write: OSF/1 (~1994/03/02)
+sigqueue: Solaris 2.5 (~1995/10/30)
+recv: 4.1cBSD (1983/04/02), first added in a commit from 1982/10/03
+getdelim: glibc 1.06 (1993/05/23), libg++ as found in FreeBSD 2.0 (1994/10/22)
+fattach: System V Release 4 (~1989/07/12)
+pthread_mutex_timedlock: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/06/26
+pthread_join: OSF/1 1.10 (1992/01/20)
+getgrgid: UNIX V7 (1979/01)
+msgsnd: System V Release 1 (~1983/01)
+pthread_sigmask: Solaris 2.5 (~1995/10/30)
+posix_trace_getnext_event: Seems unimplemented rn ????
+getc_unlocked: OSF/1 (~1994/03/02), FreeBSD 1.1.0 (1994/05/05), NetBSD 1.0 (1994/11/29), first added in a commit from 1994/02/07
+waitid: System V Release 4 (~1989/07/12)
+getnameinfo: glibc 2.0.92 (1998/03/25), first added in a commit from 1997/02/19, OpenBSD 2.6 (1999/12/01), first added in a commit from 1999/06/23, FreeBSD 3.4.0 (1999/12/20), first added in a commit from 1999/12/01
+sem_timedwait: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/03/27
+getpwnam: UNIX V7 (1979/01)
+confstr: glibc 1.06 (1993/05/23), 4.4BSD Lite 1 (1994/01/21), first added in a commit from 1993/05/03, OSF/1 (~1994/03/02), NetBSD 1.0 (1994/11/29), first added in a commit from 1993/11/17
+semctl: System V Release 1 (~1983/01)
+getsubopt: System V Release 4 (~1989/07/12)
+drand48: System V Release 1 (~1983/01)
+iconv: OSF/1 (~1994/03/02)
+msgrcv: System V Release 1 (~1983/01)
+alphasort: 4.1cBSD (1983/04/02), first added in a commit from 1982/12/13
+fmemopen: glibc 1.06 (1993/05/23)
+bind: 4.1cBSD (1983/04/02), first added in a commit from 1982/10/03
+readlink: 4.1cBSD (1983/04/02), first added in a commit from 1982/02/27
+rmdir: 4.1cBSD (1983/04/02), first added in a commit from 1982/12/04
+recvfrom: 4.1cBSD (1983/04/02), first added in a commit from 1982/10/03
+ftw: System V Release 1 (~1983/01)
+popen: UNIX V7 (1979/01)
+getpwuid: UNIX V7 (1979/01)
+mkdir: UNIX V1 (1971/11/03)
+fmtmsg: System V Release 3.2 (~1987)
+clock_getres: OSF/1 (~1994/03/02)
+symlink: 4.1cBSD (1983/04/02), first added in a commit from 1982/02/27
+sem_open: IRIX 6.5.5 (~1999/06/30), Solaris 8 (~2000/10/14)
+sleep: Somewhere between UNIX V1 (1971/11/03) and UNIX V2 (1972/12/06)
+posix_typed_mem_open: OpenQNX (2009/08/30)
+pthread_cond_broadcast: OSF/1 1.10 (1992/01/20)
+getrlimit: 4.1cBSD (1983/04/02), first added in a commit from 1982/09/06
+connect: 4.1cBSD (1983/04/02), first added in a commit from 1982/12/04
+tcsetattr: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/06/01), first added in a commit from 1988/10/07
+closelog: 4.1cBSD (1983/04/02)
+recvmsg: 4.1cBSD (1983/04/02)
+mkfifo: System V Release 4 (~1989/07/12), MINIX 1.5 (1990/06/01), 4.3BSD Reno (1990/06/01), first added in a commit from 1990/03/06
+clock_nanosleep: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/06/26
+sendto: 4.1cBSD (1983/04/02), first added in a commit from 1982/10/03
+putmsg: System V Release 3.0.1 (~1986/02/25)
+mq_open: IRIX 6.5.5 (~1999/06/30)
+timer_getoverrun: OSF/1 (~1994/03/02), Solaris 2.5 (~1995/10/30)
+getcwd: System V Release 1 (~1983/01)
+pthread_create: FreeBSD 1.1.0 (1994/05/05), NetBSD 1.0 (1994/11/29), first added in a commit from 1993/11/14, AIX 4.1.3 (1995/07/07)
+sendmsg: 4.1cBSD (1983/04/02)
+setuid: UNIX PDP7 (1970/01)
+lockf: System V Release 2 (~1984/07/26)
+pthread_cleanup_pop: OSF/1 1.10 (1992/01/20)
+fdopendir: UNIX V10 (~1993/06/23)
+pthread_key_create: AIX 4.1.3 (1995/07/07)
+getmsg: System V Release 3.0.1 (~1986/02/25)
+dlopen: System V Release 4 (~1989/07/12)
+nftw: System V Release 4 (~1989/07/12)
+mknod: UNIX V4 (1973/11)
+pthread_mutex_lock: OSF/1 1.10 (1992/01/20)
+kill: UNIX V3 (1973/02)
+futimens: gnulib (2004/11/23)
+lio_listio: OSF/1 (~1994/03/02)
+pthread_attr_destroy: FreeBSD 1.1.0 (1994/05/05), NetBSD 1.0 (1994/11/29), first added in a commit from 1993/11/14, AIX 4.1.3 (1995/07/07)
+readdir: 4.1cBSD (1983/04/02), first added in a commit from 1982/02/11
+getopt: System III (~1980/07/15)
+pthread_atfork: AIX 4.1.3 (1995/07/07)
+chown: UNIX PDP7 (1970/01)
+chmod: UNIX PDP7 (1970/01)
+pthread_mutexattr_destroy: AIX 4.1.3 (1995/07/07)
+strfmon: OSF/1 (~1994/03/02)
+timer_create: Solaris 2.5 (~1995/10/30)
+tdelete: System V Release 1 (~1983/01)
+poll: System V Release 3.0.1 (~1986/02/25)
+posix_trace_create: Seems unimplemented rn ????
+dbm_clearerr: 4.3BSD (1986/06/06), first added in a commit from 1984/08/28
+semop: System V Release 1 (~1983/01)
+close: UNIX PDP7 (1970/01)
+posix_spawn_file_actions_addclose: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/15
+link: UNIX PDP7 (1970/01)
+getdate: System V Release 4 (~1989/07/12)
+fstatat: gnulib (2005/01/22), OpenSolaris (2005/06/14), glibc 2.4 (2006/03/06), first added in a commit from 2004/12/22, Linux 2.6.16 (2006/03/15), first added in a commit from 2006/01/18
+access: PWB/UNIX 1.0 (1977/07/01)
+fpathconf: System V Release 4 (~1989/07/12), MINIX 1.5 (1990/06/01)
+strptime: SunOS 4.1.3 (1992/08)
+unlink: UNIX PDP7 (1970/01)
+glob: 4.3BSD Reno (1990/07/06), first added in a commit from 1990/02/15 
+sigtimedwait: Solaris 2.5 (~1995/10/30)
+sysconf: System V Release 4 (~1989/07/12), MINIX 1.5 (1990/06/01)
+pselect: glibc 2.0.106 (1998/12/07), first added in a commit from 1998/11/26, FreeBSD 3.4.0 (1999/12/20), first added in a commit from 1999/12/13
+shm_open: OSF/1 (~1994/03/02)
+wordexp: OSF/1 (~1994/03/02), glibc 1.09 (1995/03/02), first added in a commit from 1995/02/18
+fork: UNIX PDP7 (1970/01)
+freeaddrinfo: glibc 2.0 (1997/01/26), first added in a commit from 1996/10/21
+pthread_mutex_destroy: OSF/1 1.10 (1992/01/20)
+pthread_cond_timedwait: OSF/1 1.10 (1992/01/20)
+sigaction: System V Release 4 (~1989/07/12), 4.3BSD Reno (1990/07/06), first added in a commit from 1989/11/11
+read: UNIX PDP7 (1970/01)
+write: UNIX PDP7 (1970/01)
+regcomp: 386BSD 0.1 (1992/07/14), somewhere in GNU software, 4.4BSD Lite 1 (1994/01/21), first added in a commit from 1992/08/06, emacs 19.7 (1993/05/22), first added in a commit from 1992/09/16
+mmap: 4.1cBSD (1983/04/02)
+wait: UNIX V1 (1971/11/03)
+fcntl: System III (~1980/07/15)
+open: UNIX PDP7 (1970/01)
+ioctl: UNIX V7 (1979/01)
+posix_spawn: glibc 2.1.91 (2000/07/01), first added in a commit from 2000/04/15
+

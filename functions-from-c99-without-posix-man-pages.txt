@@ -1,0 +1,158 @@
+Remaining C99 functions (without POSIX man pages):
+cabsf: OSF/1 (1994/01/13)
+cargf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/29
+cimagf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+crealf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+acosf: System V Release 4 (~1989/07/12)
+asinf: System V Release 4 (~1989/07/12)
+atan2f: System V Release 4 (~1989/07/12)
+cosf: System V Release 4 (~1989/07/12)
+sinf: System V Release 4 (~1989/07/12)
+tanf: System V Release 4 (~1989/07/12)
+acoshf: OSF/1 (1993/05/20)
+asinhf: OSF/1 (1993/05/20)
+atanhf: OSF/1 (1993/05/20)
+coshf: System V Release 4 (~1989/07/12)
+sinhf: System V Release 4 (~1989/07/12)
+tanhf: System V Release 4 (~1989/07/12)
+expf: System V Release 4 (~1989/07/12)
+exp2f: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/25
+expm1f: OSF/1 (1993/12/06)
+ilogbf: Newlib 1.6 (1994/09/27)
+ilogbl: glibc 1.90 (1996/06/09), first added in a commit from 1996/06/05
+log10f: System V Release 4 (~1989/07/12)
+log1pf: OSF/1 (1993/12/06)
+log2f: OSF/1 (1993/12/06)
+logbf: OSF/1 (1994/01/19)
+modff: System V Release 4 (~1989/07/12)
+scalbn: System V Release 4 (~1990/10/12)
+scalbnf: Newlib 1.6 (1994/09/27)
+scalblnf: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+cbrtf: OSF/1 (1993/05/20)
+fabsf: System V Release 4 (~1989/07/12)
+hypotf: OSF/1 (1994/01/13)
+powf: System V Release 4 (~1989/07/12)
+sqrtf: System V Release 4 (~1989/07/12)
+erfcf: OSF/1 (1993/05/20)
+lgammaf: OSF/1 (1993/02/04)
+tgammaf: glibc 2.1 (1999/02/04), first added in a commit from 1998/06/28
+ceilf: System V Release 4 (~1989/07/12)
+floorf: System V Release 4 (~1989/07/12)
+nearbyintf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/02
+rintf: OSF/1 (1994/01/13)
+roundf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+fmodf: System V Release 4 (~1989/07/12)
+remainderf: OSF/1 (1993/05/20)
+remquof: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/23
+copysignf: OSF/1 (1994/01/13)
+nanf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/23
+nextafterf: OSF/1 (1994/01/13)
+nexttoward: glibc 2.1 (1999/02/04), first added in a commit from 1999/01/19
+nexttowardf: glibc 2.1 (1999/02/04), first added in a commit from 1999/01/19
+fdimf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+fmaxf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+fminf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+fmaf: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+va_copy: Solaris 8 (1999/08/10)
+strtof: AIX 4.1.3 (1994/03/03)
+wcstof: glibc 1.90 (1996/06/09), first added in a commit from 1996/05/01
+cacosf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+casinf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+catanf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+ccosf: OSF/1 (1994/01/15)
+csinf: OSF/1 (1994/01/15)
+ctanf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+cacoshf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+casinhf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+catanhf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+ccoshf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/29
+csinhf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/29
+ctanhf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+cexpf: OSF/1 (1994/01/15)
+clogf: OSF/1 (1994/01/15)
+cabsl: glibc 1.90 (1996/06/09), first added in a commit from 1996/06/05
+cpowf: OSF/1 (1994/01/15)
+csqrtf: OSF/1 (1994/01/15)
+cargl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/29
+cimagl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+conjf: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+cprojf: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/15
+creall: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+atan2l: AIX 4.1.3 (1993/09/21)
+acoshl: glibc 1.90 (1996/06/09), first added in a commit from 1996/06/05
+asinhl: glibc 1.90 (1996/06/09), first added in a commit from 1996/03/05
+atanhl: glibc 1.90 (1996/06/09), first added in a commit from 1996/06/05
+coshl: AIX 4.1.3 (1993/10/01)
+sinhl: AIX 4.1.3 (1993/10/01)
+tanhl: AIX 4.1.3 (1993/09/24)
+expl: AIX 4.1.3 (1993/09/21)
+exp2l: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/25
+expm1l: glibc 1.90 (1996/06/09), first added in a commit from 1996/06/06
+logl: AIX 4.1.3 (1993/09/21)
+log10l: AIX 4.1.3 (1993/09/21)
+log1pl: glibc 1.90 (1996/06/09), first added in a commit from 1996/06/05
+log2l: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/25
+logbl: glibc 1.90 (1996/06/09), first added in a commit from 1996/06/05
+modfl: AIX 4.1.3 (1993/10/03)
+scalbnl: glibc 1.90 (1996/06/09), first added in a commit from 1996/05/30
+scalblnl: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+cbrtl: glibc 2.0 (1997/01/26), first added in a commit from 1996/08/31
+fabsl: AIX 4.1.3 (1993/09/21)
+hypotl: glibc 1.90 (1996/06/09), first added in a commit from 1996/06/05
+powl: AIX 4.1.3 (1993/10/01)
+sqrtl: AIX 4.1.3 (1993/10/01)
+erfl: AIX 4.1.3 (1993/09/21)
+erfcl: AIX 4.1.3 (1993/09/21)
+lgammal: AIX 4.1.3 (1993/09/21)
+tgammal: glibc 2.1 (1999/02/04), first added in a commit from 1998/07/28
+ceill: AIX 4.1.3 (1993/04/10)
+floorl: AIX 4.1.3 (1993/04/10)
+nearbyintl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/02
+rintl: glibc 1.90 (1996/06/09), first added in a commit from 1996/05/30
+lrintf: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+lrintl: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+roundl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+lroundf: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+lroundl: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+truncl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/23
+fmodl: AIX 4.1.3 (1993/01/10)
+remainderl: glibc 1.90 (1996/06/09), first added in a commit from 1996/06/05
+remquol: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/23
+copysignl: AIX 4.1.3 (1993/10/03)
+nanl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/23
+nextafterl: glibc 1.90 (1996/06/09), first added in a commit from 1996/05/30
+nexttowardl: glibc 2.1 (1999/02/04), first added in a commit from 1999/01/19
+fdiml: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+fmaxl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+fminl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+fmal: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+cacoshl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+casinhl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+catanhl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+ccoshl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/29
+csinhl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/29
+ctanhl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+cexpl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/25
+clogl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/08
+cpowl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+csqrtl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+conjl: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+cprojl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/15
+llrintf: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+llrintl: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+llroundf: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+llroundl: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+atoll: glibc 2.0.6 (1997/12/29), first added in a commit from 1997/02/10
+strtoull: AIX 4.1.3 (1993/06/08)
+wcstoull: AIX 4.1.3 (1993/09/10)
+INTMAX_C:
+UINTMAX_C:
+INT8_C:
+UINT8_C:
+INT16_C:
+UINT16_C:
+INT32_C:
+UINT32_C:
+INT64_C:
+UINT64_C:
+

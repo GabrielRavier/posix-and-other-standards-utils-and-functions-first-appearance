@@ -1,0 +1,180 @@
+Other POSIX functions (without man pages):
+FD_ISSET:
+FD_SET:
+FD_ZERO:
+_exit:
+_setjmp:
+asctime_r:
+clock_gettime:
+ctime_r:
+dbm_close:
+dbm_delete:
+dbm_error:
+dbm_fetch:
+dbm_firstkey:
+dbm_nextkey:
+dbm_open:
+dbm_store:
+dup2:
+execle:
+execl:
+execlp:
+execve:
+execv:
+execvp:
+frexpf:
+frexpl:
+fseeko:
+ftello:
+getdate_err:
+getgrgid_r:
+getgrnam_r:
+getlogin_r:
+getnetbyname:
+getnetent:
+getprotobynumber:
+getprotoent:
+getpwnam_r:
+getpwuid_r:
+getservbyport:
+getservent:
+getutxid:
+getutxline:
+globfree:
+gmtime_r:
+hdestroy:
+hsearch:
+htons:
+inet_ntoa:
+inet_pton:
+isalnum_l:
+isalpha_l:
+isblank_l:
+iscntrl_l:
+isdigit_l:
+isgraph_l:
+islower_l:
+isprint_l:
+ispunct_l:
+isspace_l:
+isupper_l:
+iswalnum_l:
+iswalpha_l:
+iswblank_l:
+iswcntrl_l:
+iswctype_l:
+iswdigit_l:
+iswgraph_l:
+iswlower_l:
+iswprint_l:
+iswpunct_l:
+iswspace_l:
+iswupper_l:
+iswxdigit_l:
+isxdigit_l:
+j1:
+jn:
+ldexpf:
+ldexpl:
+linkat:
+localtime_r:
+mbsnrtowcs:
+mkdirat:
+mkfifoat:
+mknodat:
+nl_langinfo_l:
+ntohs:
+open_wmemstream:
+posix_spawn_file_actions_init:
+posix_trace_attr_getcreatetime: Seems unimplemented rn ????
+posix_trace_attr_getgenversion: Seems unimplemented rn ????
+posix_trace_attr_getlogfullpolicy: Seems unimplemented rn ????
+posix_trace_attr_getmaxdatasize: Seems unimplemented rn ????
+posix_trace_attr_getmaxsystemeventsize: Seems unimplemented rn ????
+posix_trace_attr_getmaxusereventsize: Seems unimplemented rn ????
+posix_trace_attr_setlogfullpolicy: Seems unimplemented rn ????
+posix_trace_attr_setmaxdatasize: Seems unimplemented rn ????
+posix_trace_create_withlog: Seems unimplemented rn ????
+posix_trace_eventid_get_name: Seems unimplemented rn ????
+posix_trace_eventset_del: Seems unimplemented rn ????
+posix_trace_eventset_empty: Seems unimplemented rn ????
+posix_trace_eventset_fill: Seems unimplemented rn ????
+posix_trace_eventset_ismember: Seems unimplemented rn ????
+posix_trace_eventtypelist_rewind: Seems unimplemented rn ????
+posix_trace_rewind: Seems unimplemented rn ????
+posix_trace_stop: Seems unimplemented rn ????
+psignal:
+pthread_barrier_init:
+pthread_cleanup_push:
+pthread_cond_init:
+pthread_cond_wait:
+pthread_mutex_unlock:
+pthread_rwlock_init:
+pthread_setcanceltype:
+pthread_spin_init:
+pthread_spin_trylock:
+putpmsg:
+rand_r:
+readdir_r:
+readlinkat:
+regerror:
+regexec:
+regfree:
+renameat:
+sched_get_priority_min:
+sigignore:
+sigset:
+strcasecmp_l:
+strcoll_l:
+strerror_l:
+strerror_r:
+strfmon_l:
+strftime_l:
+strncasecmp_l:
+strtok_r:
+strxfrm_l:
+symlinkat:
+timer_gettime:
+timer_settime:
+tolower_l:
+toupper_l:
+towctrans_l:
+towlower_l:
+towupper_l:
+ttyname_r:
+tzname:
+unlinkat:
+utimes:
+vdprintf:
+wcscasecmp_l:
+wcscoll_l:
+wcsncasecmp_l:
+wcsxfrm_l:
+wctrans_l:
+wctype_l:
+wordfree:
+y1:
+yn:
+CMSG_DATA:
+CMSG_NXTHDR:
+CMSG_FIRSTHDR:
+S_ISBLK:
+S_ISCHR:
+S_ISDIR:
+S_ISFIFO:
+S_ISREG:
+S_ISLNK:
+S_ISSOCK:
+S_TYPEISMQ:
+S_TYPEISSEM:
+S_TYPEISSHM:
+S_TYPEISTMO:
+WEXITSTATUS:
+WIFCONTINUED:
+WIFEXITED:
+WIFSIGNALED:
+WIFSTOPPED:
+WSTOPSIG:
+WTERMSIG:
+LOG_MASK:
+

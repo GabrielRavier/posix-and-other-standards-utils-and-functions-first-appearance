@@ -1,0 +1,21 @@
+C95 (other identifiers):
+and:
+and_eq:
+bitand:
+bitor:
+compl:
+not:
+not_eq:
+or:
+or_eq:
+xor:
+xor_eq:
+EILSEQ:
+wint_t:
+wctrans_t:
+wctype_t:
+WEOF:
+mbstate_t:
+WCHAR_MAX:
+WCHAR_MIN:
+

@@ -1,0 +1,29 @@
+SWEEP THROUGH THINGS WE'VE DONE FOR ENVIRONMENT VARIABLES/PATHS/IDENTIFIERS
+
+
+glibc todo (look at headers for occurences of this for extension stuff, after looking at the corresponding standard if need be):
+__USE_ATFILE
+__USE_LARGEFILE
+__USE_LARGEFILE64
+__USE_FILE_OFFSET64
+__USE_TIME_BITS64
+__USE_DYNAMIC_STACK_SIZE
+__KERNEL_STRICT_NAMES
+__USE_FORTIFY_LEVEL
+
+
+Missing stuff:
+Try to look at stuff from https://pubs.opengroup.org/onlinepubs/7908799/index.html (should have all the utilities from there already in the list though)
+https://uclibc.org/docs/ for SVID stuff (all the sysv-interface stuff is done afaik)
+https://bitsavers.computerhistory.org/pdf/xOpen/X_Open_Portability_Guide_1985/ for XPG (doesn't seem like we have much missing from there... probably still a few things, though.)
+https://www.pathname.com/fhs/ for Filesystem Hierarchy Standard
+Linux Standard Base stuff
+Gnulib has a lot of nice docs too (use stuff like diff -u <(ls ~/src/libraries/gnulib/doc/glibc-functions | rev | cut -d. -f2- | rev | sort) <(</home/gravier/GoogleDrive/Documents/Games_And_Programming/posix-and-other-standards-utils-and-functions-first-appearance.txt cut -d: -f1 | sort) | grep '^-' to identify missing functions)
+Bash help topics to get all the builtin commands
+Get more shell stuff like related env variables or sub-functions, etc. (do something like grep -r '"[^%,)]' | grep -vE '#include|_\(' on the bash source)
+Windows APIs lol
+GCC attributes, builtins and other extensions
+C2x stuff
+Check implementations of POSIX utilities for environment variables and paths
+Add routines/headers/etc. from ncurses as they're likely to be extensions from other stuff (i.e. mark them as "common extensions to curses")
+Add C operators

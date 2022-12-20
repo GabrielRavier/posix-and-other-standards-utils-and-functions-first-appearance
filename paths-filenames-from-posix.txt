@@ -1,0 +1,14 @@
+POSIX-specified paths/filenames:
+/:
+/dev:
+/dev/console:
+/dev/null:
+/dev/tty:
+/tmp:
+/etc:
+/etc/passwd:
+/core:
+lex.yy.c:
+y.tab.c:
+y.tab.h:
+

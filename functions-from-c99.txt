@@ -1,0 +1,118 @@
+C99 functions (sorted by POSIX man page size):
+sinl: AIX 4.1.3 (1993/09/23)
+cosl: AIX 4.1.3 (1993/09/23)
+tanl: AIX 4.1.3 (1993/09/21)
+atanf: System V Release 4 (~1989/07/12)
+asinl: AIX 4.1.3 (1993/10/01)
+acosl: AIX 4.1.3 (1993/10/01)
+atanl: AIX 4.1.3 (1993/09/21)
+csinl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+ctanl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+ccosl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+casinl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+llabs: glibc 1.90 (1996/06/09), first added in a commit from 1996/05/26
+catanl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+cacosl: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+fesetround: OSF/1 (~1994/03/02)
+erff: OSF/1 (1993/05/20)
+logf: System V Release 4 (~1989/07/12)
+fesetenv: glibc 2.1 (1992/02/04), first added in a commit from 1997/04/12
+truncf: OSF/1 (1994/01/13)
+lldiv: AIX 4.1.3 (1993/09/10)
+snprintf: 4.3BSD Net 2 (1991/07/03), first added in a commit from 1991/01/21
+vscanf: 4.3BSD Net 2 (1991/07/03), first added in a commit from 1991/04/15
+fesetexceptflag: glibc 2.1 (1992/02/04), first added in a commit from 1997/04/12
+strtoll: AIX 4.1.3 (1993/06/08)
+strtold: AIX 4.1.3 (1994/02/26)
+vsscanf: 4.3BSD Net 2 (1991/07/03), first added in a commit from 1991/04/15
+strtoumax: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+wcstoll: AIX 4.1.3 (1993/06/08)
+wcstold: glibc 1.90 (1996/06/09), first added in a commit from 1996/05/01
+vwscanf: Solaris 8 (1999/05/04)
+vswscanf: Solaris 8 (1999/05/04)
+wcstoumax: glibc 2.1 (1999/02/04), first added in a commit from 1997/11/12
+vsnprintf: 4.3BSD Net 2 (1991/07/03), first added in a commit from 1991/01/21
+csin: Present in UNIX's Fortran since UNIX V6 (1975/05) but nowhere in C until OSF/1 (1994/01/15)
+ccos: Present in UNIX's Fortran since UNIX V6 (1975/05) but nowhere in C until OSF/1 (1994/01/15)
+ctan: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+csinh: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/29
+ctanh: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+ccosh: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/29
+cabs: Present in UNIX's Fortran since UNIX V6 (1975/05) but nowhere in C until UNIX V7 (1979/01)
+cexp: Present in UNIX's Fortran since UNIX V6 (1975/05) but nowhere in C until OSF/1 (1994/01/15)
+imaxabs: glibc 2.1.2 (1999/09/06), first added in a commit from 1999/02/07
+conj: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+signbit: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+creal: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+csqrt: Present in UNIX's Fortran since UNIX V6 (1975/05) but nowhere in C until OSF/1 (1994/01/15)
+cpow: OSF/1 (1994/01/15)
+carg: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/29
+cimag: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+feclearexcept: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+cacos: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+casin: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+isnan: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+catan: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+clog: Present in UNIX's Fortran since UNIX V6 (1975/05) but nowhere in C until OSF/1 (1994/01/15)
+isinf: glibc 2.1 (1999/02/04), first added in a commit from 1998/08/31
+cacosh: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+catanh: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+casinh: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+copysign: 4.3BSD (1986/06/06)
+cbrt: Bell 32V (1979/05/02)
+isfinite: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+isnormal: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+imaxdiv: glibc 2.1.2 (1999/09/06), first added in a commit from 1999/02/07
+fpclassify: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+fmin: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+fmax: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+nan: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/23
+fegetenv: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+feholdexcept: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+vfscanf: 4.3BSD Net 2 (1991/07/03), first added in a commit from 1991/01/21
+trunc: OSF/1 1.10 (~1992/02/27)
+vfwscanf: Solaris 8 (1999/05/04)
+nearbyint: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/02
+fetestexcept: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+fegetexceptflag: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+fegetround: OSF/1 (~1994/03/02)
+wcstoimax: glibc 2.1 (1999/02/04), first added in a commit from 1997/11/12
+round: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+feupdateenv: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+isunordered: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+strtoimax: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+isblank: 4.4BSD Lite 1 (1994/01/21)
+isless: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+isgreater: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+islessequal: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+isgreaterequal: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+feraiseexcept: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+islessgreater: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+acosh: 4.3BSD (1986/06/06)
+cproj: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/15
+asinh: 4.3BSD (1986/06/06)
+remainder: System V Release 4 (~1989/07/12)
+log2: SunOS 4.1.3 (1992/08)
+rint: 4.3BSD (1986/06/06)
+erfc: UNIX V7 (1979/01) has a mention of this function, but no implementation is found until Bell 32V (1979/05/02)
+exp2: SunOS 4.1.3 (1992/08)
+fdim: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/04
+lround: glibc 2.1 (1999/02/04), first added in a commit from 1997/06/19
+lrint: glibc 2.1 (1999/02/04), first added in a commit from 1997/06/19
+log1p: 4.3BSD (1986/06/06)
+llround: glibc 2.1 (1999/02/04), first added in a commit from 1997/06/19
+llrint: glibc 2.1 (1999/02/04), first added in a commit from 1997/06/19
+atanh: 4.3BSD (1986/06/06)
+logb: 4.3BSD (1986/06/06)
+lgamma: 4.3BSD (1986/06/06)
+hypot: UNIX V3 (1973/02)
+expm1: 4.3BSD (1986/06/06)
+remquo: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/23
+erf: UNIX V7 (1979/01) has a mention of this function, but no implementation is found until Bell 32V (1979/05/02)
+nextafter: System V Release 4 (~1989/07/12)
+ilogb: SunOS 4.1.3 (1992/08)
+scalbln: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+fma: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+tgamma: glibc 2.1 (1999/02/04), first added in a commit from 1998/07/28
+_Exit: glibc 2.1.2 (1999/09/06), first added in a commit from 1999/02/07
+

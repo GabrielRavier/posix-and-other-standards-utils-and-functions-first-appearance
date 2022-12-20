@@ -1,0 +1,10 @@
+POSIX-defined libraries:
+libc:
+libl:
+libpthread:
+libm:
+librt:
+libtrace:
+libxnet:
+liby:
+

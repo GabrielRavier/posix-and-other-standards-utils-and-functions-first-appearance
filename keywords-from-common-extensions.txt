@@ -1,0 +1,5 @@
+Common extensions (keywords):
+__inline__:
+__attribute__:
+__restrict__:
+

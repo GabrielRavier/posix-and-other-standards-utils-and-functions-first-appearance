@@ -1,0 +1,72 @@
+C95 functions (unsorted):
+iswprint: Dynix 1.2.0 (~1990/11/17)
+iswcntrl: Dynix 1.2.0 (~1990/11/17)
+iswspace: Dynix 1.2.0 (~1990/11/17)
+iswpunct: Dynix 1.2.0 (~1990/11/17)
+iswalpha: Dynix 1.2.0 (~1990/11/17)
+iswdigit: Dynix 1.2.0 (~1990/11/17)
+iswupper: Dynix 1.2.0 (~1990/11/17)
+iswlower: Dynix 1.2.0 (~1990/11/17)
+iswgraph: Dynix 1.2.0 (~1990/11/17)
+iswblank: glibc 1.90 (1996/06/09), first added in a commit from 1996/03/28
+iswxdigit: Dynix 1.2.0 (~1990/11/17)
+iswalnum: Dynix 1.2.0 (~1990/11/17)
+wctype: OSF/1 (1993/06/08)
+iswctype: OSF/1 (1993/09/30)
+towlower: Dynix 1.2.0 (~1990/11/17)
+towupper: Dynix 1.2.0 (~1990/11/17)
+wctrans: glibc 1.90 (1996/06/09), first added in a commit from 1996/03/28
+towctrans: glibc 1.90 (1996/06/09), first added in a commit from 1996/03/28
+fgetwc: Dynix 1.2.0 (~1990/11/17)
+fputwc: Dynix 1.2.0 (~1990/11/17)
+fwprintf: Solaris 8 (1999/05/04)
+wprintf: Solaris 8 (1999/05/04)
+swprintf: Solaris 8 (1999/05/04)
+vfwprintf: Solaris 8 (1999/05/04)
+vwprintf: Solaris 8 (1999/05/04)
+vswprintf: Solaris 8 (1999/05/04)
+fwscanf: Solaris 8 (1999/05/04)
+wscanf: Solaris 8 (1999/05/04)
+swscanf: Solaris 8 (1999/05/04)
+fgetws: Dynix 1.2.0 (~1990/11/17)
+fputws: Dynix 1.2.0 (~1990/11/17)
+getwc: Dynix 1.2.0 (~1990/11/17)
+getwchar: Dynix 1.2.0 (~1990/11/17)
+putwc: Dynix 1.2.0 (~1990/11/17)
+putwchar: Dynix 1.2.0 (~1990/11/17)
+ungetwc: Dynix 1.2.0 (~1990/11/17)
+fwide: glibc 2.2 (2000/11/09), first added in a commit from 1999/06/16
+wcstoul: OSF/1 (1993/06/08)
+wcstol: OSF/1 (1993/06/08)
+wcstod: OSF/1 (1993/10/07)
+wcscpy: OSF/1 1.10 (~1992/02/27)
+wcsncpy: OSF/1 1.10 (~1992/02/27)
+wcscat: OSF/1 1.10 (~1992/02/27)
+wcsncat: OSF/1 1.10 (~1992/02/27)
+wcscmp: OSF/1 1.10 (~1992/02/27)
+wcscoll: OSF/1 1.10 (~1992/02/27)
+wcsncmp: OSF/1 1.10 (~1992/02/27)
+wcsxfrm: OSF/1 (1993/06/08)
+wcschr: OSF/1 1.10 (~1992/02/27)
+wcsspn: OSF/1 1.10 (~1992/02/27)
+wcscspn: OSF/1 1.10 (~1992/02/27)
+wcspbrk: OSF/1 1.10 (~1992/02/27)
+wcsrchr: OSF/1 1.10 (~1992/02/27)
+wcsstr: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+wcslen: OSF/1 1.10 (~1992/02/27)
+wmemchr: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+wmemcmp: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+wmemset: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+wmemcpy: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+wmemmove: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+wcsftime: OSF/1 (1993/06/08)
+wcstok: OSF/1 (1993/06/08)
+wctob: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+btowc: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+mbsinit: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+mbrlen: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+mbrtowc: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+wcrtomb: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+mbsrtowcs: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+wcsrtombs: glibc 1.90 (1996/06/09), first added in a commit from 1996/04/02
+

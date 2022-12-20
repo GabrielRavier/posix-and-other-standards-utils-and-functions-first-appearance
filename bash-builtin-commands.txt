@@ -1,0 +1,12 @@
+Bash builtin commands (only as found in a shell somewhere):
+%:
+paren paren:
+compopt:
+echo:
+enable:
+for paren paren:
+kill:
+printf:
+pwd:
+variables:
+

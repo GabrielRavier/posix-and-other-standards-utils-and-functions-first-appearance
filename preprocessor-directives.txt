@@ -1,0 +1,16 @@
+Preprocessor directives:
+#if: PWB/UNIX 1.0 (1977/07/01)
+defined, in #if: 4.1BSD (1981/11/24)
+#ifdef: LSX (1976)
+#ifndef: LSX (1976)
+#elif: Amsterdam Compiler Kit (1984/07/13)
+#else: UNIX V7 (1979/01)
+#endif: LSX (1976)
+#include: UNIX V4 (1973/11)
+#define: UNIX V4 (1973/11)
+#define, function-like macro: PWB/UNIX 1.0 (1977/07/01)
+#undef: UNIX V7 (1979/01)
+#line: PWB/UNIX 1.0 (1977/07/01)
+#error: GCC 0.9 (1987/03/22)
+#pragma: GCC 0.9 (1987/03/22)
+

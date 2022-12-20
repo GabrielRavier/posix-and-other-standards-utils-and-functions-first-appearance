@@ -1,0 +1,52 @@
+POSIX Shell reserved commands with unspecified results:
+alloc: 1BSD (1978/02/01)
+autoload: System V Release 4 (~1990/10/12)
+bind: bash 1.11 (1992/01/10)
+bindkey: tcsh initial commit (1991/03/26) 
+builtin: UNIX V8 (1985/02)
+bye: 4BSD (1980/11/16), first added in a commit from 1980/10/09
+caller: bash 3.0 alpha (2004/01/07)
+cap: zsh 3.1.5 (1999/04/15), first added in a commit from 1997/05/06
+chdir: UNIX PDP7 (1970/01)
+clone: zsh 3.1.5 (1999/04/15), first added in a commit from 1997/01/25
+comparguments: zsh 3.1.7 (2000/05/30), first added in a commit from 1999/10/12
+compcall: zsh 3.1.5 (1999/04/15)
+compctl: zsh 2.2, found in 386BSD 0.1 (1992/07/14)
+compdescribe: zsh 3.1.7 (2000/05/30), first added in a commit from 1999/10/12
+compfiles: zsh 4.0.1 (2001/06/01), first added in a commit from 2000/06/09
+compgen: zsh 3.1.5 (1999/04/15), bash 2.04 (2000/03/17)
+compgroups: zsh 4.0.1 (2001/06/01), first added in a commit from 2000/06/22
+complete: tcsh 6.01.02 (1992/01/16) has it, but it's not a POSIX shell, it doesn't appear in any of them until bash 2.04 (2000/03/17)
+compquote: zsh 3.1.7 (2000/05/30), first added in a commit from 2000/04/01
+comptags: zsh 3.1.7 (2000/05/30), first added in a commit from 2000/04/01
+comptry: zsh 3.1.7 (2000/05/30), first added in a commit from 2000/04/01
+compvalues: zsh 3.1.7 (2000/05/30), first added in a commit from 1999/10/12
+declare: bash 1.02 (1989/07/09)
+dirs: 4BSD (1980/11/16), first added in a commit from 1980/10/09
+disable: zsh 2.2, found in 386BSD 0.1 (1992/07/14)
+disown: zsh 2.2, found in 386BSD 0.1 (1992/07/14)
+dosh: Doesn't seem to actualy be used by any public implementation ??
+echotc: tcsh initial commit (1991/03/26)
+echoti: zsh 4.0.1 (2001/06/01), first added in a commit from 2000/12/03 
+help: bash 1.02 (1989/07/09)
+history: 3BSD (1980/03/22)
+hist: ksh 93d (1995/08/18)
+let: BSD (1988/07/21), System V Release 4 (~1990/10/12)
+local: bash 1.02 (1989/07/09), System V Release 4 (~1990/10/12), 4.3BSD Net/2 (1991/07/03), first added in a commit from 1991/03/07
+login: UNIX V1 (1971/11/03)
+logout: 1BSD (1978/02/01)
+map: Doesn't seem to actualy be used by any public implementation ??
+mapfile: bash 4.0 (2009/02/19), first added in a commit from 2008/04/10
+popd: 4BSD (1980/11/16), first added in a commit from 1980/10/09
+print: BSD (1988/07/21), System V Release 4 (~1990/10/12) 
+pushd: 4BSD (1980/11/16), first added in a commit from 1980/10/09
+readarray: bash 4.0 (2009/02/19), first added in a commit from 2009/01/15
+repeat: 2BSD (1979/05/10)
+savehistory: Doesn't seem to actualy be used by any public implementation ??
+source: 2BSD (1979/05/10)
+shopt: bash 2.0 (1996/12/23)
+stop: 4BSD (1980/11/16), first added in a commit from 1980/10/09
+suspend: 4BSD (1980/11/16), first added in a commit from 1980/10/09
+typeset: UNIX V8 (1985/02)
+whence: System V Release 4 (~1990/10/12)
+

@@ -1,0 +1,22 @@
+Utilities from LSB:
+chfn: 3BSD (1980/03/22)
+chsh: 2BSD (1979/05/10)'s csh manual mentions it, but no implementation is found until 3BSD (1980/03/22)
+dmesg: UNIX V7 (1979/01)
+gettext: Solaris 2.5 (~1995/10/30)
+gzip: GNU Gzip (1992/10/31)
+hostname: 4.1cBSD (1983/04/02), first added in a commit from 1982/04/08
+install: Bell 32V (1979/05/02)
+lpr: UNIX V5 (1974/06)
+md5sum: textutils 1.12 (~1995/06/19)
+mktemp: Ultrix 4.2 (~1991/05/03)
+less: Mark Nudelman's original release (1984)
+msgfmt: Solaris 2.5 (~1995/10/30)
+pidof: The program seems to date back to somewhere in sysvinit, and sometime before 2000/06/22, I think, but I haven't been able to find when it was first added there. First implementation I could find was in busybox 0.60.0 (2001/08/02), first added in a commit from 2001/06/31
+printenv: 2BSD (1979/05/10)
+sendmail: 2BSD (1979/05/10)
+seq: UNIX V8 (1985/02)
+shutdown: PWB/UNIX 1.0 (1977/07/01)
+stat: UNIX PDP7 (1970/01) has a command named as such with a similar purpose, but the output format is completely different from the modern tool. Ultrix 3.1 (1988/01) also has a stat with an output much more similar to the modern tool, which first appears in coreutils (2001/11/26)
+whereis: 2BSD (1979/05/10)
+whatis: 2BSD (1979/05/10)
+

@@ -1,0 +1,6 @@
+Common extensions (attributes):
+mode:
+may_alias:
+alias:
+optimize:
+

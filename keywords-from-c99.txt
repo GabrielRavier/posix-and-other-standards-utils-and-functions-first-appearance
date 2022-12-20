@@ -1,0 +1,7 @@
+C99 keywords:
+restrict: GCC 2.95.0 (1999/07/29), first added in a commit from 1998/10/21
+_Bool: GCC 3.0.0 (2001/06/17), first added in a commit from 2000/11/13
+_Complex: GCC 3.0.0 (2001/06/17), first added in a commit from 2000/09/15
+inline: UNIX V8 (1985/02) has it in CFront (first C++ compiler), but it did not get into any C compiler until GCC 1.21 (1988/05/01)
+_Imaginary: cparser (2007/06/09)
+

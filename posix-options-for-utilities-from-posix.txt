@@ -1,0 +1,833 @@
+POSIX options for "Utilities from POSIX (sorted by POSIX man page size)":
+unset -f:
+unset -v:
+ipcrm -q:
+ipcrm -m:
+ipcrm -s:
+ipcrm -Q:
+ipcrm -M:
+ipcrm -S:
+readonly -p:
+ulimit -f:
+unalias -a:
+export -p:
+uustat -q:
+uustat -k:
+uustat -r:
+uustat -s:
+uustat -u:
+rmdir -p:
+hash -r:
+mkfifo -m:
+cxref -c:
+cxref -s:
+cxref -o:
+cxref -w:
+cxref -D:
+cxref -I:
+cxref -U:
+pwd -L:
+pwd -P:
+uncompress -c:
+uncompress -f:
+uncompress -v:
+tee -a:
+tee -i:
+uname -a:
+uname -m:
+uname -n:
+uname -r:
+uname -s:
+uname -v:
+fuser -c:
+fuser -f:
+fuser -u:
+expand -t:
+alias -p:
+head -n:
+qsig -s:
+strings -a:
+strings -n:
+strings -t:
+strings -t d:
+strings -t o:
+strings -t x:
+chgrp -h:
+chgrp -H:
+chgrp -L:
+chgrp -P:
+chgrp -R:
+mkdir -p:
+mkdir -m:
+tput -T:
+qmsg -E:
+qmsg -O:
+uudecode -o:
+qhold -h:
+qhold -h u:
+qhold -h s:
+qhold -h o:
+qhold -h n:
+unexpand -a:
+unexpand -t:
+read -r:
+qrls -h:
+qrls -h u:
+qrls -h s:
+qrls -h o:
+qrls -h n:
+wc -c:
+wc -l:
+wc -m:
+wc -w:
+qstat -f:
+qstat -Q:
+qstat -B:
+cflow -d:
+cflow -i:
+cflow -i x:
+cflow -i _:
+cflow -r:
+iconv -c:
+iconv -f:
+iconv -l:
+iconv -s:
+iconv -t:
+cat -u:
+id -G:
+id -g:
+id -n:
+id -r:
+id -u:
+compress -b:
+compress -c:
+compress -f:
+compress -v:
+nl -b:
+nl -b a:
+nl -b t:
+nl -b n:
+nl -b p<string>:
+nl -d:
+nl -f:
+nl -f a:
+nl -f t:
+nl -f n:
+nl -f p<string>:
+nl -h:
+nl -h a:
+nl -h t:
+nl -h n:
+nl -h p<string>:
+nl -i:
+nl -l:
+nl -n:
+nl -n ln:
+nl -n rn:
+nl -n rn:
+nl -p:
+nl -s:
+nl -v:
+nl -w:
+comm -1:
+comm -2:
+comm -3:
+umask -S:
+split -a:
+split -b:
+split -l:
+paste -d:
+paste -s:
+csplit -f:
+csplit -k:
+csplit -n:
+csplit -s:
+cmp -l:
+cmp -s:
+man -k:
+getconf -v:
+fold -b:
+fold -s:
+fold -w:
+chown -h:
+chown -H:
+chown -L:
+chown -P:
+chown -R:
+env -i:
+uniq -c:
+uniq -d:
+uniq -f:
+uniq -s:
+uniq -u:
+renice -g:
+renice -n:
+renice -p:
+renice -u:
+tabs -a:
+tabs -a2:
+tabs -c:
+tabs -c2:
+tabs -c3:
+tabs -f:
+tabs -p:
+tabs -s:
+tabs -u:
+tabs -T:
+uucp -c:
+uucp -C:
+uucp -d:
+uucp -f:
+uucp -j:
+uucp -m:
+uucp -n:
+uucp -r:
+nice -n:
+df -k:
+df -P:
+df -t:
+du -a:
+du -H:
+du -k:
+du -L:
+du -s:
+du -x:
+who -a:
+who -b:
+who -d:
+who -H:
+who -l:
+who -m:
+who -p:
+who -q:
+who -r:
+who -s:
+who -t:
+who -T:
+who -u:
+tail -c:
+tail -f:
+tail -n:
+jobs -l:
+jobs -p:
+nm -A:
+nm -e:
+nm -f:
+nm -g:
+nm -o:
+nm -P:
+nm -t:
+nm -t d:
+nm -t o:
+nm -t x:
+nm -u:
+nm -v:
+nm -x:
+ln -f:
+ln -s:
+ln -L:
+ln -P:
+uux -j:
+uux -n:
+uux -p:
+localedef -c:
+localedef -f:
+localedef -i:
+localedef -u:
+time -p:
+pathchk -p:
+pathchk -P:
+crontab -e:
+crontab -l:
+crontab -r:
+kill -l:
+kill -s:
+rm -f:
+rm -i:
+rm -R:
+rm -r:
+cut -b:
+cut -c:
+cut -d:
+cut -f:
+cut -n:
+cut -s:
+locale -a:
+locale -c:
+locale -k:
+locale -m:
+ipcs -q:
+ipcs -m:
+ipcs -s:
+ipcs -a:
+ipcs -b:
+ipcs -c:
+ipcs -o:
+ipcs -p:
+ipcs -t:
+cd -L:
+cd -P:
+join -a:
+join -e:
+join -o:
+join -t:
+join -v:
+join -1:
+join -2:
+grep -E:
+grep -F:
+grep -c:
+grep -e:
+grep -f:
+grep -i:
+grep -l:
+grep -n:
+grep -q:
+grep -s:
+grep -v:
+grep -x:
+ctags -a:
+ctags -f:
+ctags -x:
+uuencode -m:
+touch -a:
+touch -c:
+touch -d:
+touch -m:
+touch -r:
+touch -t:
+mv -f:
+mv -i:
+command -p:
+command -v:
+command -V:
+lp -c:
+lp -d:
+lp -m:
+lp -n:
+lp -o:
+lp -s:
+lp -t:
+lp -w:
+qselect -a:
+qselect -A:
+qselect -c:
+qselect -h:
+qselect -h n:
+qselect -h u:
+qselect -h s:
+qselect -h o:
+qselect -l:
+qselect -N:
+qselect -p:
+qselect -q:
+qselect -r:
+qselect -s:
+qselect -s e:
+qselect -s q:
+qselect -s r:
+qselect -s t:
+qselect -s h:
+qselect -s w:
+qselect -u:
+pr -a:
+pr -d:
+pr -e:
+pr -f:
+pr -F:
+pr -h:
+pr -i:
+pr -l:
+pr -m:
+pr -n:
+pr -o:
+pr -p:
+pr -r:
+pr -s:
+pr -t:
+pr -w:
+chmod -R:
+fc -e:
+fc -l:
+fc -n:
+fc -r:
+fc -s:
+date -u:
+tr -c:
+tr -C:
+tr -d:
+tr -s:
+patch -b:
+patch -c:
+patch -d:
+patch -D:
+patch -e:
+patch -i:
+patch -l:
+patch -n:
+patch -N:
+patch -o:
+patch -p:
+patch -R:
+patch -r:
+patch -u:
+ar -a:
+ar -b:
+ar -c:
+ar -C:
+ar -d:
+ar -i:
+ar -m:
+ar -p:
+ar -q:
+ar -r:
+ar -s:
+ar -t:
+ar -T:
+ar -u:
+ar -v:
+ar -x:
+fort77 -c:
+fort77 -g:
+fort77 -s:
+fort77 -o:
+fort77 -L:
+fort77 -O:
+fort77 -w:
+qalter -a:
+qalter -A:
+qalter -c:
+qalter -c n:
+qalter -c s:
+qalter -c c:
+qalter -e:
+qalter -h:
+qalter -h u:
+qalter -h s:
+qalter -h o:
+qalter -h n:
+qalter -j:
+qalter -j e:
+qalter -j o:
+qalter -j n:
+qalter -k:
+qalter -k e:
+qalter -k o:
+qalter -k n:
+qalter -l:
+qalter -m:
+qalter -m e:
+qalter -m b:
+qalter -m a:
+qalter -m n:
+qalter -M:
+qalter -N:
+qalter -o:
+qalter -p:
+qalter -r:
+qalter -r y:
+qalter -r n:
+qalter -S:
+qalter -u:
+ps -a:
+ps -A:
+ps -d:
+ps -e:
+ps -f:
+ps -g:
+ps -G:
+ps -l:
+ps -n:
+ps -o:
+ps -p:
+ps -t:
+ps -u:
+ps -U:
+set -a:
+set -b:
+set -C:
+set -e:
+set -f:
+set -h:
+set -m:
+set -n:
+set -o:
+set +o:
+set -o allexport:
+set -o errexit:
+set -o ignoreeof:
+set -o monitor:
+set -o noclobber:
+set -o noglob:
+set -o noexec:
+set -o nolog:
+set -o notify:
+set -o nounset:
+set -o verbose:
+set -o vi:
+set -o xtrace:
+set -u:
+set -v:
+set -x:
+cp -f:
+cp -H:
+cp -i:
+cp -L:
+cp -P:
+cp -p:
+cp -R:
+m4 -s:
+m4 -D:
+m4 -U:
+stty -a:
+stty -g:
+stty parenb:
+stty -parenb:
+stty parodd:
+stty -parodd:
+stty cs5:
+stty cs6:
+stty cs7:
+stty cs8:
+stty ispeed:
+stty ospeed:
+stty hupcl:
+stty -hupcl:
+stty hup:
+stty -hup:
+stty cstopb:
+stty -cstopb:
+stty cread:
+stty -cread:
+stty clocal:
+stty -clocal:
+stty ignbrk:
+stty -ignbrk:
+stty brkint:
+stty -brkint:
+stty ignpar:
+stty -ignpar:
+stty parmrk:
+stty -parmrk:
+stty inpck:
+stty -inpck:
+stty istrip:
+stty -istrip:
+stty igncr:
+stty -igncr:
+stty icrnl:
+stty -icrnl:
+stty ixon:
+stty -ixon:
+stty ixany:
+stty -ixany:
+stty ixoff:
+stty -ixoff:
+stty opost:
+stty -opost:
+stty onlcr:
+stty -onlcr:
+stty ocrnl:
+stty -ocrnl:
+stty onocr:
+stty -onocr:
+stty onlret:
+stty -onlret:
+stty ofill:
+stty -ofill:
+stty ofdel:
+stty -ofdel:
+stty cr0:
+stty cr1:
+stty cr2:
+stty cr3:
+stty nl0:
+stty nl1:
+stty tab0:
+stty tab1:
+stty tab2:
+stty tab3:
+stty tabs:
+stty -tabs:
+stty bs0:
+stty bs1:
+stty ff0:
+stty ff1:
+stty vt0:
+stty vt1:
+stty isig:
+stty -isig:
+stty icanon:
+stty -icanon:
+stty iexten:
+stty -iexten:
+stty echo:
+stty -echo:
+stty echoe:
+stty -echoe:
+stty echok:
+stty -echok:
+stty echonl:
+stty -echonl:
+stty noflsh:
+stty -noflsh:
+stty tostop:
+stty -tostop:
+stty eof:
+stty eol:
+stty erase:
+stty intr:
+stty kill:
+stty quit:
+stty susp:
+stty start:
+stty stop
+stty min:
+stty time:
+stty evenp:
+stty parity:
+stty oddp:
+stty -parity:
+stty -evenp:
+stty -oddp:
+stty raw:
+stty -raw:
+stty cooked:
+stty nl:
+stty -nl:
+stty ek:
+stty sane:
+stty inlcr:
+stty -inlcr:
+stty iuclc:
+stty -iuclc:
+stty xcase:
+stty lcase:
+stty -lcase:
+stty LCASE:
+stty -LCASE:
+dd if=:
+dd of=:
+dd ibs=:
+dd obs=:
+dd bs=:
+dd cbs=:
+dd skip=:
+dd seek=:
+dd count=:
+dd conv=:
+xargs -E:
+xargs -l:
+xargs -L:
+xargs -n:
+xargs -p:
+xargs -s:
+xargs -t:
+xargs -x:
+xargs -e:
+xargs -i:
+xargs -I:
+file -d:
+file -h:
+file -i:
+file -M:
+file -m:
+sort -c:
+sort -C:
+sort -m:
+sort -o:
+sort -u:
+sort -d:
+sort -f:
+sort -i:
+sort -n:
+sort -r:
+sort -b:
+sort -t:
+sort -k:
+at -f:
+at -l:
+at -m:
+at -q:
+at -r:
+at -t:
+diff -b:
+diff -c:
+diff -C:
+diff -e:
+diff -f:
+diff -r:
+diff -u:
+diff -U:
+od -A:
+od -b:
+od -c:
+od -d:
+od -j:
+od -N:
+od -o:
+od -s:
+od -t:
+od -v:
+od -x:
+qsub -a:
+qsub -A:
+qsub -c:
+qsub -c n:
+qsub -c s:
+qsub -c c:
+qsub -C:
+qsub -e:
+qsub -h:
+qsub -j:
+qsub -k:
+qsub -k e:
+qsub -k o:
+qsub -k n:
+qsub -m:
+qsub -m e:
+qsub -m b:
+qsub -m a:
+qsub -m n:
+qsub -M:
+qsub -N:
+qsub -o:
+qsub -p:
+qsub -q:
+qsub -r:
+qsub -S:
+qsub -u:
+qsub -v:
+qsub -V:
+qsub -z:
+find -H:
+find -L:
+ls -A:
+ls -C:
+ls -F:
+ls -H:
+ls -L:
+ls -R:
+ls -S:
+ls -a:
+ls -c:
+ls -d:
+ls -f:
+ls -g:
+ls -i:
+ls -k:
+ls -l:
+ls -m:
+ls -n:
+ls -o:
+ls -p:
+ls -q:
+ls -r:
+ls -s:
+ls -t:
+ls -u:
+ls -x:
+ls -1:
+sed -e:
+sed -f:
+sed -n:
+c99 -c:
+c99 -D:
+c99 -E:
+c99 -g:
+c99 -I:
+c99 -L:
+c99 -l:
+c99 -O:
+c99 -O0:
+c99 -O1:
+c99 -o:
+c99 -s:
+c99 -U:
+more -c:
+more -e:
+more -i:
+more -n:
+more -p:
+more -s:
+more -t:
+more -u:
+lex -n:
+lex -t:
+lex -v:
+lex -c:
+bc -l:
+ed -p:
+ed -s:
+sh -a:
+sh -b:
+sh -C:
+sh -e:
+sh -f:
+sh -m:
+sh -n:
+sh -o:
+sh -u:
+sh -v:
+sh -x:
+sh -c:
+sh -i:
+sh -s:
+yacc -b:
+yacc -d:
+yacc -l:
+yacc -p:
+yacc -t:
+yacc -v:
+mailx -e:
+mailx -f:
+mailx -F:
+mailx -H:
+mailx -i:
+mailx -n:
+mailx -N:
+mailx -s:
+mailx -u:
+make -e:
+make -f:
+make -i:
+make -k:
+make -n:
+make -p:
+make -q:
+make -r:
+make -S:
+make -s:
+make -t:
+awk -F:
+awk -f:
+awk -v:
+vi/ex -c:
+vi/ex -r:
+vi/ex -R:
+vi/ex -t:
+vi/ex -w:
+ex -s:
+ex -v:
+pax -r:
+pax -w:
+pax -a:
+pax -b:
+pax -c:
+pax -d:
+pax -f:
+pax -H:
+pax -i:
+pax -k:
+pax -l:
+pax -L:
+pax -n:
+pax -o:
+pax -p:
+pax -s:
+pax -t:
+pax -u:
+pax -v:
+pax -x:
+pax -X:
+

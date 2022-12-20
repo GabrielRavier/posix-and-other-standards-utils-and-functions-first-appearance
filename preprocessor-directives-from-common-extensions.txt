@@ -1,0 +1,6 @@
+Common extensions (preprocessor directives):
+#include_next:
+#import:
+#ident:
+#sccs:
+

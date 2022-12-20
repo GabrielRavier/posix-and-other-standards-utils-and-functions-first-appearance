@@ -1,0 +1,17 @@
+Headers from C89 (sorted by POSIX man page size):
+setjmp.h: UNIX V7 (1979/01)
+assert.h: UNIX V7 (1979/01)
+ctype.h: PWB/UNIX 1.0 (1977/07/01) maybe (a file includes it, but the header is absent) but can only be confirmed starting with UNIX V7 (1979/01)
+string.h: System V Release 1 (~1983/01)
+stddef.h: GCC 1.21 (1988/05/01)
+locale.h: System V Release 4 (~1989/07/12)
+stdlib.h: A #include statement of it is found in 4.3BSD Net/1 (1988/04/12) but the full header doesn't appear until System V Release 4 (~1989/07/12)
+stdarg.h: GCC 1.21 (1988/05/01)
+errno.h: UNIX V7 (1979/01)
+stdio.h: PWB/UNIX 1.0 (1977/07/01)
+time.h: PWB/UNIX 1.0 (1977/07/01)
+float.h: System V Release 4 (~1989/07/12)
+math.h: UNIX V7 (1979/01)
+signal.h: UNIX V7 (1979/01)
+limits.h: System V Release 3.0.1 (~1986/02/25)
+

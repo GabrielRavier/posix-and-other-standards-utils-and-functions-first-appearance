@@ -1,0 +1,661 @@
+Common extended features for "Utilities from POSIX (sorted by POSIX man page size)":
+test|[ FILE1 -ef FILE2:
+test|[ FILE1 -nt FILE2:
+test|[ FILE1 -ot FILE2:
+test|[ -G FILE:
+test|[ -k FILE:
+test|[ -N FILE:
+test|[ -O FILE:
+test|[ -o OPTION:
+test|[ -v VAR:
+test|[ -R VAR:
+ps Oc:
+ps OC:
+ps Of:
+ps Og:
+ps OG:
+ps Oj:
+ps OJ:
+ps Ok:
+ps Om:
+ps OM:
+ps On:
+ps ON:
+ps Oo:
+ps Op:
+ps OP:
+ps Or:
+ps OR:
+ps Os:
+ps OS:
+ps Ot:
+ps OT:
+ps OU:
+ps Ou:
+ps Ov:
+ps Oy:
+ps -o %C:
+ps -o %G:
+ps -o %P:
+ps -o %U:
+ps -o %a:
+ps -o %c:
+ps -o %g:
+ps -o %n:
+ps -o %p:
+ps -o %r:
+ps -o %t:
+ps -o %u:
+ps -o %x:
+ps -o %y:
+ps -o %z:
+ps -o %cpu:
+ps -o %mem:
+ps -o blocked:
+ps -o bsdstart:
+ps -o bsdtime:
+ps -o c:
+ps -o caught:
+ps -o cgname:
+ps -o cgroup:
+ps -o class:
+ps -o cls:
+ps -o cmd:
+ps -o command:
+ps -o cp:
+ps -o cputime:
+ps -o cputimes:
+ps -o drs:
+ps -o egid:
+ps -o egroup:
+ps -o eip:
+ps -o esp:
+ps -o etimes:
+ps -o euid:
+ps -o euser:
+ps -o exe:
+ps -o f:
+ps -o fgroup:
+ps -o flag:
+ps -o flags:
+ps -o fname:
+ps -o fuid:
+ps -o fuser:
+ps -o gid:
+ps -o ignored:
+ps -o ipcns:
+ps -o label:
+ps -o lstart:
+ps -o lsession:
+ps -o luid:
+ps -o lwp:
+ps -o lxc:
+ps -o machine:
+ps -o maj_flt:
+ps -o min_flt:
+ps -o mntns:
+ps -o netns:
+ps -o ni:
+ps -o nice:
+ps -o nlwp:
+ps -o numa:
+ps -o nwchan:
+ps -o ouid:
+ps -o pending:
+ps -o pgrp:
+ps -o pidns:
+ps -o pmem:
+ps -o policy:
+ps -o pri:
+ps -o psr:
+ps -o rgid:
+ps -o rss:
+ps -o rssize:
+ps -o rsz:
+ps -o rtprio:
+ps -o ruid:
+ps -o s:
+ps -o sched:
+ps -o seat:
+ps -o sess:
+ps -o sgi_p:
+ps -o sgid:
+ps -o sgroup:
+ps -o sid:
+ps -o sig:
+ps -o sigcatch:
+ps -o sigignore:
+ps -o sigmask:
+ps -o size:
+ps -o slice:
+ps -o spid:
+ps -o stackp:
+ps -o start:
+ps -o start_time:
+ps -o stat:
+ps -o state:
+ps -o stime:
+ps -o suid:
+ps -o supgid:
+ps -o supgrp:
+ps -o suser:
+ps -o svgid:
+ps -o svuid:
+ps -o sz:
+ps -o tgid:
+ps -o thcount:
+ps -o tid:
+ps -o times:
+ps -o tname:
+ps -o tpgid:
+ps -o trs:
+ps -o tt:
+ps -o ucmd:
+ps -o ucomm:
+ps -o uid:
+ps -o uname:
+ps -o unit:
+ps -o userns:
+ps -o utsns:
+ps -o vsize:
+ps -o wchan:
+m4 -d a:
+m4 -d c:
+m4 -d e:
+m4 -d f:
+m4 -d i:
+m4 -d l:
+m4 -d p:
+m4 -d q:
+m4 -d t:
+m4 -d x:
+m4 -d V:
+m4 built-in macro nargs:
+m4 built-in macro indir:
+m4 built-in macro builtin:
+m4 built-in macro reverse:
+m4 built-in macro cond:
+m4 built-in macro array:
+m4 built-in macro array_set:
+m4 built-in macro exch:
+m4 built-in macro quote:
+m4 built-in macro dquote:
+m4 built-in macro dquote_elt:
+m4 built-in macro argn:
+m4 built-in macro forloop:
+m4 built-in macro foreach:
+m4 built-in macro foreachq:
+m4 built-in macro stack_foreach:
+m4 built-in macro stack_foreach_lifo:
+m4 built-in macro define_blind:
+m4 built-in macro curry:
+m4 built-in macro copy:
+m4 built-in macro rename:
+m4 built-in macro debugmode:
+m4 built-in macro debugfile:
+m4 built-in macro changeword:
+m4 built-in macro cleardivert:
+m4 built-in macro regexp:
+m4 built-in macro patsubst:
+m4 built-in macro format:
+m4 built-in macro __gnu__:
+m4 built-in macro __os2__:
+m4 built-in macro os2:
+m4 built-in macro __unix__:
+m4 built-in macro unix:
+m4 built-in macro __windows__:
+m4 built-in macro windows:
+m4 built-in macro esyscmd:
+m4 built-in macro __file__:
+m4 built-in macro __line__:
+m4 built-in macro __program__:
+m4 built-in macro fatal_error:
+dd conv=sparse:
+dd conv=excl:
+dd conv=nocreat:
+dd conv=fdatasync:
+dd conv=fsync:
+dd .flag=append:
+dd .flag=direct:
+dd .flag=dsync:
+dd .flag=sync:
+dd .flag=fullblock:
+dd .flag=nonblock:
+dd .flag=noatime:
+dd .flag=nocache:
+dd .flag=noctty:
+dd .flag=nofollow:
+dd .flag=count_bytes:
+dd .flag=skip_bytes:
+dd .flag=seek_bytes:
+file -e apptype:
+file -e ascii:
+file -e encoding:
+file -e tokens:
+file -e cdf:
+file -e compress:
+file -e csv:
+file -e elf:
+file -e json:
+file -e soft:
+file -e tar:
+file -e text:
+file -P bytes:
+file -P elf_notes:
+file -P elf_phnum:
+file -P elf_shnum:
+file -P encoding:
+file -P indir:
+file -P name:
+file -P regex:
+find expression positional option -daystart:
+find expression positional option -follow:
+find expression positional option -regextype:
+find expression positional option -warn:
+find expression positional option -nowarn:
+find expression primary -d:
+find expression primary -depth:
+find expression primary -files0-from:
+find expression primary -help:
+find expression primary --help:
+find expression primary -ignore_readdir_race:
+find expression primary -maxdepth:
+find expression primary -mindepth:
+find expression primary -mount:
+find expression primary -noignore_readdir_race:
+find expression primary -noleaf:
+find expression primary -version:
+find expression primary --version:
+find expression primary -xautofs:
+find expression primary -amin:
+find expression primary -anewer:
+find expression primary -cmin:
+find expression primary -cnewer:
+find expression primary -empty:
+find expression primary -executable:
+find expression primary -false:
+find expression primary -fstype:
+find expression primary -gid:
+find expression primary -ilname:
+find expression primary -iname:
+find expression primary -inum:
+find expression primary -ipath:
+find expression primary -iregex:
+find expression primary -iwholename:
+find expression primary -lname:
+find expression primary -mmin:
+find expression primary -newerXY:
+find expression primary -readable:
+find expression primary -regex:
+find expression primary -samefile:
+find expression primary -true:
+find expression primary -type D:
+find expression primary -uid:
+find expression primary -wholename:
+find expression primary -writable:
+find expression primary -xtype:
+find expression primary -context:
+find expression primary -delete:
+find expression primary -execdir:
+find expression primary -fls:
+find expression primary -fprint:
+find expression primary -fprint0:
+find expression primary -fprintf:
+find expression primary -ls:
+find expression primary -okdir:
+find expression primary -printf:
+find expression primary -print0:
+find expression primary -quit:
+find expression operator -not:
+find expression operator expr1 -and expr2:
+find expression operator expr1 -or expr2:
+find expression operator expr1 , expr2:
+sed command Q:
+sed command R:
+sed command T:
+sed command W:
+c99 file.i:
+c99 file.ii:
+c99 file.m:
+c99 file.mi:
+c99 file.mm:
+c99 file.M:
+c99 file.mii:
+c99 file.h:
+c99 file.cc:
+c99 file.cp:
+c99 file.cxx:
+c99 file.cpp:
+c99 file.CPP:
+c99 file.c++:
+c99 file.C:
+c99 file.hh:
+c99 file.H:
+c99 file.hp:
+c99 file.hxx:
+c99 file.hpp:
+c99 file.HPP:
+c99 file.h++:
+c99 file.tcc:
+c99 file.f:
+c99 file.for:
+c99 file.ftn:
+c99 file.F:
+c99 file.FOR:
+c99 file.fpp:
+c99 file.FPP:
+c99 file.FTN:
+c99 file.f90:
+c99 file.f95:
+c99 file.f03:
+c99 file.f08:
+c99 file.F90:
+c99 file.F95:
+c99 file.F03:
+c99 file.F08:
+c99 file.go:
+c99 file.d:
+c99 file.di:
+c99 file.dd:
+c99 file.ads:
+c99 file.adb:
+c99 file.s:
+c99 file.S:
+c99 file.sx:
+more command ?:
+more command z:
+more command <SIGINT>:
+more command !:
+more command :!:
+more command :f:
+more command .:
+lex special action YY_FLUSH_BUFFER:
+lex-defined function yyterminate:
+lex-defined function yyrestart:
+lex-defined function yy_push_state:
+lex-defined function yy_pop_state:
+lex-defined function yy_top_state:
+lex-defined function yy_create_buffer:
+lex-defined function yy_switch_to_buffer:
+lex-defined function yy_delete_buffer:
+lex-defined function yypush_buffer_state:
+lex-defined function yypop_buffer_state:
+lex-defined function yy_flush_buffer:
+lex-defined function yy_new_buffer:
+lex-defined function yy_scan_string:
+lex-defined function yy_scan_bytes:
+lex-defined function yy_scan_buffer:
+lex-defined function yyget_extra:
+lex-defined function yyset_extra:
+lex-defined function yyget_leng:
+lex-defined function yyget_text:
+lex-defined function yyget_lineno:
+lex-defined function yyset_lineno:
+lex-defined function yyget_in:
+lex-defined function yyset_in:
+lex-defined function yyget_out:
+lex-defined function yyset_out:
+lex-defined function yyget_lval:
+lex-defined function yyset_lval:
+lex-defined function yyget_lloc:
+lex-defined function yyset_lloc:
+lex-defined function yyget_debug:
+lex-defined function yyset_debug:
+lex-defined function yylex_init:
+lex-defined function yylex_destroy:
+lex-defined function yylex_init_extra:
+lex-defined function yyalloc:
+lex-defined function yyrealloc:
+lex-defined function yyfree:
+lex-defined function yytables_fload:
+lex-defined function yytables_destroy
+lex declaration %top:
+lex declaration %option noyywrap:
+lex declaration %option stack:
+lex declaration %option 8bit:
+lex declaration %option reentrant:
+lex declaration %option bison-bridge:
+lex declaration %option warn:
+lex declaration %option nodefault:
+lex declaration %option yylineno:
+lex declaration %option outfile:
+lex declaration %option header-file:
+lex declaration %option stdout:
+lex declaration %option case-insensitive:
+lex declaration %option lex-compat:
+lex declaration %option batch:
+lex declaration %option interactive:
+lex declaration %option 7bit:
+lex declaration %option default:
+lex declaration %option always-interactive:
+lex declaration %option posix:
+lex declaration %option stdinit:
+lex declaration %option yywrap:
+lex declaration %option ansi-definitions:
+lex declaration %option ansi-prototypes:
+lex declaration %option bison-locations:
+lex declaration %option noline:
+lex declaration %option c++:
+lex declaration %option array:
+lex declaration %option pointer:
+lex declaration %option prefix:
+lex declaration %option main:
+lex declaration %option nounistd:
+lex declaration %option yyclass:
+lex declaration %option align:
+lex declaration %option ecs:
+lex declaration %option meta-ecs:
+lex declaration %option read:
+lex declaration %option full:
+lex declaration %option fast:
+lex declaration %option backup:
+lex declaration %option debug:
+lex declaration %option perf-report:
+lex declaration %option trace:
+lex declaration %option nowarn:
+lex declaration %option verbose:
+lex declaration %option extra-type:
+lex declaration %x:
+lex-defined variable yyIN_HEADER:
+lex-defined variable yyin:
+lex-defined variable yyout:
+lex-defined variable yylineno:
+lex-defined macro YY_DECL:
+lex-defined macro YY_INPUT:
+lex-defined macro YY_START:
+lex-defined macro YYSTATE:
+lex-defined macro YY_CURRENT_BUFFER:
+lex-defined macro YY_USER_ACTION:
+lex-defined macro YY_USER_INIT:
+lex-defined macro YY_NUM_RULES:
+lex-defined macro yy_set_interactive:
+lex-defined macro yy_set_bol:
+lex-defined macro YY_AT_BOL:
+lex-defined macro YY_BREAK:
+lex-defined macro YY_EXTRA_TYPE:
+lex-defined macro yy_flex_debug:
+lex-defined type YY_BUFFER_STATE:
+lex-defined type yy_size_t:
+lex-defined type yyscan_t:
+lex special rule <<EOF>>:
+bc built-in named expression last:
+bc single-line # comments:
+bc expression ! expr:
+bc expression expr && expr:
+bc expression expr || expr:
+bc built-in function read:
+bc statement print:
+bc statement continue:
+bc statement halt:
+bc statement limits:
+bc statement quit:
+bc statement warranty:
+bc statement else:
+bc statement .:
+ed command wq:
+ed command W:
+ed command x:
+ed command y:
+ed command z:
+ed command #:
+yacc declaration %code:
+yacc declaration %code top:
+yacc declaration %code requires:
+yacc declaration %code provides:
+yacc declaration %code imports:
+yacc declaration %destructor:
+yacc declaration %printer:
+yacc declaration %empty:
+yacc declaration %define:
+yacc declaration %define api.value.type:
+yacc declaration %define api.location.type:
+yacc declaration %define api.pure full:
+yacc declaration %define api.prefix:
+yacc declaration %define api.filename.type:
+yacc declaration %define filename_type:
+yacc declaration %define api.header.include:
+yacc declaration %define api.location.file:
+yacc declaration %define api.location.file none:
+yacc declaration %define api.location.include:
+yacc declaration %define location_type:
+yacc declaration %define api.namespace:
+yacc declaration %define api.parser.class:
+yacc declaration %define parser_class_name:
+yacc declaration %define api.pure:
+yacc declaration %define api.push-pull pull:
+yacc declaration %define api.push-pull push:
+yacc declaration %define api.push-pull both:
+yacc declaration %define api.symbol.prefix:
+yacc declaration %define api.token.constructor:
+yacc declaration %define api.token.prefix:
+yacc declaration %define api.token.raw:
+yacc declaration %define api.value.automove:
+yacc declaration %define api.value.type {}:
+yacc declaration %define api.value.type union-directive:
+yacc declaration %define api.value.type union:
+yacc declaration %define api.value.type variant:
+yacc declaration %define stype:
+yacc declaration %define api.value.union.name:
+yacc declaration %define lr.default-reduction most:
+yacc declaration %define lr.default-reduction consistent:
+yacc declaration %define lr.default-reduction accepting:
+yacc declaration %define lr.default-reductions:
+yacc declaration %define lr.keep-unreachable-state:
+yacc declaration %define lr.keep_unreachable_states:
+yacc declaration %define lr.type lalr:
+yacc declaration %define lr.type ielr:
+yacc declaration %define lr.type canonical-lr:
+yacc declaration %define namespace:
+yacc declaration %define parse.assert:
+yacc declaration %define parse.error simple:
+yacc declaration %define parse.error detailed:
+yacc declaration %define parse.error verbose:
+yacc declaration %define parse.error custom:
+yacc declaration %define parse.lac none:
+yacc declaration %define parse.lac full:
+yacc declaration %define parse.trace:
+yacc declaration %nterm:
+yacc declaration %initial-action:
+yacc declaration %require:
+yacc declaration %precedence:
+yacc declaration %expect:
+yacc declaration %expect-rr:
+yacc declaration %debug:
+yacc declaration %file-prefix:
+yacc declaration %header:
+yacc declaration %language:
+yacc declaration %locations:
+yacc declaration %name-prefix:
+yacc declaration %no-lines:
+yacc declaration %output:
+yacc declaration %pure-parser:
+yacc declaration %skeleton:
+yacc declaration %token-table:
+yacc declaration %verbose:
+yacc declaration %yacc:
+yacc declaration %parse-param:
+yacc declaration %lex-param:
+yacc declaration %param:
+yacc pseudo-variable @$:
+yacc pseudo-variable @number:
+yacc-defined macro YYLOCATION_PRINT:
+yacc-defined macro YYLLOC_DEFAULT:
+yacc-defined macro YYNOMEM:
+yacc-defined macro YYPUSH_MORE:
+yacc-defined macro YYDEBUG:
+yacc-defined macro YYTOKENTYPE:
+yacc-defined macro YYNTOKENS:
+yacc-defined macro YYNNTS:
+yacc-defined macro YYNRULES:
+yacc-defined macro YYNSTATES:
+yacc-defined macro YYEOF:
+yacc-defined macro YYUNDEF:
+yacc-defined macro YYerror:
+yacc-defined macro YYBACKUP:
+yacc-defined macro YYEMPTY:
+yacc-defined function yypstate_new:
+yacc-defined function yypush_parse:
+yacc-defined function yypull_parse:
+yacc-defined function yypstate_delete:
+yacc-defined function yyreport_syntax_error:
+yacc-defined function yypstate_expected_tokens:
+yacc-defined function yypcontext_token:
+yacc-defined function yypcontext_location:
+yacc-defined function yypcontext_expected_tokens:
+yacc-defined function yysymbol_name:
+yacc-defined function yy::parser::parse:
+yacc-defined function yy::parser::debug_stream:
+yacc-defined function yy::parser::set_debug_stream:
+yacc-defined function yy::parser::debug_level:
+yacc-defined function yy::parser::set_debug_level:
+yacc-defined function yy::parser::error:
+yacc-defined function yy::parser::value_type::emplace:
+yacc-defined function yy::parser::report_syntax_error:
+yacc-defined function yy::parser::context::lookahead:
+yacc-defined function yy::parser::context::token:
+yacc-defined function yy::parser::context::location:
+yacc-defined function yy::parser::context::expected_tokens:
+yacc-defined function yy::parser::symbol_name
+yacc-defined function yy::position::initialise:
+yacc-defined function yy::position::lines:
+yacc-defined function yy::position::columns:
+yacc-defined function yy::location::initialize:
+yacc-defined function yy::location::columns:
+yacc-defined function yy::location::lines:
+yacc-defined function yy::location::step:
+yacc-defined function yy::yylex:
+yacc-defined function yy::parser::symbol_type::kind:
+yacc-defined function yy::parser::symbol_type::name:
+yacc-defined type YYLTYPE:
+yacc-defined type yytoken_kind_t:
+yacc-defined type yypstate:
+yacc-defined type yypcontext_t:
+yacc-defined type yysymbol_kind_t:
+yacc-defined type yy::parser:
+yacc-defined type yy::parser::token:
+yacc-defined type yy::parser::token::token_kind_type:
+yacc-defined type yy::parser::token_kind_type:
+yacc-defined type yy::parser::value_type:
+yacc-defined type yy::parser::location_type:
+yacc-defined type yy::parser::syntax_error:
+yacc-defined type yy::parser::context:
+yacc-defined type yy::parser::symbol_kind_type:
+yacc-defined type yy::parser::symbol_type:
+yacc-defined type yy::position:
+yacc-defined type yy::position::filename_type:
+yacc-defined type yy::position::counter_type:
+yacc-defined type yy::location:
+yacc-defined variable yylloc:
+yacc-defined variable yynerrs:
+yacc-defined variable yytname:
+yacc-defined variable YYLTYPE::first_line:
+yacc-defined variable YYLTYPE::first_column:
+yacc-defined variable YYLTYPE::last_line:
+yacc-defined variable YYLTYPE::last_column:
+yacc-defined variable yy::position::file:
+yacc-defined variable yy::position::line:
+yacc-defined variable yy::position::column:
+yacc-defined variable yy::location::begin
+yacc-defined variable yy::location::end:
+(TODO: do this for mailx, make, awk, vi, pax and ex)
+

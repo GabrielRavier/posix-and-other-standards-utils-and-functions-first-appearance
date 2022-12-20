@@ -1,0 +1,17 @@
+POSIX-defined "frequently-exported" environment variables (but not defined by it):
+PS3:
+MAKESHELL:
+CHARSET:
+MANPATH:
+RANDOM:
+SECONDS:
+NPROC:
+TERMCAP:
+TERMINFO:
+OPTARG:
+OPTERR:
+USER:
+HISTORY:
+PROCLANG:
+MAILER:
+

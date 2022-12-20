@@ -1,0 +1,18 @@
+POSIX shell reserved words:
+!: System V Release 4 (~1990/10/12), bash 1.11 (1992/01/10)
+{: UNIX V7 (1979/01)
+}: UNIX V7 (1979/01)
+case: UNIX V7 (1979/01)
+do: UNIX V7 (1979/01)
+done: UNIX V7 (1979/01)
+elif: UNIX V7 (1979/01)
+else: UNIX V7 (1979/01)
+esac: UNIX V7 (1979/01)
+fi: UNIX V7 (1979/01)
+for: UNIX V7 (1979/01)
+if: Somewhere between UNIX V1 and UNIX V2 (>1971/11/03 <1972/12/06)
+in: UNIX V7 (1979/01)
+then: PWB/UNIX 1.0 (1977/07/01)
+until: UNIX V7 (1979/01)
+while: PWB/UNIX 1.0 (1977/07/01)
+

@@ -1,0 +1,336 @@
+POSIX features for "Utilities from POSIX (sorted by POSIX man page size)":
+test|[ -b pathname:
+test|[ -c pathname:
+test|[ -d pathname:
+test|[ -e pathname:
+test|[ -f pathname:
+test|[ -g pathname:
+test|[ -h pathname:
+test|[ -L pathname:
+test|[ -n string:
+test|[ -p pathname:
+test|[ -r pathname:
+test|[ -S pathname:
+test|[ -s pathname:
+test|[ -t file_descriptor:
+test|[ -u pathname:
+test|[ -w pathname:
+test|[ -x pathname:
+test|[ -z string:
+test|[ string:
+test|[ s1 = s2:
+test|[ s1 != s2:
+test|[ n1 -eq n2:
+test|[ n1 -ne n2:
+test|[ n1 -gt n2:
+test|[ n1 -ge n2:
+test|[ n1 -lt n2:
+test|[ n1 -le n2:
+test|[ expression1 -a expression2:
+test|[ expression1 -o expression2:
+test|[ ! expression:
+test|[ ( expression ):
+ps -o ruser:
+ps -o user:
+ps -o rgroup:
+ps -o group:
+ps -o pid:
+ps -o ppid:
+ps -o pgid:
+ps -o pcpu:
+ps -o vsz:
+ps -o nice:
+ps -o etime:
+ps -o time:
+ps -o tty:
+ps -o comm:
+ps -o args:
+m4 built-in macro changecom:
+m4 built-in macro changequote:
+m4 built-in macro decr:
+m4 built-in macro define:
+m4 built-in macro defn:
+m4 built-in macro divert:
+m4 built-in macro divnum:
+m4 built-in macro dnl:
+m4 built-in macro dumpdef:
+m4 built-in macro errprint:
+m4 built-in macro eval:
+m4 built-in macro ifdef:
+m4 built-in macro ifelse:
+m4 built-in macro include:
+m4 built-in macro incr:
+m4 built-in macro index:
+m4 built-in macro len:
+m4 built-in macro m4exit:
+m4 built-in macro m4wrap:
+m4 built-in macro maketemp:
+m4 built-in macro mkstemp:
+m4 built-in macro popdef:
+m4 built-in macro pushdef:
+m4 built-in macro shift:
+m4 built-in macro sinclude:
+m4 built-in macro substr:
+m4 built-in macro syscmd:
+m4 built-in macro sysval:
+m4 built-in macro traceon:
+m4 built-in macro traceoff:
+m4 built-in macro translit:
+m4 built-in macro undefine:
+m4 built-in macro undivert:
+dd conv=ascii:
+dd conv=ebcdic:
+dd conv=ibm:
+dd conv=block:
+dd conv=unblock:
+dd conv=lcase:
+dd conv=ucase:
+dd conv=swab:
+dd conv=noerror:
+dd conv=notrunc:
+dd conv=sync:
+od -t a:
+od -t c:
+od -t d:
+od -t f:
+od -t o:
+od -t u:
+od -t x:
+find expression primary -name:
+find expression primary -path:
+find expression primary -nouser:
+find expression primary -nogroup:
+find expression primary -xdev:
+find expression primary -prune:
+find expression primary -perm:
+find expression primary -type:
+find expression primary -links:
+find expression primary -user:
+find expression primary -group:
+find expression primary -size:
+find expression primary -atime:
+find expression primary -ctime:
+find expression primary -mtime:
+find expression primary -exec:
+find expression primary -ok:
+find expression primary -print:
+find expression primary -newer:
+find expression primary -depth:
+find expression operator ( expression ):
+find expression operator ! expression:
+find expression operator expression expression:
+find expression operator expression -a expression:
+find expression operator expression -o expression:
+find expression primary -type b:
+find expression primary -type c:
+find expression primary -type d:
+find expression primary -type l:
+find expression primary -type p:
+find expression primary -type f:
+find expression primary -type s:
+sed command { }:
+sed command a:
+sed command b:
+sed command c:
+sed command d:
+sed command D:
+sed command g:
+sed command G:
+sed command h:
+sed command H:
+sed command i:
+sed command l:
+sed command n:
+sed command N:
+sed command p:
+sed command P:
+sed command q:
+sed command r:
+sed command s:
+sed command t:
+sed command w:
+sed command x:
+sed command y:
+sed command ::
+sed command =:
+sed command [empty command]:
+sed command #:
+c99 file.c:
+c99 file.a:
+c99 file.o:
+more command h:
+more command f:
+more command C-f:
+more command b:
+more command C-b:
+more command <space>:
+more command j:
+more command <newline>:
+more command k:
+more command d:
+more command C-d:
+more command s:
+more command u:
+more command C-u:
+more command g:
+more command G:
+more command r:
+more command C-l:
+more command R:
+more command m:
+more command 'letter:
+more command '':
+more command /:
+more command ?:
+more command n:
+more command N:
+more command :e:
+more command :n:
+more command :p:
+more command :t:
+more command v:
+more command =:
+more command C-g:
+more command q:
+more command :q:
+lex special action |:
+lex special action ECHO:
+lex special action REJECT:
+lex special action BEGIN:
+lex-defined function yylex:
+lex-defined function yymore:
+lex-defined function yyless:
+lex-defined function input:
+lex-defined function unput:
+lex-defined function yywrap:
+lex-defined function yywrap in libl:
+lex-defined function main in libl:
+lex declaration %array:
+lex declaration %pointer:
+lex declaration %{:
+lex declaration }%:
+lex declaration %p:
+lex declaration %n:
+lex declaration %a:
+lex declaration %e:
+lex declaration %k:
+lex declaration %o:
+lex-defined variable yyleng:
+lex-defined variable yytext:
+bc operator *:
+bc operator /:
+bc operator %:
+bc operator =:
+bc operator +=:
+bc operator -=:
+bc operator *=:
+bc operator /=:
+bc operator %=:
+bc operator ^=:
+bc operator ==:
+bc operator <=:
+bc operator >=:
+bc operator !=:
+bc operator <:
+bc operator >:
+bc operator ++:
+bc operator --:
+bc statement define:
+bc statement break:
+bc statement quit:
+bc statement return:
+bc statement for:
+bc statement if:
+bc statement while:
+bc statement auto:
+bc statement { statement-list }:
+bc built-in function length:
+bc built-in function sqrt:
+bc built-in function scale:
+bc built-in named expression ibase:
+bc built-in named expression obase:
+bc built-in named expression scale:
+bc expression ( expression ):
+bc expression - expression:
+bc expression expression + expression:
+bc expression expression - expression:
+bc expression expression ^ expression:
+bc math library function s:
+bc math library function c:
+bc math library function a:
+bc math library function l:
+bc math library function e:
+bc math library function j:
+bc /* */ comments:
+ed address .:
+ed address $:
+ed address number:
+ed address 'mark-name:
+ed address /:
+ed address ?:
+ed address +number:
+ed address -number:
+ed address +:
+ed address -:
+ed address separator ,:
+ed address separator ;:
+ed command a:
+ed command c:
+ed command d:
+ed command e:
+ed command E:
+ed command f:
+ed command g:
+ed command G:
+ed command h:
+ed command H:
+ed command i:
+ed command j:
+ed command k:
+ed command l:
+ed command m:
+ed command n:
+ed command p:
+ed command P:
+ed command q:
+ed command Q:
+ed command r:
+ed command s:
+ed command t:
+ed command u:
+ed command v:
+ed command V:
+ed command w:
+ed command =:
+ed command !:
+ed command <null command>:
+yacc /* */ comments:
+yacc declaration %token:
+yacc declaration %left:
+yacc declaration %right:
+yacc declaration %nonassoc:
+yacc declaration %type:
+yacc declaration %start:
+yacc declaration %union:
+yacc declaration %prec:
+yacc declaration %{:
+yacc declaration %}:
+yacc pseudo-variable $$:
+yacc pseudo-variable $number:
+yacc-defined function yyerror in liby:
+yacc-defined function main in liby:
+yacc special rule error:
+yacc-defined macro YYERROR:
+yacc-defined macro YYRECOVERING:
+yacc-defined macro yyerrok:
+yacc-defined macro YYACCEPT:
+yacc-defined macro YYABORT:
+yacc-defined macro yyclearin:
+yacc-defined function yylex:
+yacc-defined function yyparse:
+yacc-defined type YYSTYPE:
+yacc-defined variable yylval:
+yacc-defined variable yychar:
+yacc-defined variable yydebug:
+(TODO: do this for mailx, make, awk, vi, pax and ex)
+

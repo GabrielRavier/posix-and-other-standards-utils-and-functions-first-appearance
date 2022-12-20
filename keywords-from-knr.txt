@@ -1,0 +1,32 @@
+K&R keywords:
+sizeof: UNIX V5 (1974/06)
+if: UNIX PDP7 (1970/01)
+switch: The support routine for it is in UNIX V1 (1971/11/03) but it wasn't in C proper until UNIX V2 (1972/12/06)
+while: UNIX PDP7 (1970/01)
+do: UNIX V2 (1972/12/06)
+for: UNIX V2 (1972/12/06)
+goto: UNIX PDP7 (1970/01)
+continue: UNIX V2 (1972/12/06)
+break: UNIX V2 (1972/12/06)
+return: UNIX PDP7 (1970/01)
+auto: UNIX PDP7 (1970/01)
+double: UNIX V2 (1972/12/06)
+int: UNIX V2 (1972/12/06)
+struct: UNIX V3 (1973/02)
+long: UNIX V6 (1975/05)
+case: UNIX V2 (1972/12/06)
+register: UNIX V4 (1973/11)
+typedef: PWB/UNIX 1.0 (1977/07/01)
+char: UNIX V2 (1972/12/06)
+extern: UNIX V2 (1972/12/06)
+union: PWB/UNIX 1.0 (1977/07/01)
+float: UNIX V2 (1972/12/06)
+short: UNIX V7 (1979/01)
+unsigned: PWB/UNIX 1.0 (1977/07/01)
+default: UNIX V2 (1972/12/06)
+static: UNIX V2 (1972/12/06)
+else: UNIX PDP7 (1970/01)
+entry:
+asm:
+fortran:
+

@@ -1,0 +1,8 @@
+POSIX Shell reserved words with unspecified results:
+time: 1BSD (1978/02/01)
+coproc: zsh 2.2, found in 386BSD 0.1 (1992/07/14)
+select: UNIX V8 (1985/02)
+function: UNIX V8 (1985/02)
+[[: System V Release 4 (~1990/10/12)
+]]: System V Release 4 (~1990/10/12)
+

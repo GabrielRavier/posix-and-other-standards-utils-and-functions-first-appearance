@@ -1,0 +1,64 @@
+Misc (but common and pseudo-standard) utilities:
+which: 3BSD (1980/03/22)
+domainname: NFSv2 (1985/12)
+getfacl: Solaris 2.5 (~1995/10/30)
+rcp: 4.1cBSD (1983/04/02), first added in a commit from 1982/04/02
+setfacl: Solaris 2.5 (~1995/10/30)
+nologin: 4.4BSD Lite 1 (1994/01/21), first added in a commit from 1992/04/02 
+ping: 4.3BSD (1985/06/06), first added in a commit from 1985/04/29
+ping6: FreeBSD 4.0.0 (2000/03/20), first added in a commit from 1999/12/28, OpenBSD 2.7 (2000/06/15), first added in a commit from 1999/12/11
+reboot: 4BSD (1980/11/16), first added in a commit from 1980/10/10
+w: 3BSD (1980/03/22)
+yes: UNIX V7 (1979/01)
+tset: 1BSD (1978/02/01)
+ftp: BBN TCP Vax-Unix (1981/11/24)
+hexdump: 4.3BSD Reno (1990/07/06), first added in a commit from 1989/08/29
+units: UNIX V6 (1975/05)
+rev: UNIX V6 (1975/05)
+whois: 4.1cBSD (1983/04/02), first added in a commit from 1982/12/31
+finger: 2BSD (1979/05/10)
+indent: 4.1cBSD (1983/04/02), first added in a commit from 1982/10/21
+where: 1BSD (1978/02/01)
+ac: UNIX V5 (1974/06)
+arithmetic: UNIX V7 (1979/01)
+atrun: UNIX V7 (1979/01)
+bcd: UNIX V1 (1971/11/03)
+dump: UNIX V4 (1973/11)
+eqn: UNIX V6 (1975/05)
+f77: UNIX V7 (1979/01)
+graph: UNIX V6 (1975/05)
+lookbib: UNIX V7 (1979/01)
+look: UNIX V7 (1979/01)
+neqn: UNIX V6 (1975/05)
+number: UNIX V7 (1979/01)
+pcc: UNIX V7 (1979/01)
+ptx: UNIX V3 (1973/02)
+quiz: UNIX V6 (1975/05)
+random: UNIX V7 (1979/01)
+refer: UNIX V7 (1979/01)
+sa: UNIX V5 (1974/06)
+spline: UNIX V4 (1973/11)
+tbl: UNIX V6 (1975/05)
+troff: UNIX V4 (1973/11)
+pldd: Solaris 2.5 (~1995/10/30)
+sprof: glibc 2.1 (1999/02/24), first added in a commit from 1998/03/02
+halt: 4BSD (1980/11/16), first added in a commit from 1980/10/10
+colcrt: 1BSD (1978/02/01)
+colrm: 1BSD (1978/02/01)
+column: 4.3BSD Reno (1990/07/06), first added in a commit from 1989/06/25
+getopt: System III (~1980/07/15)
+script: 3BSD (1980/03/22)
+ul: 3BSD (1980/03/22)
+csh: 2BSD (1979/05/10)
+universe:
+acct:
+gmsgfmt:
+xgettext:
+msgmerge:
+bison:
+gawk:
+whoami:
+gcc:
+clang:
+ranlib:
+

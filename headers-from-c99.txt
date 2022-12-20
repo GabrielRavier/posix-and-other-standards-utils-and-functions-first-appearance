@@ -1,0 +1,11 @@
+Headers from C99 (sorted by POSIX man page size):
+iso646.h: GCC 2.7.0 (1995/02/21)
+stdbool.h: EGCS 1.1.0 (1998/09/01), first added in a commit from 1998/05/30
+wctype.h: Dynix 1.2.0 (1990/06/22)
+complex.h: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/08
+inttypes.h: glibc 2.1 (1999/02/04), first added in a commit from 1997/03/09
+wchar.h: OSF/1 1.10 (1992/01/20)
+fenv.h: glibc 2.1 (1999/02/04), first added in a commit from 1997/04/12
+tgmath.h: glibc 2.1 (1999/02/04), first added in a commit from 1997/10/12
+stdint.h: glibc 2.1 (1999/02/04), first added in a commit from 1998/02/15
+

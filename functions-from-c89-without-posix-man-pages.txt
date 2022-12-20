@@ -1,0 +1,7 @@
+Remaining C89 functions (without POSIX man pages):
+offsetof: GCC 1.21 (1988/05/01)
+va_start: UNIX V7 (1979/01)
+va_end: UNIX V7 (1979/01)
+vsprintf: System III (~1980/07/15)
+main: UNIX PDP7 (1970/01)
+
