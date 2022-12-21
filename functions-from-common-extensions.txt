@@ -1789,3 +1789,9 @@ fclonefileat:
 getattrat:
 __get_cpuid:
 __get_cpuid_count:
+vm_region:
+vm_region_64:
+mach_port_deallocate:
+VirtualQuery:
+get_next_area_info:
+
