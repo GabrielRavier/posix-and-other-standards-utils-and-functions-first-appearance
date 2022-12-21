@@ -75,3 +75,4 @@ TAGS:
 /usr/local/include:
 /dev/random:
 /dev/urandom:
+/proc/uptime:

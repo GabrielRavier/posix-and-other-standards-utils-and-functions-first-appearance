@@ -5349,6 +5349,7 @@ c99 -Xpreprocessor:
 c99 -Ym:
 c99 -YP:
 c99 -z:
+c99 -errwarn:
 more -d:
 more --silent:
 more -l:

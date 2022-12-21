@@ -228,7 +228,7 @@ FTW_STOP:
 FTW_SKIP_SUBTREE:
 FTW_SKIP_SIBLINGS:
 statx_timestamp:
-statx, struct:
+struct statx:
 STATX_TYPE:
 STATX_MODE:
 STATX_NLINK:
@@ -4581,3 +4581,39 @@ struct sockaddr_alg:
 __header_inline:
 hrtime_t:
 BOOL_WIDTH:
+UINTMAX_WIDTH:
+TIME_UTC:
+ACL_FIRST_ENTRY:
+ACL_TYPE_EXTENDED:
+__fsword_t:
+statfs::f_type:
+sockaddr::sa_len:
+fsstat::f_fstypename:
+struct vmount:
+statfs::f_fstypename:
+sysinfo::mem_unit:
+utmpx::ut_name:
+utmp::ut_name:
+utmp::ut_pid:
+utmp::ut_id:
+utmp::ut_name:
+utmpx::ut_exit:
+utmp::ut_exit:
+utmpx::ut_exit::ut_exit:
+utmp::ut_exit::ut_exit:
+utmp::ut_exit::e_exit:
+utmpx::ut_exit::ut_termination:
+utmp::ut_exit::ut_exit:
+utmp::ut_exit::e_exit:
+stat::st_birthtimensec:
+stat::st_birthtim:
+timezone_t:
+stat::st_author:
+major_t:
+minor_t:
+statvfs::f_fstypename:
+statvfs::f_type:
+statfs::f_namelen:
+statfs::f_namemax:
+statfs::f_frsize:
+__sys_siglist:
