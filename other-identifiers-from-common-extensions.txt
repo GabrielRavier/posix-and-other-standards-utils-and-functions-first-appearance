@@ -4577,4 +4577,7 @@ WINAPI:
 EXCEPTION_POINTERS:
 LPTOP_LEVEL_EXCEPTION_FILTER:
 __EXTENSIONS__:
-
+struct sockaddr_alg:
+__header_inline:
+hrtime_t:
+BOOL_WIDTH:

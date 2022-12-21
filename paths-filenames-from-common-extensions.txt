@@ -73,4 +73,5 @@ TAGS:
 /proc/<PID>/fd:
 /dev/ptmx:
 /usr/local/include:
-
+/dev/random:
+/dev/urandom:
