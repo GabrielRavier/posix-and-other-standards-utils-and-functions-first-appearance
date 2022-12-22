@@ -1794,4 +1794,11 @@ vm_region_64:
 mach_port_deallocate:
 VirtualQuery:
 get_next_area_info:
-
+S_ISCTG:
+S_ISDOOR:
+S_ISMPB:
+S_ISMPC:
+S_ISMPX:
+S_ISNWK:
+S_ISPORT:
+S_ISWHT:
