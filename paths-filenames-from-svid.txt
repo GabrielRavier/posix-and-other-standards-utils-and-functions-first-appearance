@@ -14,7 +14,6 @@ SVID-specified paths/filenames:
 /dev/ticlts:
 /dev/ticots:
 /dev/ticotsord:
-/usr/lib:
 /usr/lib/locale:
 /usr/lib/locale/C/LC_MESSAGES:
 /etc/default:
@@ -29,7 +28,6 @@ SVID-specified paths/filenames:
 /etc/mnttab:
 /etc/vfstab:
 ~/mbox:
-/usr/bin:
 /usr/bin/sh:
 Makefile:
 makefile:

@@ -96,7 +96,6 @@ ps -o min_flt:
 ps -o mntns:
 ps -o netns:
 ps -o ni:
-ps -o nice:
 ps -o nlwp:
 ps -o numa:
 ps -o nwchan:
@@ -228,33 +227,12 @@ dd .flag=nofollow:
 dd .flag=count_bytes:
 dd .flag=skip_bytes:
 dd .flag=seek_bytes:
-file -e apptype:
-file -e ascii:
-file -e encoding:
-file -e tokens:
-file -e cdf:
-file -e compress:
-file -e csv:
-file -e elf:
-file -e json:
-file -e soft:
-file -e tar:
-file -e text:
-file -P bytes:
-file -P elf_notes:
-file -P elf_phnum:
-file -P elf_shnum:
-file -P encoding:
-file -P indir:
-file -P name:
-file -P regex:
 find expression positional option -daystart:
 find expression positional option -follow:
 find expression positional option -regextype:
 find expression positional option -warn:
 find expression positional option -nowarn:
 find expression primary -d:
-find expression primary -depth:
 find expression primary -files0-from:
 find expression primary -help:
 find expression primary --help:
@@ -362,7 +340,6 @@ c99 file.adb:
 c99 file.s:
 c99 file.S:
 c99 file.sx:
-more command ?:
 more command z:
 more command <SIGINT>:
 more command !:
@@ -488,7 +465,6 @@ bc statement print:
 bc statement continue:
 bc statement halt:
 bc statement limits:
-bc statement quit:
 bc statement warranty:
 bc statement else:
 bc statement .:

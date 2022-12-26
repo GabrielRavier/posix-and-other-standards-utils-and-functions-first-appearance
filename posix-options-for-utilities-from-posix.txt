@@ -124,7 +124,6 @@ nl -l:
 nl -n:
 nl -n ln:
 nl -n rn:
-nl -n rn:
 nl -p:
 nl -s:
 nl -v:

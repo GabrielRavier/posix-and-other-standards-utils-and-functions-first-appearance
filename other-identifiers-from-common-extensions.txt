@@ -358,10 +358,6 @@ REGS_REALLOCATE:
 REGS_FIXED:
 re_registers:
 RE_NREGS:
-CPU_SET:
-CPU_CLR:
-CPU_ISSET:
-CPU_ZERO:
 CPU_COUNT:
 CPU_SET_S:
 CPU_CLR_S:
@@ -620,11 +616,8 @@ REG_EBX:
 REG_EDX:
 REG_ECX:
 REG_EAX:
-REG_TRAPNO:
-REG_ERR:
 REG_EIP:
 REG_CS:
-REG_EFL:
 REG_UESP:
 REG_SS:
 msgbuf:
@@ -653,9 +646,6 @@ pseudo_AF_RTIP:
 pseudo_AF_PIP:
 CMGROUP_MAX:
 cmsgcred:
-MDMBUF:
-FLUSHO:
-PENDIN:
 ONOEOT:
 CRTSCTS:
 CDTRCTS:
@@ -1817,7 +1807,6 @@ BPF_MAP_DELETE_ELEM:
 BPF_MAP_GET_NEXT_KEY:
 BPF_PROG_LOAD:
 union bpf_attr:
-BPF_MAP_CREATE:
 enum bpf_map_type:
 BPF_MAP_TYPE_UNSPEC:
 BPF_MAP_TYPE_HASH:
@@ -1850,17 +1839,9 @@ BPF_MAP_TYPE_RINGBUF:
 BPF_MAP_TYPE_INODE_STORAGE:
 BPF_MAP_TYPE_TASK_STORAGE:
 BPF_MAP_TYPE_BLOOM_FILTER:
-BPF_MAP_LOOKUP_ELEM:
-BPF_MAP_UPDATE_ELEM:
 BPF_ANY:
 BPF_NOEXIST:
 BPF_EXIST:
-BPF_MAP_DELETE_ELEM:
-BPF_MAP_GET_NEXT_KEY:
-BPF_MAP_TYPE_HASH:
-BPF_MAP_TYPE_ARRAY
-BPF_MAP_TYPE_PROG_ARRAY:
-BPF_PROG_LOAD:
 struct bpf_insn:
 BPF_PROG_TYPE_UNSPEC:
 BPF_PROG_TYPE_SOCKET_FILTER:
@@ -4148,7 +4129,6 @@ __EMX__:
 _SEQUENT_:
 DGUX:
 sequent:
-__FreeBSD__:
 __FreeBSD_kernel__:
 __FreeBSD_version:
 __GNU__:
@@ -4254,7 +4234,6 @@ _CPPUNWIND:
 __DLL__:
 __FLAT__:
 __FUNC__:
-_M_IX86:
 __MT__:
 __PASCAL__:
 _PUSHPOP_SUPPORTED:
@@ -4365,7 +4344,6 @@ sigvec::sv_mask:
 FP_NZERO:
 FP_PZERO:
 AUDIT_USER_TTY:
-locale_charset:
 bits16_t:
 u_bits16_t:
 bits32_t:
@@ -4449,7 +4427,6 @@ rusage::ru_nsignals:
 rusage::ru_nvcsw:
 rusage::ru_nivcsw:
 uci_alloc_context:
-stat::st_birthtime:
 stat::st_birthtime:
 stat::st_birthtimespec:
 tm::__tm_gmtoff:
@@ -4596,15 +4573,12 @@ utmpx::ut_name:
 utmp::ut_name:
 utmp::ut_pid:
 utmp::ut_id:
-utmp::ut_name:
 utmpx::ut_exit:
 utmp::ut_exit:
 utmpx::ut_exit::ut_exit:
 utmp::ut_exit::ut_exit:
 utmp::ut_exit::e_exit:
 utmpx::ut_exit::ut_termination:
-utmp::ut_exit::ut_exit:
-utmp::ut_exit::e_exit:
 stat::st_birthtimensec:
 stat::st_birthtim:
 timezone_t:

@@ -780,7 +780,6 @@ chown --quiet:
 chown -v:
 chown --verbose:
 chown --dereference:
-chown -h:
 chown --no-dereference:
 chown --from:
 chown --no-preserve-root:
@@ -1267,7 +1266,6 @@ grep --color=auto:
 grep --colour:
 grep -L:
 grep --files-without-match:
-grep -l:
 grep --files-with-match:
 grep -m:
 grep --max-count:
@@ -1572,7 +1570,6 @@ chmod --verbose:
 chmod --no-preserve-root:
 chmod --preserve-root:
 chmod --reference:
-chmod -R:
 chmod --recursive:
 chmod --help:
 chmod --version:
@@ -1952,17 +1949,6 @@ m4 --freeze-state:
 m4 -R:
 m4 --reload-state:
 m4 -d:
-m4 -d a:
-m4 -d c:
-m4 -d e:
-m4 -d f:
-m4 -d i:
-m4 -d l:
-m4 -d p:
-m4 -d q:
-m4 -d t:
-m4 -d x:
-m4 -d V:
 m4 --debug:
 m4 --debugfile:
 m4 -o:
@@ -2386,7 +2372,6 @@ ls --dereference:
 ls --numeric-uid-gid:
 ls -N:
 ls --literal:
-ls --indicator-style:
 ls --hide-control-chars:
 ls --show-control-chars:
 ls -Q:
@@ -3344,8 +3329,6 @@ c99 -isystem:
 c99 -iwithprefix:
 c99 -iwithprefixbefore:
 c99 -keep_private_externs:
-c99 -l:
-c99 -Ldir:
 c99 -m:
 c99 -M:
 c99 -m1:
@@ -3994,7 +3977,6 @@ c99 -mmcu:
 c99 -MMD:
 c99 -mmedia:
 c99 -mmedium-calls:
-c99 -mmemcpy:
 c99 -mmemcpy-strategy:
 c99 -mmemory-latency:
 c99 -mmemory-model:
@@ -5598,7 +5580,6 @@ make --debug=i:
 make --debug=j:
 make --debug=m:
 make --debug=n:
-make -e:
 make --environment-overrides:
 make -E:
 make --eval:
@@ -5702,7 +5683,6 @@ awk --lint-old:
 awk -V:
 awk --version:
 vi/ex +number:
-vi/ex -t:
 vi/ex -q:
 vi/ex -S:
 vi/ex --cmd:
@@ -5725,7 +5705,6 @@ vi/ex -l:
 vi/ex -m:
 vi/ex -M:
 vi/ex -N:
-vi/ex -n:
 vi/ex -n:
 vi/ex -nb:
 vi/ex -o:

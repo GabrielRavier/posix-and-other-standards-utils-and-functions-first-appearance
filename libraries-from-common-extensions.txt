@@ -54,7 +54,6 @@ libkrb5support:
 libk5crypto:
 libcom_err:
 libffi:
-libgcrypt:
 libidn2:
 libtasn1:
 libunistring:

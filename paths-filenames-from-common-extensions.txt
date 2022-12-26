@@ -76,3 +76,4 @@ TAGS:
 /dev/random:
 /dev/urandom:
 /proc/uptime:
+/proc/sys:

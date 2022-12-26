@@ -63,3 +63,4 @@ clang:
 ranlib:
 realpath:
 perl:
+uuidgen:
