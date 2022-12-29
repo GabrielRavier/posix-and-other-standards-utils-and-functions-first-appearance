@@ -25,4 +25,4 @@ ustat.h:
 widec.h:
 synch.h:
 thread.h:
-
+gnu/stubs-32.h:

@@ -23,7 +23,7 @@ Bash help topics to get all the builtin commands
 Get more shell stuff like related env variables or sub-functions, etc. (do something like grep -r '"[^%,)]' | grep -vE '#include|_\(' on the bash source)
 Windows APIs lol
 GCC attributes, builtins and other extensions
-C2x stuff
+C23 stuff
 Check implementations of POSIX utilities for environment variables and paths
 Add routines/headers/etc. from ncurses as they're likely to be extensions from other stuff (i.e. mark them as "common extensions to curses")
 Add C operators

@@ -5332,6 +5332,8 @@ c99 -Ym:
 c99 -YP:
 c99 -z:
 c99 -errwarn:
+c99 -Wunknown-warning-option:
+c99 -Winitializer-overrides:
 more -d:
 more --silent:
 more -l:

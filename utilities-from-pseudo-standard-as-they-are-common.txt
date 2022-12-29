@@ -64,3 +64,6 @@ ranlib:
 realpath:
 perl:
 uuidgen:
+timeout:
+readelf:
+valgrind:

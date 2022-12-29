@@ -79,3 +79,4 @@ libcharset:
 librichacl:
 libgcc_eh:
 libsmack:
+libdw:

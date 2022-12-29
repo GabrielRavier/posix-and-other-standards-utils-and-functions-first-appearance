@@ -18,4 +18,4 @@ WEOF:
 mbstate_t:
 WCHAR_MAX:
 WCHAR_MIN:
-
+long long:

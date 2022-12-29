@@ -399,7 +399,7 @@ NI_IDN:
 NI_IDN_ALLOW_UNASSIGNED:
 NI_IDN_USE_STD3_ASCII_RULES:
 aioinit:
-mmsghdr:
+struct mmsghdr:
 L_cuserid:
 error_t:
 FE_NOMASK_ENV:
@@ -4633,3 +4633,287 @@ area_info::size:
 area_info::protection
 B_READ_AREA:
 B_WRITE_AREA:
+mallwatch:
+rexecoptions:
+svcauthdes_stats:
+struct sigcontext:
+s390_compat_regs:
+struct ia64_fpreg:
+struct __kernel_sock_timeval:
+struct __kernel_timespec:
+struct __old_kernel_stat:
+struct pt_all_user_regs:
+struct __ptrace_syscall_info:
+struct stat64:
+stat64::st_mtime_nsec:
+stat::st_mtime_nsec:
+struct termios2:
+termios::c_ispeed:
+termios::c_ospeed:
+user_desc::lm:
+siginfo_t::si_addr_lsb:
+siginfo_t::si_lower:
+siginfo_t::si_overrun:
+siginfo_t::si_perf_data:
+siginfo_t::si_perf_flags:
+siginfo_t::si_perf_type:
+siginfo_t::si_pkey:
+siginfo_t::si_syscall:
+siginfo_t::si_timerid:
+siginfo_t::si_upper:
+struct bpf_map_info:
+struct bpf_prog_info:
+bpf_map_info::btf_id:
+bpf_map_info::btf_key_type_id:
+bpf_map_info::btf_value_type_id:
+bpf_map_info::btf_vmlinux_value_type_id:
+bpf_map_info::id:
+bpf_map_info::ifindex:
+bpf_map_info::key_size:
+bpf_map_info::map_extra:
+bpf_map_info::map_flags:
+bpf_map_info::max_entries:
+bpf_map_info::name:
+bpf_map_info::pad:
+bpf_map_info::type:
+bpf_map_info::value_size:
+bpf_prog_info::btf_id:
+bpf_prog_info::created_by_uid:
+bpf_prog_info::func_info:
+bpf_prog_info::func_info_rec_size:
+bpf_prog_info::id:
+bpf_prog_info::ifindex:
+bpf_prog_info::jited_func_lens:
+bpf_prog_info::jited_ksyms:
+bpf_prog_info::jited_line_info:
+bpf_prog_info::jited_line_info_rec_size:
+bpf_prog_info::jited_prog_insns:
+bpf_prog_info::jited_prog_len:
+bpf_prog_info::line_info:
+bpf_prog_info::line_info_rec_size:
+bpf_prog_info::load_time:
+bpf_prog_info::map_ids:
+bpf_prog_info::name:
+bpf_prog_info::nr_func_info:
+bpf_prog_info::nr_jited_func_lens:
+bpf_prog_info::nr_jited_ksyms:
+bpf_prog_info::nr_jited_line_info:
+bpf_prog_info::nr_line_info:
+bpf_prog_info::nr_map_ids:
+bpf_prog_info::nr_prog_tags:
+bpf_prog_info::prog_tags:
+bpf_prog_info::recursion_misses:
+bpf_prog_info::run_cnt:
+bpf_prog_info::run_time_ns:
+bpf_prog_info::tag:
+bpf_prog_info::type:
+bpf_prog_info::verified_insns:
+bpf_prog_info::xlated_prog_insns:
+bpf_prog_info::xlated_prog_len:
+bpf_attr::attach_bpf_fd:
+bpf_attr::attach_btf_id:
+bpf_attr::attach_flags:
+bpf_attr::attach_prog_fd:
+bpf_attr::attach_type:
+bpf_attr::batch.count:
+bpf_attr::batch.elem_flags:
+bpf_attr::batch.flags:
+bpf_attr::batch.in_batch:
+bpf_attr::batch.keys:
+bpf_attr::batch.map_fd:
+bpf_attr::batch.out_batch:
+bpf_attr::batch.values:
+bpf_attr::bpf_fd:
+bpf_attr::btf:
+bpf_attr::btf_fd:
+bpf_attr::btf_id:
+bpf_attr::btf_key_type_id:
+bpf_attr::btf_log_buf:
+bpf_attr::btf_log_level:
+bpf_attr::btf_log_size:
+bpf_attr::btf_size:
+bpf_attr::btf_value_type_id:
+bpf_attr::btf_vmlinux_value_type_id:
+bpf_attr::dummy:
+bpf_attr::expected_attach_type:
+bpf_attr::fd_array:
+bpf_attr::file_flags:
+bpf_attr::flags:
+bpf_attr::func_info:
+bpf_attr::func_info_cnt:
+bpf_attr::func_info_rec_size:
+bpf_attr::info.bpf_fd:
+bpf_attr::info.info:
+bpf_attr::info.info_len:
+bpf_attr::inner_map_fd:
+bpf_attr::insn_cnt:
+bpf_attr::insns:
+bpf_attr::kern_version:
+bpf_attr::key:
+bpf_attr::key_size:
+bpf_attr::license:
+bpf_attr::line_info:
+bpf_attr::line_info_cnt:
+bpf_attr::line_info_rec_size:
+bpf_attr::link_create.addrs:
+bpf_attr::link_create.attach_type:
+bpf_attr::link_create.bpf_cookie:
+bpf_attr::link_create.cnt:
+bpf_attr::link_create.cookies:
+bpf_attr::link_create.flags:
+bpf_attr::link_create.iter_info:
+bpf_attr::link_create.iter_info_len:
+bpf_attr::link_create.kprobe_multi:
+bpf_attr::link_create.perf_event:
+bpf_attr::link_create.prog_fd:
+bpf_attr::link_create.syms:
+bpf_attr::link_create.target_btf_id:
+bpf_attr::link_create.target_fd:
+bpf_attr::link_id:
+bpf_attr::link_update.flags:
+bpf_attr::link_update.link_fd:
+bpf_attr::link_update.new_prog_fd:
+bpf_attr::link_update.old_prog_fd:
+bpf_attr::log_buf:
+bpf_attr::log_level:
+bpf_attr::log_size:
+bpf_attr::map_extra:
+bpf_attr::map_fd:
+bpf_attr::map_flags:
+bpf_attr::map_id:
+bpf_attr::map_ifindex:
+bpf_attr::map_name:
+bpf_attr::map_type:
+bpf_attr::max_entries:
+bpf_attr::next_id:
+bpf_attr::next_key:
+bpf_attr::numa_node:
+bpf_attr::open_flags:
+bpf_attr::pad:
+bpf_attr::pathname:
+bpf_attr::prog_btf_fd:
+bpf_attr::prog_flags:
+bpf_attr::prog_id:
+bpf_attr::prog_ifindex:
+bpf_attr::prog_name:
+bpf_attr::prog_type:
+bpf_attr::query.attach_flags:
+bpf_attr::query.attach_type:
+bpf_attr::query.prog_cnt:
+bpf_attr::query.prog_ids:
+bpf_attr::query.query_flags:
+bpf_attr::query.target_fd:
+bpf_attr::raw_tracepoint.name:
+bpf_attr::raw_tracepoint.prog_fd:
+bpf_attr::replace_bpf_fd:
+bpf_attr::start_id:
+bpf_attr::target_fd:
+bpf_attr::task_fd_query.buf:
+bpf_attr::task_fd_query.buf_len:
+bpf_attr::task_fd_query.fd:
+bpf_attr::task_fd_query.fd_type:
+bpf_attr::task_fd_query.flags:
+bpf_attr::task_fd_query.pid:
+bpf_attr::task_fd_query.probe_addr:
+bpf_attr::task_fd_query.probe_offset:
+bpf_attr::task_fd_query.prog_id:
+bpf_attr::test.batch_size:
+bpf_attr::test.cpu:
+bpf_attr::test.ctx_in:
+bpf_attr::test.ctx_out:
+bpf_attr::test.ctx_size_in:
+bpf_attr::test.ctx_size_out:
+bpf_attr::test.data_in:
+bpf_attr::test.data_out:
+bpf_attr::test.data_size_in:
+bpf_attr::test.data_size_out:
+bpf_attr::test.duration:
+bpf_attr::test.flags:
+bpf_attr::test.prog_fd:
+bpf_attr::test.repeat:
+bpf_attr::test.retval:
+bpf_attr::value:
+bpf_attr::value_size:
+struct kbdiacrsuc:
+struct kbdiacruc:
+struct kvm_cpuid2:
+struct kvm_regs:
+struct kvm_sregs:
+struct kvm_userspace_memory_region:
+struct sockaddr_alg_new:
+struct sockaddr_hci:
+sockaddr_hci::hci_channel:
+struct sockaddr_l2:
+sockaddr_l2::l2_bdattr_type:
+struct sockaddr_vm:
+sockaddr_vm::svm_flags:
+struct sockaddr_xdp:
+struct statfs64:
+statfs64::f_flags:
+statfs64::f_frsize:
+statfs64::f_fsid:
+statfs64::f_fsid::__val:
+statfs64::f_fsid::val:
+statfs::f_fsid:
+statfs::f_fsid::__val:
+statfs::f_fsid::val:
+struct tcp_diag_md5sig:
+struct __aio_sigset:
+iocb::aio_flags:
+iocb::aio_rw_flags:
+IEEE802154_ADDR_LONG:
+IEEE802154_ADDR_NONE:
+IEEE802154_ADDR_SHORT:
+LO_FLAGS_AUTOCLEAR:
+LO_FLAGS_DIRECT_IO:
+LO_FLAGS_PARTSCAN:
+LO_FLAGS_READ_ONLY:
+LO_FLAGS_USE_AOPS:
+NFEA_ACTIVITY_NOTIFY:
+NFEA_DONT_REFRESH:
+NFEA_UNSPEC:
+PTP_PF_EXTTS:
+PTP_PF_NONE:
+PTP_PF_PEROUT:
+PTP_PF_PHYSYNC:
+TCA_ACT_COOKIE:
+TCA_ACT_FLAGS:
+TCA_ACT_HW_STATS:
+TCA_ACT_INDEX:
+TCA_ACT_KIND:
+TCA_ACT_OPTIONS:
+TCA_ACT_PAD:
+TCA_ACT_STATS:
+TCA_ACT_UNSPEC:
+XFRM_MSG_ACQUIRE:
+XFRM_MSG_ALLOCSPI:
+XFRM_MSG_DELPOLICY:
+XFRM_MSG_DELSA:
+XFRM_MSG_EXPIRE:
+XFRM_MSG_FLUSHPOLICY:
+XFRM_MSG_FLUSHSA:
+XFRM_MSG_GETAE:
+XFRM_MSG_GETDEFAULT:
+XFRM_MSG_GETPOLICY:
+XFRM_MSG_GETSA:
+XFRM_MSG_GETSADINFO:
+XFRM_MSG_GETSPDINFO:
+XFRM_MSG_MAPPING:
+XFRM_MSG_MIGRATE:
+XFRM_MSG_NEWAE:
+XFRM_MSG_NEWPOLICY:
+XFRM_MSG_NEWSA:
+XFRM_MSG_NEWSADINFO:
+XFRM_MSG_NEWSPDINFO:
+XFRM_MSG_POLEXPIRE:
+XFRM_MSG_REPORT:
+XFRM_MSG_SETDEFAULT:
+XFRM_MSG_UPDPOLICY:
+XFRM_MSG_UPDSA:
+P_PIDFD:
+TCA_ACT_IN_HW_COUNT:
+TCA_ACT_USED_HW_STATS:
+kernel_long_t:
+struct i64_i32:
+struct msqid64_ds:
+SA_RESTORER:
