@@ -6,4 +6,3 @@ _Generic: Clang 3.0.0 (2011/11/17), first added in a commit from 2011/04/15
 _Noreturn: GCC 4.7.0 (2012/03/22), first added in a commit from 2011/08/18, sdcc (2011/12/22), cparser 0.9.14 (2012/11/16), first added in a commit from 2011/07/09
 _Static_assert: GCC 4.6.0 (2011/03/25), first added in a commit from 2010/05/16
 _Thread_local: cparser 0.9.14 (2012/11/16), first added in a commit from 2012/07/09
-

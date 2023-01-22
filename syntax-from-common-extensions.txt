@@ -1,0 +1,8 @@
+Common extensions (syntax-related stuff):
+({ (statement and declarations in expression):
+&& (labels as values):
+?: (conditionals with omitted operands):
+T arr[0] (arrays of length zero):
+struct empty {}; (structures with no members):
+#define macro(args...) (macros with a variable number of arguments but pre-C99):
+case LOW ... HIGH (case ranges):

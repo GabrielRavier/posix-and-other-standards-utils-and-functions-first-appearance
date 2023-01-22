@@ -222,3 +222,15 @@ bluetooth/bluetooth.h:
 elfutils/libdwfl.h:
 demangle.h:
 libiberty/demangle.h:
+linux/sockios.h:
+linux/if.h:
+immintrin.h:
+libunwind.h:
+linux/input.h:
+amo.h:
+gpm.h:
+pcre2posix.h:
+pcreposix.h:
+ttyent.h:
+typeinfo:
+iostream:

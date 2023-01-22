@@ -1,6 +1,625 @@
 Common extensions (attributes):
 mode:
+mode -> byte:
+mode -> __byte__:
+mode -> word:
+mode -> __word__:
+mode -> pointer:
+mode -> __pointer__:
+mode -> BI:
+mode -> QI:
+mode -> HI:
+mode -> PSI:
+mode -> SI:
+mode -> PDI:
+mode -> DI:
+mode -> TI:
+mode -> OI:
+mode -> XI:
+mode -> QF:
+mode -> HF:
+mode -> TQF:
+mode -> SF:
+mode -> DF:
+mode -> XF:
+mode -> SD:
+mode -> DD:
+mode -> TD:
+mode -> TF:
+mode -> QQ:
+mode -> HQ:
+mode -> SQ:
+mode -> DQ:
+mode -> TQ:
+mode -> UQQ:
+mode -> UHQ:
+mode -> USQ:
+mode -> UDQ:
+mode -> UTQ:
+mode -> HA:
+mode -> SA:
+mode -> DA:
+mode -> TA:
+mode -> UHA:
+mode -> USA:
+mode -> UDA:
+mode -> UTA:
+mode -> CC:
+mode -> BLK:
+mode -> VOID:
+mode -> QC:
+mode -> HC:
+mode -> SC:
+mode -> DC:
+mode -> XC:
+mode -> TC:
+mode -> CQI:
+mode -> CHI:
+mode -> CSI:
+mode -> CDI:
+mode -> CTI:
+mode -> COI:
+mode -> CPSI:
+mode -> BND32:
+mode -> BND64:
 may_alias:
 alias:
 optimize:
-
+access:
+access -> read_only:
+access -> read_write:
+access -> write_only:
+access -> none:
+aligned:
+alloc_align:
+alloc_size:
+always_inline:
+artificial:
+assume_aligned:
+cold:
+const:
+constructor:
+destructor:
+copy:
+deprecated:
+unavailable:
+error:
+warning:
+externally_visible:
+flatten:
+format:
+format -> printf:
+format -> scanf:
+format -> strftime:
+format -> gnu_printf:
+format -> gnu_scanf:
+format -> gnu_strftime:
+format -> strfmon:
+format -> __printf__:
+format -> __scanf__:
+format -> __strftime__:
+format -> __strfmon__:
+format -> ms_printf:
+format -> ms_scanf:
+format -> ms_strftime:
+format_arg:
+gnu_inline:
+hot:
+ifunc:
+interrupt:
+interrupt_handler:
+leaf:
+malloc:
+no_icf:
+no_instrument_function:
+no_profile_instrument_function:
+no_reorder:
+no_sanitize:
+no_sanitize_address:
+no_address_safety_analysis:
+no_sanitize_thread:
+no_sanitize_undefined:
+no_sanitize_coverage:
+no_split_stack:
+no_stack_limit:
+noclone:
+noinline:
+noipa:
+nonnull:
+noplt:
+noreturn:
+nothrow:
+patchable_function_entry:
+pure:
+returns_nonnull:
+returns_twice:
+section:
+sentinel:
+simd:
+simd -> notinbranch:
+simd -> inbranch:
+stack_protect:
+no_stack_protector:
+target:
+symver:
+tainted_args:
+target_clones:
+unused:
+used:
+retain:
+visibility:
+visibility -> default:
+visibility -> hidden:
+visibility -> internal:
+visibility -> protected:
+warn_unused_result:
+weak:
+weakref:
+zero_call_used_regs:
+zero_call_used_regs -> skip:
+zero_call_used_regs -> used:
+zero_call_used_regs -> used-gpr:
+zero_call_used_regs -> used-arg:
+zero_call_used_regs -> used-gpr-arg:
+zero_call_used_regs -> all:
+zero_call_used_regs -> all-gpr:
+zero_call_used_regs -> all-arg:
+zero_call_used_regs -> all-gpr-arg:
+target -> general-regs-only:
+target -> fix-cortex-a53-835769:
+target -> cmodel:
+target -> strict-align:
+target -> no-strict-align:
+target -> omit-leaf-frame-pointer:
+target -> tls-dialect:
+target -> arch:
+target -> tune:
+target -> cpu:
+target -> sign-return-address:
+target -> branch-protection:
+target -> outline-atomics:
+amdgpu_hsa_kernel:
+amdgpu_hsa_kernel -> private_segment_buffer:
+amdgpu_hsa_kernel -> dispatch_ptr:
+amdgpu_hsa_kernel -> queue_ptr:
+amdgpu_hsa_kernel -> kernarg_segment_ptr:
+amdgpu_hsa_kernel -> dispatch_id:
+amdgpu_hsa_kernel -> flat_scratch_init:
+amdgpu_hsa_kernel -> private_segment_size:
+amdgpu_hsa_kernel -> grid_workgroup_count_X:
+amdgpu_hsa_kernel -> grid_workgroup_count_Y:
+amdgpu_hsa_kernel -> grid_workgroup_count_Z:
+amdgpu_hsa_kernel -> workgroup_id_X:
+amdgpu_hsa_kernel -> workgroup_id_Y:
+amdgpu_hsa_kernel -> workgroup_id_Z:
+amdgpu_hsa_kernel -> workgroup_info:
+amdgpu_hsa_kernel -> private_segment_wave_offset:
+amdgpu_hsa_kernel -> work_item_id_X:
+amdgpu_hsa_kernel -> work_item_id_Y:
+amdgpu_hsa_kernel -> work_item_id_Z:
+long_call:
+medium_call:
+short_call:
+jli_always:
+jli_fixed:
+secure_call:
+naked:
+isr:
+pcs:
+target -> thumb:
+target -> arm:
+target -> fpu:
+no_gccisr:
+OS_main:
+OS_task:
+signal:
+exception_handler:
+kspisusp:
+l1_text:
+l2:
+longcall:
+shortcall:
+nesting:
+nmi_handler:
+saveall:
+kernel_helper:
+disinterrupt:
+forwarder_section:
+interrupt -> reset:
+interrupt -> software_exception:
+interrupt -> page_miss:
+interrupt -> timer0:
+interrupt -> timer1:
+interrupt -> message:
+interrupt -> dma0:
+interrupt -> dma1:
+interrupt -> wand:
+interrupt -> swi:
+function_vector:
+syscall_linkage:
+version_id:
+bank_switch:
+fast_interrupt:
+model:
+model -> small:
+model -> medium:
+model -> large:
+interrupt_thread:
+near:
+far:
+vliw:
+save_volatiles:
+break_handler:
+dllexport:
+dllimport:
+interrupt -> use_shadow_register_set:
+interrupt -> keep_interrupts_masked:
+interrupt -> use_debug_exception_return:
+mips16:
+nomips16:
+micromips:
+nomicromips:
+nocompression:
+critical:
+reentrant:
+wakeup:
+lower:
+upper:
+either:
+exception:
+nested:
+not_nested:
+nested_ready:
+save_all:
+partial_save:
+reset:
+nmi:
+warm:
+target -> custom-INSN:
+target -> no-custom-INSN:
+target -> custom-fpu-cfg:
+kernel:
+target -> altivec:
+target -> no-altivec:
+target -> cmpb:
+target -> no-cmpb:
+target -> dlmzb:
+target -> no-dlmzb:
+target -> fprnd:
+target -> no-fprnd:
+target -> hard-dfp:
+target -> no-hard-dfp:
+target -> isel:
+target -> no-isel:
+target -> mfcrf:
+target -> no-mfcrf:
+target -> mulhw:
+target -> no-mulhw:
+target -> multiple:
+target -> no-multiple:
+target -> update:
+targer -> no-update:
+target -> popcntb:
+target -> no-popcntb:
+target -> popcntd:
+target -> no-popcntd:
+target -> powerpc-gfxopt:
+target -> no-powerpc-gfxopt:
+target -> powerpc-gpopt:
+target -> no-powerpc-gpopt:
+target -> recip-precision:
+target -> no-recip-precision:
+target -> string:
+target -> no-string:
+target -> vsx:
+target -> no-vsx:
+target -> friz:
+target -> no-friz:
+target -> avoid-indexed-addresses:
+target -> no-avoid-indexed-addresses:
+target -> paired:
+target -> no-paired:
+target -> longcall:
+target -> no-longcall:
+interrupt -> user:
+interrupt -> supervisor:
+interrupt -> machine:
+brk_interrupt:
+vector:
+hotpatch:
+target -> stack-guard:
+target -> stack-size:
+target -> branch-cost:
+target -> warn-framesize:
+target -> backchain:
+target -> no-backchain:
+target -> hard-float:
+target -> soft-float:
+target -> htm:
+target -> no-htm:
+target -> vx:
+target -> no-vx:
+target -> packed-stack:
+target -> no-packed-stack:
+target -> small-exec:
+target -> no-small-exec:
+target -> mvcle:
+target -> no-mvcle:
+target -> warn-dynamicstack:
+target -> no-warn-dynamicstack:
+nosave_low_regs:
+renesas:
+resbank:
+sp_switch:
+trap_exit:
+trapa_handler:
+cdecl:
+fastcall:
+thiscall:
+ms_abi:
+sysv_abi:
+callee_pop_aggregate_return:
+ms_hook_prologue:
+regparm:
+sseregparm:
+force_align_arg_pointer:
+stdcall:
+no_caller_saved_registers:
+target -> 3dnow:
+target -> no-3dnow:
+target -> 3dnowa:
+target -> no-3dnowa:
+target -> abm:
+target -> no-abm:
+target -> adx:
+target -> no-adx:
+target -> aes:
+target -> no-aes:
+target -> avx:
+target -> no-avx:
+target -> avx2:
+target -> no-avx2:
+target -> avx5124fmaps:
+target -> no-avx5124fmaps:
+target -> avx5124vnniw:
+target -> no-avx5124vnniw:
+target -> avx512bitalg:
+target -> no-avx512bitalg:
+target -> avx512bw:
+target -> no-avx512bw:
+target -> avx512cd:
+target -> no-avx512cd:
+target -> avx512dq:
+target -> no-avx512dq:
+target -> avx512er:
+target -> no-avx512er:
+target -> avx512f:
+target -> no-avx512f:
+target -> avx512ifma:
+target -> no-avx512ifma:
+target -> avx512pf:
+target -> no-avx512pf:
+target -> avx512vbmi:
+target -> no-avx512vbmi:
+target -> avx512vbmi2:
+target -> no-avx512vbmi2:
+target -> avx512vl:
+target -> no-avx512vl:
+target -> avx512vnni:
+target -> no-avx512vnni:
+target -> avx512vpopcntdq:
+target -> no-avx512vpopcntdq:
+target -> bmi:
+target -> no-bmi:
+target -> bmi2:
+target -> no-bmi2:
+target -> cldemote:
+target -> no-cldemote:
+target -> clflushopt:
+target -> no-clflushopt:
+target -> clwb:
+target -> no-clwb:
+target -> clzero:
+target -> no-clzero:
+target -> crc32:
+target -> no-crc32:
+target -> cx16:
+target -> no-cx16:
+target -> default:
+target -> f16c:
+target -> no-f16c:
+target -> fma:
+target -> no-fma:
+target -> fma4:
+target -> no-fma4:
+target -> fsgsbase:
+target -> no-fsgsbase:
+target -> fxsr:
+target -> no-fxsr:
+target -> gfni:
+target -> no-gfni:
+target -> hle:
+target -> no-hle:
+target -> lwp:
+target -> no-lwp:
+target -> lzcnt:
+target -> no-lzcnt:
+target -> mmx:
+target -> no-mmx:
+target -> movbe:
+target -> no-movbe:
+target -> movdir64b:
+target -> no-movdir64b:
+target -> movdiri:
+target -> no-movdiri:
+target -> mwait:
+target -> no-mwait:
+target -> mwaitx:
+target -> no-mwaitx:
+target -> pclmul:
+target -> no-pclmul:
+target -> pconfig:
+target -> no-pconfig:
+target -> pku:
+target -> no-pku:
+target -> popcnt:
+target -> no-popcnt:
+target -> prefetchwt1:
+target -> no-prefetchwt1:
+target -> prfchw:
+target -> no-prfchw:
+target -> ptwrite:
+target -> no-ptwrite:
+target -> rdpid:
+target -> no-rdpid:
+target -> rdrnd:
+target -> no-rdrnd:
+target -> rdseed:
+target -> no-rdseed:
+target -> rtm:
+target -> no-rtm:
+target -> sahf:
+target -> no-sahf:
+target -> sgx:
+target -> no-sgx:
+target -> sha:
+target -> no-sha:
+target -> shstk:
+target -> no-shstk:
+target -> sse:
+target -> no-sse:
+target -> sse2:
+target -> no-sse2:
+target -> sse3:
+target -> no-sse3:
+target -> sse4:
+target -> no-sse4:
+target -> sse4.1:
+target -> no-sse4.1:
+target -> sse4.2:
+target -> no-sse4.2:
+target -> sse4a:
+target -> no-sse4a:
+target -> ssse3:
+target -> no-ssse3:
+target -> tbm:
+target -> no-tbm:
+target -> vaes:
+target -> no-vaes:
+target -> vpclmulqdq:
+target -> no-vpclmulqdq:
+target -> waitpkg:
+target -> no-waitpkg:
+target -> wbnoinvd:
+target -> no-wbnoinvd:
+target -> xop:
+target -> no-xop:
+target -> xsave:
+target -> no-xsave:
+target -> xsavec:
+target -> no-xsavec:
+target -> xsaveopt:
+target -> no-xsaveopt:
+target -> xsaves:
+target -> no-xsaves:
+target -> amx-tile:
+target -> no-amx-tile:
+target -> amx-int8:
+target -> no-amx-int8:
+target -> amx-bf16:
+target -> no-amx-bf16:
+target -> uintr:
+target -> no-uintr:
+target -> hreset:
+target -> no-hreset:
+target -> kl:
+target -> no-kl:
+target -> widekl:
+target -> no-widekl:
+target -> amxvnni:
+target -> no-amxvnni:
+target -> cld:
+target -> no-cld:
+target -> fancy-math-387:
+target -> no-fancy-math-387:
+target -> ieee-fp:
+target -> no-ieee-fp:
+target -> inline-all-stringops:
+target -> no-inline-all-stringops:
+target -> inline-stringops-dynamically:
+target -> no-inline-stringops-dynamically:
+target -> align-stringops:
+target -> no-align-stringops:
+target -> recip:
+target -> no-recip:
+target -> fpmath:
+target -> prefer-vector-width:
+target -> prefer-vector-width -> none:
+target -> prefer-vector-width -> 128:
+target -> prefer-vector-width -> 256:
+target -> prefer-vector-width -> 512:
+indirect_branch:
+function_return:
+nocf_check:
+cf_check:
+indirect_return:
+fentry_name:
+fentry_section:
+nodirect_extern_access:
+warn_if_not_aligned:
+cleanup:
+common:
+nocommon:
+nonstring:
+packed:
+tls_model:
+tls_model -> global-dynamic:
+tls_model -> local-dynamic:
+tls_model -> initial-exec:
+tls_model -> local-exec:
+uninitialized:
+vector_size:
+noinit:
+persistent:
+objc_nullability:
+objc_nullability -> unspecified:
+objc_nullability -> nonnull:
+objc_nullability -> nullable:
+objc_nullability -> resettable:
+aux:
+progmem:
+io:
+io_low:
+address:
+absdata:
+l1_data:
+l1_data_A:
+l1_data_B:
+eightbit_data:
+tiny_data:
+based:
+tiny:
+cb:
+selectany:
+shared:
+altivec:
+ms_struct:
+gcc_struct:
+saddr:
+sda:
+tda:
+zda:
+below100:
+designated_init:
+scalar_storage_order:
+scalar_storage_order -> big-endian:
+scalar_storage_order -> little-endian:
+transparent_union:
+objc_root_class:
+uncached:
+notshared:
+preserve_access_index:
+fallthrough:
+abi_tag:
+init_priority:
+warn_unused:

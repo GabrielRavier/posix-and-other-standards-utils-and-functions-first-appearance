@@ -1,0 +1,3 @@
+C character set (additions from common extensions):
+$:
+\e:

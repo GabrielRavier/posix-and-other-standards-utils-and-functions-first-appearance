@@ -294,4 +294,4 @@ lconv::int_p_sign_posn:
 lconv::int_n_sign_posn:
 __func__:
 __STDC_VERSION__:
-
+__VA_ARGS__:

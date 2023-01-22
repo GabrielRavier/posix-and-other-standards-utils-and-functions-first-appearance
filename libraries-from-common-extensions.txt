@@ -80,3 +80,4 @@ librichacl:
 libgcc_eh:
 libsmack:
 libdw:
+libdir:

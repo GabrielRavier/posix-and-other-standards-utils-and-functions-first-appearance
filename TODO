@@ -27,3 +27,4 @@ C23 stuff
 Check implementations of POSIX utilities for environment variables and paths
 Add routines/headers/etc. from ncurses as they're likely to be extensions from other stuff (i.e. mark them as "common extensions to curses")
 Add C operators
+Add C++ stuff

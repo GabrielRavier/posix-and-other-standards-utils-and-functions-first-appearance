@@ -67,3 +67,16 @@ uuidgen:
 timeout:
 readelf:
 valgrind:
+netstat:
+ldconfig:
+mawk:
+cppcheck:
+exctags:
+etags:
+exetags:
+PCRE2regcomp:
+infocmp:
+gnat:
+gnatmake:
+gprconfig:
+gprbuild:

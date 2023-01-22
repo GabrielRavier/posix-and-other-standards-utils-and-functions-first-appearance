@@ -1,4 +1,4 @@
-C character set:
+C character set (as defined by C89):
 A: UNIX V2 (1972/12/12)
 B: UNIX V2 (1972/12/12)
 C: UNIX V2 (1972/12/12)

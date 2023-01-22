@@ -1,0 +1,5 @@
+C99 (syntax-related stuff):
+long long:
+Variable-length automatic arrays:
+#define macro(args, ...) (macros with a variable number of arguments):
+// (C++ style comments):
