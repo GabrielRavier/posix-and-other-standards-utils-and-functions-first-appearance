@@ -80,3 +80,6 @@ gnat:
 gnatmake:
 gprconfig:
 gprbuild:
+doxygen:
+pod2man:
+pandoc:

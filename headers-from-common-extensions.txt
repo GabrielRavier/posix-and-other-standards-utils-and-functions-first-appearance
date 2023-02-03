@@ -234,3 +234,14 @@ pcreposix.h:
 ttyent.h:
 typeinfo:
 iostream:
+altivec.h:
+arm_acle.h:
+arm_neon.h:
+emmintrin.h:
+intrin.h:
+mbarrier.h:
+mmintrin.h:
+spe.h:
+valgrind/valgrind.h:
+x86intrin.h:
+xmmintrin.h:

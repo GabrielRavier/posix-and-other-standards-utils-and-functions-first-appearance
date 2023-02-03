@@ -623,3 +623,6 @@ fallthrough:
 abi_tag:
 init_priority:
 warn_unused:
+diagnose_if:
+format_wprintf:
+format_wscanf:
