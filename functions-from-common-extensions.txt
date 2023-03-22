@@ -6618,3 +6618,4 @@ __vsscanf_chk:
 timingsafe_bcmp:
 timingsafe_memcmp:
 vsnwprintf:
+getvfsstat:
