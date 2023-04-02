@@ -83,3 +83,6 @@ gprbuild:
 doxygen:
 pod2man:
 pandoc:
+asciidoctor:
+asciidoctor-pdf:
+pkg-config:

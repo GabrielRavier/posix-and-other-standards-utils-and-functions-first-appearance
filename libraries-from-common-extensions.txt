@@ -81,3 +81,5 @@ libgcc_eh:
 libsmack:
 libdw:
 libdir:
+libaio:
+libnuma:

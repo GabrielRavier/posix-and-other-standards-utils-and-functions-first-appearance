@@ -5232,3 +5232,37 @@ BY_HANDLE_FILE_INFORMATION::nFileSizeLow:
 _LARGE_FILES:
 struct dirent64:
 _PATH_TTYS:
+IFLA_NET_NS_PID:
+struct fanotify_event_info_fid:
+fanotify_event_info_fid::fsid:
+fanotify_event_info_fid::fsid::__val:
+perf_event_mmap_page::aux_head:
+statx::stx_mnt_id:
+enum kcmp_type:
+struct af_alg_iv:
+struct fanotify_event_info_error:
+struct fanotify_event_info_header:
+struct fanotify_event_info_pidfd:
+struct fs_quota_statv:
+struct futex_waitv:
+struct if_nextdqblk:
+struct ipc64_perm:
+struct __kernel_itimerspec:
+struct __kernel_old_itimerspec:
+struct __kernel_old_timespec:
+struct __kernel_old_timeval:
+struct loop_config:
+struct rlimit64:
+struct semid64_ds:
+struct shmid64_ds:
+struct tpacket_req3:
+struct xt_entry_match:
+struct xt_entry_target:
+struct user_regs_struct:
+struct pt_regs:
+struct fsverity_enable_arg:
+signalfd_siginfo::ssi_signo:
+struct taskstats:
+taskstats::freepages_count:
+taskstats::nvcsw:
+taskstats::read_bytes:

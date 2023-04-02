@@ -6619,3 +6619,13 @@ timingsafe_bcmp:
 timingsafe_memcmp:
 vsnwprintf:
 getvfsstat:
+io_pgetevents:
+io_uring_enter:
+io_uring_register:
+io_uring_setup:
+move_mount:
+quotactl_fd:
+cap_compare:
+SHA1_Init:
+io_set_eventfd:
+numa_available:
