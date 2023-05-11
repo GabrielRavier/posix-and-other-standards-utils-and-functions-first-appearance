@@ -86,3 +86,10 @@ pandoc:
 asciidoctor:
 asciidoctor-pdf:
 pkg-config:
+gnumake:
+gmake:
+gnumsgfmt:
+makeinfo:
+python3:
+bash:
+install-info:

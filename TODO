@@ -14,6 +14,7 @@ __USE_FORTIFY_LEVEL
 
 Missing stuff:
 Try to look at stuff from https://pubs.opengroup.org/onlinepubs/7908799/index.html (should have all the utilities from there already in the list though)
+https://www.sco.com/developers/devspecs/ for SVID
 https://uclibc.org/docs/ for SVID stuff (all the sysv-interface stuff is done afaik)
 https://bitsavers.computerhistory.org/pdf/xOpen/X_Open_Portability_Guide_1985/ for XPG (doesn't seem like we have much missing from there... probably still a few things, though.)
 https://www.pathname.com/fhs/ for Filesystem Hierarchy Standard

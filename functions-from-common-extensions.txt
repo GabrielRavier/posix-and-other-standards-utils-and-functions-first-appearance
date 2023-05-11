@@ -6629,3 +6629,6 @@ cap_compare:
 SHA1_Init:
 io_set_eventfd:
 numa_available:
+RtlGenRandom:
+XkbQueryExtension:
+wl_display_connect:

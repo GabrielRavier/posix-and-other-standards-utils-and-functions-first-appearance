@@ -1,0 +1,6 @@
+Common options for "Unsorted utilities now removed/POSIX rationale mentions them":
+ld -z execstack:
+ld -z start-stop-gc:
+ld --depaudit:
+ld -z pack-relative-relocs:
+ld --no-dynamic-linker:

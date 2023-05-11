@@ -5266,3 +5266,10 @@ struct taskstats:
 taskstats::freepages_count:
 taskstats::nvcsw:
 taskstats::read_bytes:
+stat::st_flags:
+struct option:
+KERN_ARND:
+SYS_getrandom:
+SIOCGIFCONF:
+STT_GNU_IFUNC:
+

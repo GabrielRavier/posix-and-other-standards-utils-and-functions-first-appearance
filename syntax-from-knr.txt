@@ -1,0 +1,15 @@
+K&R syntax:
+||:
+&&:
+<:
+* operator:
+* unary operator;
+* (pointer declaration):
++:
+-:
+/:
+. operator:
+-> operator:
+! unary operator:
+++ unary prefix operator:
+++ unary suffix operator:

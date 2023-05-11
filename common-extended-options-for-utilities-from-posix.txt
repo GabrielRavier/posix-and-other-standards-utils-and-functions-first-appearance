@@ -5334,6 +5334,11 @@ c99 -z:
 c99 -errwarn:
 c99 -Wunknown-warning-option:
 c99 -Winitializer-overrides:
+c99 -fno-stack-protector:
+c99 -fno-optimize-sibling-calls:
+c99 -mtls-dialect=gnu2:
+c99 -ffp-contract=off:
+c99 -fno-tree-loop-distribute-patterns:
 more -d:
 more --silent:
 more -l:

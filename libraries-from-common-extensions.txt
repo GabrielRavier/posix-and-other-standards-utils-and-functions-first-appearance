@@ -83,3 +83,5 @@ libdw:
 libdir:
 libaio:
 libnuma:
+libtirpc:
+libgd:
