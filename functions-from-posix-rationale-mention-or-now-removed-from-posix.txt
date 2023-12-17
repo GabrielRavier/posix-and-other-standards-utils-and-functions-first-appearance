@@ -1,4 +1,4 @@
-Unsorted functions/identifiers now removed/POSIX rationale mentions them (unsorted because I can't know the man page size):
+Unsorted functions now removed/POSIX rationale mentions them (unsorted because I can't know the man page size):
 bcmp:
 bcopy:
 bsd_signal:
@@ -11,7 +11,6 @@ getcontext:
 gethostbyaddr:
 gethostbyname:
 getwd:
-h_errno:
 index:
 makecontext:
 mktemp:
@@ -46,13 +45,3 @@ step:
 ttyslot:
 valloc:
 wait3:
-loc1:
-loc2:
-__loc1:
-locs:
-HOST_NOT_FOUND:
-TRY_AGAIN:
-NO_RECOVERY:
-NO_DATA:
-sockaddr_in::sin_zero
-

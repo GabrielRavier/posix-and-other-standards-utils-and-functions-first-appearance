@@ -1,9 +1,9 @@
 C character set (as defined by C89):
-A: UNIX V2 (1972/12/12)
-B: UNIX V2 (1972/12/12)
-C: UNIX V2 (1972/12/12)
-D: UNIX V2 (1972/12/12)
-E: UNIX V2 (1972/12/12)
+A:
+B:
+C:
+D:
+E:
 F: UNIX V2 (1972/12/12)
 G: UNIX V2 (1972/12/12)
 H: UNIX V2 (1972/12/12)
@@ -96,4 +96,3 @@ _: UNIX V2 (1972/12/12)
 \a: Emacs contains an occurence of it in a C file from 4.3BSD from 1986/02/28, but I can't find anything that indicates a particular implementation of it before GCC 0.9 (1987/03/22)
 \b: UNIX V5 (1974/06)
 \r: UNIX V2 (1972/12/12)
-

@@ -5272,4 +5272,39 @@ KERN_ARND:
 SYS_getrandom:
 SIOCGIFCONF:
 STT_GNU_IFUNC:
-
+DATETIME:
+USHORT:
+DATETIME::day:
+DATETIME::month:
+DATETIME::year:
+TIOCSTI:
+struct r_debug:
+r_debug::r_version:
+r_debug::r_map:
+r_debug::r_brk:
+r_debug::r_state:
+RT_CONSISTENT:
+RT_ADD:
+RT_DELETE:
+r_debug::r_ldbase:
+_r_debug:
+struct r_debug_extended:
+r_debug_extended::base:
+r_debug_extended::r_next:
+_DYNAMIC:
+struct link_map:
+KERN_PROC:
+KERN_PROG_ARGS:
+W_PSPROC:
+_SVID_:
+_LIB_VERSION_TYPE:
+_XOPEN_:
+_IEEE_:
+_POSIX_:
+_ISOC_:
+u_int64_t:
+_TIME_BITS:
+__TIMESIZE:
+__libc_version:
+__libc_release:
+_fmode:

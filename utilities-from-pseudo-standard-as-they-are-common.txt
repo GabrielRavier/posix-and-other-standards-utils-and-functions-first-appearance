@@ -93,3 +93,9 @@ makeinfo:
 python3:
 bash:
 install-info:
+dwz:
+objcopy:
+dsymutil:
+xz:
+javac:
+capsh:

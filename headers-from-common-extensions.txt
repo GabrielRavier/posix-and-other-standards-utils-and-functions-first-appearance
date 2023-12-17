@@ -286,3 +286,13 @@ numa.h:
 numaif.h:
 linux/signalfd.h:
 linux/taskstats.h:
+unwind.h:
+endian.h:
+link.h:
+sys/gmon_out.h:
+sys/single_threaded.h:
+gnu/libc-version.h:
+gnu/lib-names.h:
+gnu/stubs.h:
+sys/vm86.h:
+a.out.h:

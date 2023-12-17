@@ -1,0 +1,11 @@
+Unsorted identifiers now removed/POSIX rationale mentions them (unsorted because I can't know the man page size):
+HOST_NOT_FOUND:
+TRY_AGAIN:
+NO_RECOVERY:
+NO_DATA:
+sockaddr_in::sin_zero:
+loc1:
+loc2:
+__loc1:
+locs:
+h_errno:

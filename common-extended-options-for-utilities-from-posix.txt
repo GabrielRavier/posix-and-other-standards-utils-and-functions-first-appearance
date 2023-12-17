@@ -3069,6 +3069,7 @@ c99 -fprofile-values:
 c99 -fptm:
 c99 -fpu:
 c99 -frandom-seed:
+c99 -frandom-seed=string:
 c99 -freciprocal-math:
 c99 -frecord-gcc-switches:
 c99 -free:

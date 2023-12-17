@@ -633,5 +633,6 @@ yacc-defined variable yy::position::line:
 yacc-defined variable yy::position::column:
 yacc-defined variable yy::location::begin
 yacc-defined variable yy::location::end:
+make special built-in target name .KEEP_STATE:
 (TODO: do this for mailx, make, awk, vi, pax and ex)
 

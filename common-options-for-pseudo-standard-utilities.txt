@@ -1,2 +1,3 @@
 Common options for "Misc (but common and pseudo-standard) utilities":
 bison -y:
+makeinfo --split-size:

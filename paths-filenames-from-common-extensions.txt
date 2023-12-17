@@ -77,3 +77,7 @@ TAGS:
 /dev/urandom:
 /proc/uptime:
 /proc/sys:
+GNUmakefile:
+/etc/inittab:
+/etc/ttys:
+/etc/utmp:

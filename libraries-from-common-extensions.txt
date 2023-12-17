@@ -85,3 +85,5 @@ libaio:
 libnuma:
 libtirpc:
 libgd:
+libdld:
+libdebuginfod:
