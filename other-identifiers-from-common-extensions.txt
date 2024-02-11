@@ -304,7 +304,7 @@ GROUPING:
 YESSTR:
 NOSTR:
 NL_LOCALE_NAME:
-qelem:
+struct qelem:
 struct hsearch_data:
 _POSIX_FD_SETSIZE:
 _POSIX_QLIMIT:
@@ -5308,3 +5308,14 @@ __TIMESIZE:
 __libc_version:
 __libc_release:
 _fmode:
+DOMAIN:
+SING:
+OVERFLOW:
+UNDERFLOW:
+TLOSS:
+PLOSS:
+HUGE:
+exception::type:
+exception::arg1:
+exception::arg2:
+exception::retval:

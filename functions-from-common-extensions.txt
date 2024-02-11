@@ -6706,3 +6706,6 @@ _control87:
 _controlfp:
 __control87_2:
 _controlfp_s:
+post_form:
+unpost_form:
+fesetexcept:
