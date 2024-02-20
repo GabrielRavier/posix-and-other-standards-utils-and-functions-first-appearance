@@ -74,7 +74,6 @@ cppcheck:
 exctags:
 etags:
 exetags:
-PCRE2regcomp:
 infocmp:
 gnat:
 gnatmake:
@@ -100,3 +99,25 @@ xz:
 javac:
 capsh:
 makewhatis:
+ctfconvert:
+git:
+(TODO: git subcommands)
+cvs:
+(TODO: cvs subcommands)
+svn:
+(TODO: svn subcommands)
+bk:
+(TODO: bk subcommands)
+darcs:
+(TODO: darcs subcommands)
+bzr:
+(TODO: bzr subcommands)
+mtn:
+(TODO: mtn subcommands)
+mtn-cleanup:
+mtnopt:
+hg:
+(TODO: hg subcommands)
+hg-ssh:
+fossil:
+(TODO: fossil subcommands)
