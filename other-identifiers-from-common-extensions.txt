@@ -5319,3 +5319,19 @@ exception::type:
 exception::arg1:
 exception::arg2:
 exception::retval:
+struct rseq:
+struct rseq_cs:
+__rseq_offset:
+__rseq_size:
+__rseq_flags:
+RSEQ_SIG:
+rseq_cs::version:
+enum rseq_cs_flags:
+rseq_cs::flags:
+rseq_cs::start_ip:
+rseq_cs::post_commit_offset:
+rseq_cs::abort_ip:
+rseq::cpu_id_start:
+rseq::cpu_id:
+rseq::rseq_cs:
+rseq::flags:
