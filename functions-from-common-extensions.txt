@@ -6716,3 +6716,9 @@ _wtoi_l:
 _tstoi:
 _ttoi:
 __p__fmode:
+_invalid_parameter:
+_invalid_parameter_noinfo:
+_invalid_parameter_noìnfo_noreturn:
+_invoke_watson:
+__fastfail:
+strcasestr_l:
