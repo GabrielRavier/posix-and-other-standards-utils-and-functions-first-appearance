@@ -6722,3 +6722,10 @@ _invalid_parameter_noìnfo_noreturn:
 _invoke_watson:
 __fastfail:
 strcasestr_l:
+crypt_rn:
+crypt_ra:
+crypt_gensalt:
+crypt_gensalt_rn:
+crypt_gensalt_ra:
+crypt_preferred_method:
+crypt_checksalt:
