@@ -121,3 +121,4 @@ hg:
 hg-ssh:
 fossil:
 (TODO: fossil subcommands)
+catman:
