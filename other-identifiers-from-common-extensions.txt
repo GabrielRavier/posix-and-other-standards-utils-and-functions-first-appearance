@@ -5335,3 +5335,32 @@ rseq::cpu_id_start:
 rseq::cpu_id:
 rseq::rseq_cs:
 rseq::flags:
+bool_t:
+xdrproc_t:
+XDR:
+resultproc_t:
+AUTH:
+CLIENT:
+CLSET_TIMEOUT:
+CLGET_TIMEOUT:
+CLGET_SERVER_ADDR:
+CLSET_RETRY_TIMEOUT:
+CLGET_RETRY_TIMEOUT:
+struct rpc_err:
+enum clnt_stat:
+struct pmaplist:
+struct rpc_createerr:
+SVCXPRT:
+svc_fds:
+struct svc_req:
+enum auth_stat:
+struct accepted_reply:
+struct authunix_parms:
+struct rpc_msg:
+struct opaque_auth:
+struct pmap:
+struct rejected_reply:
+struct rpc_msg:
+enum_t:
+enum xdr_op:
+struct xdr_discrim:
