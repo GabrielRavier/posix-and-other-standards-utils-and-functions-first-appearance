@@ -5364,3 +5364,6 @@ struct rpc_msg:
 enum_t:
 enum xdr_op:
 struct xdr_discrim:
+_CS_GNU_LIBC_VERSION:
+_CS_GNU_LIBPTHREAD_VERSION:
+c_plusplus:
