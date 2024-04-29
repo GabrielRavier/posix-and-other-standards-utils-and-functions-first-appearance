@@ -5367,3 +5367,21 @@ struct xdr_discrim:
 _CS_GNU_LIBC_VERSION:
 _CS_GNU_LIBPTHREAD_VERSION:
 c_plusplus:
+struct _ftsent:
+FTSENT::fts_info:
+FTSENT::fts_accpath:
+FTSENT::fts_path:
+FTSENT::fts_pathlen:
+FTSENT::fts_name:
+FTSENT::fts_namelen:
+FTSENT::fts_level:
+FTSENT::fts_errno:
+FTSENT::fts_number:
+FTSENT::fts_pointer:
+FTSENT::fts_parent:
+FTSENT::fts_link:
+FTSENT::fts_cycle:
+FTSENT::fts_statp:
+SIGIOT:
+Elf32_Sym:
+Elf64_Sym:
