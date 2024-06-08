@@ -5394,3 +5394,4 @@ BCACHE:
 printf_arginfo_size_function:
 printf_va_arg_function:
 printf_function:
+struct printf_info:
