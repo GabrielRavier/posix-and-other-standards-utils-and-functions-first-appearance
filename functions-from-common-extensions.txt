@@ -6778,3 +6778,6 @@ _wcslwr_s:
 _wcslwr_s_l:
 _tcslwr_s:
 _tcslwr_s_l:
+la_pltenter:
+la_i86_gnu_pltenter:
+la_i86_gnu_pltexit:

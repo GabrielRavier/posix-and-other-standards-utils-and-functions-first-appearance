@@ -5385,3 +5385,12 @@ FTSENT::fts_statp:
 SIGIOT:
 Elf32_Sym:
 Elf64_Sym:
+Elf32_Addr:
+La_i86_regs:
+La_i86_retval:
+DCACHE:
+ICACHE:
+BCACHE:
+printf_arginfo_size_function:
+printf_va_arg_function:
+printf_function:

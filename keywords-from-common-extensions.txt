@@ -40,3 +40,4 @@ __asm__:
 __extension__:
 __thread:
 __restrict:
+__builtin_alignof:
