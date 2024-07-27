@@ -296,3 +296,6 @@ gnu/lib-names.h:
 gnu/stubs.h:
 sys/vm86.h:
 a.out.h:
+error.h:
+random.h:
+sys/mntio.h:

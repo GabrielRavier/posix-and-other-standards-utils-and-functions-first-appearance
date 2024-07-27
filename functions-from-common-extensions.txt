@@ -6781,3 +6781,6 @@ _tcslwr_s_l:
 la_pltenter:
 la_i86_gnu_pltenter:
 la_i86_gnu_pltexit:
+unreachable:
+setfilecon:
+mbswidth:

@@ -5395,3 +5395,7 @@ printf_arginfo_size_function:
 printf_va_arg_function:
 printf_function:
 struct printf_info:
+char8_t:
+ptrdiff_t:
+__STDC_VERSION_STDDEF_H__:
+useconds_t:

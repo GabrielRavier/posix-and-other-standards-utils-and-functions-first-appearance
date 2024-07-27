@@ -41,3 +41,4 @@ __extension__:
 __thread:
 __restrict:
 __builtin_alignof:
+__inline:

@@ -2497,6 +2497,7 @@ c99 -dylinker_install_name:
 c99 -dynamic:
 c99 -dynamiclib:
 c99 -e:
+c99 -E:
 c99 -EB:
 c99 -EL:
 c99 --entry:
