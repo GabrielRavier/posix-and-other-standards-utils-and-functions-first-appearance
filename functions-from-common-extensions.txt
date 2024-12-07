@@ -6784,3 +6784,6 @@ la_i86_gnu_pltexit:
 unreachable:
 setfilecon:
 mbswidth:
+tr_break:
+_rpc_dtablesize:
+cachestat:
