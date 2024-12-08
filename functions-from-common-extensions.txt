@@ -6787,3 +6787,5 @@ mbswidth:
 tr_break:
 _rpc_dtablesize:
 cachestat:
+listmount:
+statmount:
