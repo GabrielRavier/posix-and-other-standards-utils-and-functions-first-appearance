@@ -299,3 +299,4 @@ a.out.h:
 error.h:
 random.h:
 sys/mntio.h:
+zircon/syscalls.h:
