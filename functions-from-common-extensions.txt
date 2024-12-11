@@ -6890,4 +6890,6 @@ zx_cprng_draw:
 zx_cprng_add_entropy:
 zx_status_t:
 pselect6:
-
+io_uring_enter2:
+rt_sigtimedwait:
+WSACleanup:
