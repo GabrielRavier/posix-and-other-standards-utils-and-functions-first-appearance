@@ -42,3 +42,14 @@ __thread:
 __restrict:
 __builtin_alignof:
 __inline:
+__declspec:
+@autoreleasepool:
+__bridge:
+@interface:
+@property:
+instancetype:
+nonatomic:
+strong:
+readwrite:
+@end:
+__block:

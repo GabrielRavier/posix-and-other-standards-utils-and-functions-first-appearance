@@ -1,0 +1,16 @@
+Common pragmas:
+pointer_size:
+pointer_size save:
+pointer_size 32:
+pointer_size restore:
+align:
+align 64:
+align -> one:
+align -> two80:
+message:
+message disable:
+message -> DOLLARID:
+aux:
+aux -> parm:
+aux -> modify:
+aux -> exact:

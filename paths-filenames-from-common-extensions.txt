@@ -81,3 +81,13 @@ GNUmakefile:
 /etc/inittab:
 /etc/ttys:
 /etc/utmp:
+/proc/<PID>/as:
+/proc/<PID>/stat:
+/dev/dlpi:
+/bin:
+/usr/convex:
+/usr/ucb:
+/proc/cpuinfo:
+/hw:
+/hw/cpunum:
+/proc/<PID>/auxv:

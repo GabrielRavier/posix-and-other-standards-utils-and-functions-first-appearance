@@ -123,3 +123,14 @@ fossil:
 (TODO: fossil subcommands)
 catman:
 faketime:
+lsdev:
+lsattr:
+lslpp:
+getsysinfo:
+hostinfo:
+arch:
+oslevel:
+emcc:
+nmake:
+mms:
+hw:

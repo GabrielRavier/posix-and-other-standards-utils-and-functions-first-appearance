@@ -5969,3 +5969,4 @@ stap:
 cs:
 stosm:
 lgf:
+cpucfg:

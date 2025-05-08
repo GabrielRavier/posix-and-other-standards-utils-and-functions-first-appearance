@@ -1,3 +1,14 @@
 Common options for "Misc (but common and pseudo-standard) utilities":
 bison -y:
 makeinfo --split-size:
+lsdev -C:
+lsdev -c:
+lsdev -S:
+lsattr -E:
+lsattr -l:
+lslpp -L:
+lslpp -q:
+lslpp -c:
+getsysinfo -f:
+arch -k:
+hw -r:
