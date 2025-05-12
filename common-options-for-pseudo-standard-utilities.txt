@@ -12,3 +12,4 @@ lslpp -c:
 getsysinfo -f:
 arch -k:
 hw -r:
+mcs --version:

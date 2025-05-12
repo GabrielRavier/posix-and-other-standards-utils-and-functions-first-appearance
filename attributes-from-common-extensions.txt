@@ -626,3 +626,4 @@ warn_unused:
 diagnose_if:
 format_wprintf:
 format_wscanf:
+__counted_by__:

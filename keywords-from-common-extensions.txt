@@ -53,3 +53,14 @@ strong:
 readwrite:
 @end:
 __block:
+@implementation:
+@synthesize:
+@selector:
+@retained:
+@available:
+@try:
+@catch:
+_System:
+__RESTRICT:
+_Restrict:
+

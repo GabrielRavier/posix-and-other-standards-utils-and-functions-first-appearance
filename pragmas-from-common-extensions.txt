@@ -14,3 +14,7 @@ aux:
 aux -> parm:
 aux -> modify:
 aux -> exact:
+convert:
+convert -> ISO8859-1:
+data_seg:
+data_seg -> .data2:

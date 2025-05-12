@@ -104,3 +104,17 @@ dxgidebug:
 libdxvk_d3d12:
 libdxvk_dxgi:
 libdxvk_dxgidebug:
+api-ms-win-core-wow64-l1-1-1:
+msvcrt:
+ucrtbase:
+vcruntime:
+vcruntimed:
+libvcruntime:
+libvcruntimed:
+libucrt:
+libucrtd:
+ucrt:
+ucrtd:
+vccorlib:
+vcamp140:
+vcomp140:

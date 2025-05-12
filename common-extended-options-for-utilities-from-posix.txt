@@ -5754,3 +5754,5 @@ vi/ex --version:
 cc -fp-model:
 cc -fp-model strict:
 cc -nodtk:
+cc -mt:
+cc -belf:

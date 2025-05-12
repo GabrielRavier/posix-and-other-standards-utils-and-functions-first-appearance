@@ -1,0 +1,4 @@
+Common extensions (declspecs):
+allocator:
+noalias:
+restrict:

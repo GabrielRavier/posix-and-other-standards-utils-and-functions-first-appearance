@@ -5,3 +5,5 @@ ld --depaudit:
 ld -z pack-relative-relocs:
 ld --no-dynamic-linker:
 ld --compress-debug-sections:
+ld -v:
+ld --version:
