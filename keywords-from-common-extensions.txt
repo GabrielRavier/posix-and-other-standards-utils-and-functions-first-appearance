@@ -63,4 +63,15 @@ __block:
 _System:
 __RESTRICT:
 _Restrict:
-
+__try:
+__except:
+__fastcall:
+__asm:
+__pragma:
+_Pragma:
+far:
+__near:
+__cdecl:
+__huge:
+__pascal:
+_asm:

@@ -1,629 +1,634 @@
 Common extensions (attributes):
-mode:
-mode -> byte:
-mode -> __byte__:
-mode -> word:
-mode -> __word__:
-mode -> pointer:
-mode -> __pointer__:
-mode -> BI:
-mode -> QI:
-mode -> HI:
-mode -> PSI:
-mode -> SI:
-mode -> PDI:
-mode -> DI:
-mode -> TI:
-mode -> OI:
-mode -> XI:
-mode -> QF:
-mode -> HF:
-mode -> TQF:
-mode -> SF:
-mode -> DF:
-mode -> XF:
-mode -> SD:
-mode -> DD:
-mode -> TD:
-mode -> TF:
-mode -> QQ:
-mode -> HQ:
-mode -> SQ:
-mode -> DQ:
-mode -> TQ:
-mode -> UQQ:
-mode -> UHQ:
-mode -> USQ:
-mode -> UDQ:
-mode -> UTQ:
-mode -> HA:
-mode -> SA:
-mode -> DA:
-mode -> TA:
-mode -> UHA:
-mode -> USA:
-mode -> UDA:
-mode -> UTA:
-mode -> CC:
-mode -> BLK:
-mode -> VOID:
-mode -> QC:
-mode -> HC:
-mode -> SC:
-mode -> DC:
-mode -> XC:
-mode -> TC:
-mode -> CQI:
-mode -> CHI:
-mode -> CSI:
-mode -> CDI:
-mode -> CTI:
-mode -> COI:
-mode -> CPSI:
-mode -> BND32:
-mode -> BND64:
-may_alias:
-alias:
-optimize:
-access:
-access -> read_only:
-access -> read_write:
-access -> write_only:
-access -> none:
-aligned:
-alloc_align:
-alloc_size:
-always_inline:
-artificial:
-assume_aligned:
-cold:
-const:
-constructor:
-destructor:
-copy:
-deprecated:
-unavailable:
-error:
-warning:
-externally_visible:
-flatten:
-format:
-format -> printf:
-format -> scanf:
-format -> strftime:
-format -> gnu_printf:
-format -> gnu_scanf:
-format -> gnu_strftime:
-format -> strfmon:
-format -> __printf__:
-format -> __scanf__:
-format -> __strftime__:
-format -> __strfmon__:
-format -> ms_printf:
-format -> ms_scanf:
-format -> ms_strftime:
-format_arg:
-gnu_inline:
-hot:
-ifunc:
-interrupt:
-interrupt_handler:
-leaf:
-malloc:
-no_icf:
-no_instrument_function:
-no_profile_instrument_function:
-no_reorder:
-no_sanitize:
-no_sanitize_address:
-no_address_safety_analysis:
-no_sanitize_thread:
-no_sanitize_undefined:
-no_sanitize_coverage:
-no_split_stack:
-no_stack_limit:
-noclone:
-noinline:
-noipa:
-nonnull:
-noplt:
-noreturn:
-nothrow:
-patchable_function_entry:
-pure:
-returns_nonnull:
-returns_twice:
-section:
-sentinel:
-simd:
-simd -> notinbranch:
-simd -> inbranch:
-stack_protect:
-no_stack_protector:
-target:
-symver:
-tainted_args:
-target_clones:
-unused:
-used:
-retain:
-visibility:
-visibility -> default:
-visibility -> hidden:
-visibility -> internal:
-visibility -> protected:
-warn_unused_result:
-weak:
-weakref:
-zero_call_used_regs:
-zero_call_used_regs -> skip:
-zero_call_used_regs -> used:
-zero_call_used_regs -> used-gpr:
-zero_call_used_regs -> used-arg:
-zero_call_used_regs -> used-gpr-arg:
-zero_call_used_regs -> all:
-zero_call_used_regs -> all-gpr:
-zero_call_used_regs -> all-arg:
-zero_call_used_regs -> all-gpr-arg:
-target -> general-regs-only:
-target -> fix-cortex-a53-835769:
-target -> cmodel:
-target -> strict-align:
-target -> no-strict-align:
-target -> omit-leaf-frame-pointer:
-target -> tls-dialect:
-target -> arch:
-target -> tune:
-target -> cpu:
-target -> sign-return-address:
-target -> branch-protection:
-target -> outline-atomics:
-amdgpu_hsa_kernel:
-amdgpu_hsa_kernel -> private_segment_buffer:
-amdgpu_hsa_kernel -> dispatch_ptr:
-amdgpu_hsa_kernel -> queue_ptr:
-amdgpu_hsa_kernel -> kernarg_segment_ptr:
-amdgpu_hsa_kernel -> dispatch_id:
-amdgpu_hsa_kernel -> flat_scratch_init:
-amdgpu_hsa_kernel -> private_segment_size:
-amdgpu_hsa_kernel -> grid_workgroup_count_X:
-amdgpu_hsa_kernel -> grid_workgroup_count_Y:
-amdgpu_hsa_kernel -> grid_workgroup_count_Z:
-amdgpu_hsa_kernel -> workgroup_id_X:
-amdgpu_hsa_kernel -> workgroup_id_Y:
-amdgpu_hsa_kernel -> workgroup_id_Z:
-amdgpu_hsa_kernel -> workgroup_info:
-amdgpu_hsa_kernel -> private_segment_wave_offset:
-amdgpu_hsa_kernel -> work_item_id_X:
-amdgpu_hsa_kernel -> work_item_id_Y:
-amdgpu_hsa_kernel -> work_item_id_Z:
-long_call:
-medium_call:
-short_call:
-jli_always:
-jli_fixed:
-secure_call:
-naked:
-isr:
-pcs:
-target -> thumb:
-target -> arm:
-target -> fpu:
-no_gccisr:
-OS_main:
-OS_task:
-signal:
-exception_handler:
-kspisusp:
-l1_text:
-l2:
-longcall:
-shortcall:
-nesting:
-nmi_handler:
-saveall:
-kernel_helper:
-disinterrupt:
-forwarder_section:
-interrupt -> reset:
-interrupt -> software_exception:
-interrupt -> page_miss:
-interrupt -> timer0:
-interrupt -> timer1:
-interrupt -> message:
-interrupt -> dma0:
-interrupt -> dma1:
-interrupt -> wand:
-interrupt -> swi:
-function_vector:
-syscall_linkage:
-version_id:
-bank_switch:
-fast_interrupt:
-model:
-model -> small:
-model -> medium:
-model -> large:
-interrupt_thread:
-near:
-far:
-vliw:
-save_volatiles:
-break_handler:
-dllexport:
-dllimport:
-interrupt -> use_shadow_register_set:
-interrupt -> keep_interrupts_masked:
-interrupt -> use_debug_exception_return:
-mips16:
-nomips16:
-micromips:
-nomicromips:
-nocompression:
-critical:
-reentrant:
-wakeup:
-lower:
-upper:
-either:
-exception:
-nested:
-not_nested:
-nested_ready:
-save_all:
-partial_save:
-reset:
-nmi:
-warm:
-target -> custom-INSN:
-target -> no-custom-INSN:
-target -> custom-fpu-cfg:
-kernel:
-target -> altivec:
-target -> no-altivec:
-target -> cmpb:
-target -> no-cmpb:
-target -> dlmzb:
-target -> no-dlmzb:
-target -> fprnd:
-target -> no-fprnd:
-target -> hard-dfp:
-target -> no-hard-dfp:
-target -> isel:
-target -> no-isel:
-target -> mfcrf:
-target -> no-mfcrf:
-target -> mulhw:
-target -> no-mulhw:
-target -> multiple:
-target -> no-multiple:
-target -> update:
-targer -> no-update:
-target -> popcntb:
-target -> no-popcntb:
-target -> popcntd:
-target -> no-popcntd:
-target -> powerpc-gfxopt:
-target -> no-powerpc-gfxopt:
-target -> powerpc-gpopt:
-target -> no-powerpc-gpopt:
-target -> recip-precision:
-target -> no-recip-precision:
-target -> string:
-target -> no-string:
-target -> vsx:
-target -> no-vsx:
-target -> friz:
-target -> no-friz:
-target -> avoid-indexed-addresses:
-target -> no-avoid-indexed-addresses:
-target -> paired:
-target -> no-paired:
-target -> longcall:
-target -> no-longcall:
-interrupt -> user:
-interrupt -> supervisor:
-interrupt -> machine:
-brk_interrupt:
-vector:
-hotpatch:
-target -> stack-guard:
-target -> stack-size:
-target -> branch-cost:
-target -> warn-framesize:
-target -> backchain:
-target -> no-backchain:
-target -> hard-float:
-target -> soft-float:
-target -> htm:
-target -> no-htm:
-target -> vx:
-target -> no-vx:
-target -> packed-stack:
-target -> no-packed-stack:
-target -> small-exec:
-target -> no-small-exec:
-target -> mvcle:
-target -> no-mvcle:
-target -> warn-dynamicstack:
-target -> no-warn-dynamicstack:
-nosave_low_regs:
-renesas:
-resbank:
-sp_switch:
-trap_exit:
-trapa_handler:
-cdecl:
-fastcall:
-thiscall:
-ms_abi:
-sysv_abi:
-callee_pop_aggregate_return:
-ms_hook_prologue:
-regparm:
-sseregparm:
-force_align_arg_pointer:
-stdcall:
-no_caller_saved_registers:
-target -> 3dnow:
-target -> no-3dnow:
-target -> 3dnowa:
-target -> no-3dnowa:
-target -> abm:
-target -> no-abm:
-target -> adx:
-target -> no-adx:
-target -> aes:
-target -> no-aes:
-target -> avx:
-target -> no-avx:
-target -> avx2:
-target -> no-avx2:
-target -> avx5124fmaps:
-target -> no-avx5124fmaps:
-target -> avx5124vnniw:
-target -> no-avx5124vnniw:
-target -> avx512bitalg:
-target -> no-avx512bitalg:
-target -> avx512bw:
-target -> no-avx512bw:
-target -> avx512cd:
-target -> no-avx512cd:
-target -> avx512dq:
-target -> no-avx512dq:
-target -> avx512er:
-target -> no-avx512er:
-target -> avx512f:
-target -> no-avx512f:
-target -> avx512ifma:
-target -> no-avx512ifma:
-target -> avx512pf:
-target -> no-avx512pf:
-target -> avx512vbmi:
-target -> no-avx512vbmi:
-target -> avx512vbmi2:
-target -> no-avx512vbmi2:
-target -> avx512vl:
-target -> no-avx512vl:
-target -> avx512vnni:
-target -> no-avx512vnni:
-target -> avx512vpopcntdq:
-target -> no-avx512vpopcntdq:
-target -> bmi:
-target -> no-bmi:
-target -> bmi2:
-target -> no-bmi2:
-target -> cldemote:
-target -> no-cldemote:
-target -> clflushopt:
-target -> no-clflushopt:
-target -> clwb:
-target -> no-clwb:
-target -> clzero:
-target -> no-clzero:
-target -> crc32:
-target -> no-crc32:
-target -> cx16:
-target -> no-cx16:
-target -> default:
-target -> f16c:
-target -> no-f16c:
-target -> fma:
-target -> no-fma:
-target -> fma4:
-target -> no-fma4:
-target -> fsgsbase:
-target -> no-fsgsbase:
-target -> fxsr:
-target -> no-fxsr:
-target -> gfni:
-target -> no-gfni:
-target -> hle:
-target -> no-hle:
-target -> lwp:
-target -> no-lwp:
-target -> lzcnt:
-target -> no-lzcnt:
-target -> mmx:
-target -> no-mmx:
-target -> movbe:
-target -> no-movbe:
-target -> movdir64b:
-target -> no-movdir64b:
-target -> movdiri:
-target -> no-movdiri:
-target -> mwait:
-target -> no-mwait:
-target -> mwaitx:
-target -> no-mwaitx:
-target -> pclmul:
-target -> no-pclmul:
-target -> pconfig:
-target -> no-pconfig:
-target -> pku:
-target -> no-pku:
-target -> popcnt:
-target -> no-popcnt:
-target -> prefetchwt1:
-target -> no-prefetchwt1:
-target -> prfchw:
-target -> no-prfchw:
-target -> ptwrite:
-target -> no-ptwrite:
-target -> rdpid:
-target -> no-rdpid:
-target -> rdrnd:
-target -> no-rdrnd:
-target -> rdseed:
-target -> no-rdseed:
-target -> rtm:
-target -> no-rtm:
-target -> sahf:
-target -> no-sahf:
-target -> sgx:
-target -> no-sgx:
-target -> sha:
-target -> no-sha:
-target -> shstk:
-target -> no-shstk:
-target -> sse:
-target -> no-sse:
-target -> sse2:
-target -> no-sse2:
-target -> sse3:
-target -> no-sse3:
-target -> sse4:
-target -> no-sse4:
-target -> sse4.1:
-target -> no-sse4.1:
-target -> sse4.2:
-target -> no-sse4.2:
-target -> sse4a:
-target -> no-sse4a:
-target -> ssse3:
-target -> no-ssse3:
-target -> tbm:
-target -> no-tbm:
-target -> vaes:
-target -> no-vaes:
-target -> vpclmulqdq:
-target -> no-vpclmulqdq:
-target -> waitpkg:
-target -> no-waitpkg:
-target -> wbnoinvd:
-target -> no-wbnoinvd:
-target -> xop:
-target -> no-xop:
-target -> xsave:
-target -> no-xsave:
-target -> xsavec:
-target -> no-xsavec:
-target -> xsaveopt:
-target -> no-xsaveopt:
-target -> xsaves:
-target -> no-xsaves:
-target -> amx-tile:
-target -> no-amx-tile:
-target -> amx-int8:
-target -> no-amx-int8:
-target -> amx-bf16:
-target -> no-amx-bf16:
-target -> uintr:
-target -> no-uintr:
-target -> hreset:
-target -> no-hreset:
-target -> kl:
-target -> no-kl:
-target -> widekl:
-target -> no-widekl:
-target -> amxvnni:
-target -> no-amxvnni:
-target -> cld:
-target -> no-cld:
-target -> fancy-math-387:
-target -> no-fancy-math-387:
-target -> ieee-fp:
-target -> no-ieee-fp:
-target -> inline-all-stringops:
-target -> no-inline-all-stringops:
-target -> inline-stringops-dynamically:
-target -> no-inline-stringops-dynamically:
-target -> align-stringops:
-target -> no-align-stringops:
-target -> recip:
-target -> no-recip:
-target -> fpmath:
-target -> prefer-vector-width:
-target -> prefer-vector-width -> none:
-target -> prefer-vector-width -> 128:
-target -> prefer-vector-width -> 256:
-target -> prefer-vector-width -> 512:
-indirect_branch:
-function_return:
-nocf_check:
-cf_check:
-indirect_return:
-fentry_name:
-fentry_section:
-nodirect_extern_access:
-warn_if_not_aligned:
-cleanup:
-common:
-nocommon:
-nonstring:
-packed:
-tls_model:
-tls_model -> global-dynamic:
-tls_model -> local-dynamic:
-tls_model -> initial-exec:
-tls_model -> local-exec:
-uninitialized:
-vector_size:
-noinit:
-persistent:
-objc_nullability:
-objc_nullability -> unspecified:
-objc_nullability -> nonnull:
-objc_nullability -> nullable:
-objc_nullability -> resettable:
-aux:
-progmem:
-io:
-io_low:
-address:
-absdata:
-l1_data:
-l1_data_A:
-l1_data_B:
-eightbit_data:
-tiny_data:
-based:
-tiny:
-cb:
-selectany:
-shared:
-altivec:
-ms_struct:
-gcc_struct:
-saddr:
-sda:
-tda:
-zda:
-below100:
-designated_init:
-scalar_storage_order:
-scalar_storage_order -> big-endian:
-scalar_storage_order -> little-endian:
-transparent_union:
-objc_root_class:
-uncached:
-notshared:
-preserve_access_index:
-fallthrough:
-abi_tag:
-init_priority:
-warn_unused:
-diagnose_if:
-format_wprintf:
-format_wscanf:
-__counted_by__:
+gnu::mode:
+gnu::mode -> byte:
+gnu::mode -> __byte__:
+gnu::mode -> word:
+gnu::mode -> __word__:
+gnu::mode -> pointer:
+gnu::mode -> __pointer__:
+gnu::mode -> BI:
+gnu::mode -> QI:
+gnu::mode -> HI:
+gnu::mode -> PSI:
+gnu::mode -> SI:
+gnu::mode -> PDI:
+gnu::mode -> DI:
+gnu::mode -> TI:
+gnu::mode -> OI:
+gnu::mode -> XI:
+gnu::mode -> QF:
+gnu::mode -> HF:
+gnu::mode -> TQF:
+gnu::mode -> SF:
+gnu::mode -> DF:
+gnu::mode -> XF:
+gnu::mode -> SD:
+gnu::mode -> DD:
+gnu::mode -> TD:
+gnu::mode -> TF:
+gnu::mode -> QQ:
+gnu::mode -> HQ:
+gnu::mode -> SQ:
+gnu::mode -> DQ:
+gnu::mode -> TQ:
+gnu::mode -> UQQ:
+gnu::mode -> UHQ:
+gnu::mode -> USQ:
+gnu::mode -> UDQ:
+gnu::mode -> UTQ:
+gnu::mode -> HA:
+gnu::mode -> SA:
+gnu::mode -> DA:
+gnu::mode -> TA:
+gnu::mode -> UHA:
+gnu::mode -> USA:
+gnu::mode -> UDA:
+gnu::mode -> UTA:
+gnu::mode -> CC:
+gnu::mode -> BLK:
+gnu::mode -> VOID:
+gnu::mode -> QC:
+gnu::mode -> HC:
+gnu::mode -> SC:
+gnu::mode -> DC:
+gnu::mode -> XC:
+gnu::mode -> TC:
+gnu::mode -> CQI:
+gnu::mode -> CHI:
+gnu::mode -> CSI:
+gnu::mode -> CDI:
+gnu::mode -> CTI:
+gnu::mode -> COI:
+gnu::mode -> CPSI:
+gnu::mode -> BND32:
+gnu::mode -> BND64:
+gnu::may_alias:
+gnu::alias:
+gnu::optimize:
+gnu::access:
+gnu::access -> read_only:
+gnu::access -> read_write:
+gnu::access -> write_only:
+gnu::access -> none:
+gnu::aligned:
+gnu::alloc_align:
+gnu::alloc_size:
+gnu::always_inline:
+gnu::artificial:
+gnu::assume_aligned:
+gnu::cold:
+gnu::const:
+gnu::constructor:
+gnu::destructor:
+gnu::copy:
+gnu::deprecated:
+gnu::unavailable:
+gnu::error:
+gnu::warning:
+gnu::externally_visible:
+gnu::flatten:
+gnu::format:
+gnu::format -> printf:
+gnu::format -> scanf:
+gnu::format -> strftime:
+gnu::format -> gnu_printf:
+gnu::format -> gnu_scanf:
+gnu::format -> gnu_strftime:
+gnu::format -> strfmon:
+gnu::format -> __printf__:
+gnu::format -> __scanf__:
+gnu::format -> __strftime__:
+gnu::format -> __strfmon__:
+gnu::format -> ms_printf:
+gnu::format -> ms_scanf:
+gnu::format -> ms_strftime:
+gnu::format_arg:
+gnu::gnu_inline:
+gnu::hot:
+gnu::ifunc:
+gnu::interrupt:
+gnu::interrupt_handler:
+gnu::leaf:
+gnu::malloc:
+gnu::no_icf:
+gnu::no_instrument_function:
+gnu::no_profile_instrument_function:
+gnu::no_reorder:
+gnu::no_sanitize:
+gnu::no_sanitize_address:
+gnu::no_address_safety_analysis:
+gnu::no_sanitize_thread:
+gnu::no_sanitize_undefined:
+gnu::no_sanitize_coverage:
+gnu::no_split_stack:
+gnu::no_stack_limit:
+gnu::noclone:
+gnu::noinline:
+gnu::noipa:
+gnu::nonnull:
+gnu::noplt:
+gnu::noreturn:
+gnu::nothrow:
+gnu::patchable_function_entry:
+gnu::pure:
+gnu::returns_nonnull:
+gnu::returns_twice:
+gnu::section:
+gnu::sentinel:
+gnu::simd:
+gnu::simd -> notinbranch:
+gnu::simd -> inbranch:
+gnu::stack_protect:
+gnu::no_stack_protector:
+gnu::target:
+gnu::symver:
+gnu::tainted_args:
+gnu::target_clones:
+gnu::unused:
+gnu::used:
+gnu::retain:
+gnu::visibility:
+gnu::visibility -> default:
+gnu::visibility -> hidden:
+gnu::visibility -> internal:
+gnu::visibility -> protected:
+gnu::warn_unused_result:
+gnu::weak:
+gnu::weakref:
+gnu::zero_call_used_regs:
+gnu::zero_call_used_regs -> skip:
+gnu::zero_call_used_regs -> used:
+gnu::zero_call_used_regs -> used-gpr:
+gnu::zero_call_used_regs -> used-arg:
+gnu::zero_call_used_regs -> used-gpr-arg:
+gnu::zero_call_used_regs -> all:
+gnu::zero_call_used_regs -> all-gpr:
+gnu::zero_call_used_regs -> all-arg:
+gnu::zero_call_used_regs -> all-gpr-arg:
+gnu::target -> general-regs-only:
+gnu::target -> fix-cortex-a53-835769:
+gnu::target -> cmodel:
+gnu::target -> strict-align:
+gnu::target -> no-strict-align:
+gnu::target -> omit-leaf-frame-pointer:
+gnu::target -> tls-dialect:
+gnu::target -> arch:
+gnu::target -> tune:
+gnu::target -> cpu:
+gnu::target -> sign-return-address:
+gnu::target -> branch-protection:
+gnu::target -> outline-atomics:
+gnu::amdgpu_hsa_kernel:
+gnu::amdgpu_hsa_kernel -> private_segment_buffer:
+gnu::amdgpu_hsa_kernel -> dispatch_ptr:
+gnu::amdgpu_hsa_kernel -> queue_ptr:
+gnu::amdgpu_hsa_kernel -> kernarg_segment_ptr:
+gnu::amdgpu_hsa_kernel -> dispatch_id:
+gnu::amdgpu_hsa_kernel -> flat_scratch_init:
+gnu::amdgpu_hsa_kernel -> private_segment_size:
+gnu::amdgpu_hsa_kernel -> grid_workgroup_count_X:
+gnu::amdgpu_hsa_kernel -> grid_workgroup_count_Y:
+gnu::amdgpu_hsa_kernel -> grid_workgroup_count_Z:
+gnu::amdgpu_hsa_kernel -> workgroup_id_X:
+gnu::amdgpu_hsa_kernel -> workgroup_id_Y:
+gnu::amdgpu_hsa_kernel -> workgroup_id_Z:
+gnu::amdgpu_hsa_kernel -> workgroup_info:
+gnu::amdgpu_hsa_kernel -> private_segment_wave_offset:
+gnu::amdgpu_hsa_kernel -> work_item_id_X:
+gnu::amdgpu_hsa_kernel -> work_item_id_Y:
+gnu::amdgpu_hsa_kernel -> work_item_id_Z:
+gnu::long_call:
+gnu::medium_call:
+gnu::short_call:
+gnu::jli_always:
+gnu::jli_fixed:
+gnu::secure_call:
+gnu::naked:
+gnu::isr:
+gnu::pcs:
+gnu::target -> thumb:
+gnu::target -> arm:
+gnu::target -> fpu:
+gnu::no_gccisr:
+gnu::OS_main:
+gnu::OS_task:
+gnu::signal:
+gnu::exception_handler:
+gnu::kspisusp:
+gnu::l1_text:
+gnu::l2:
+gnu::longcall:
+gnu::shortcall:
+gnu::nesting:
+gnu::nmi_handler:
+gnu::saveall:
+gnu::kernel_helper:
+gnu::disinterrupt:
+gnu::forwarder_section:
+gnu::interrupt -> reset:
+gnu::interrupt -> software_exception:
+gnu::interrupt -> page_miss:
+gnu::interrupt -> timer0:
+gnu::interrupt -> timer1:
+gnu::interrupt -> message:
+gnu::interrupt -> dma0:
+gnu::interrupt -> dma1:
+gnu::interrupt -> wand:
+gnu::interrupt -> swi:
+gnu::function_vector:
+gnu::syscall_linkage:
+gnu::version_id:
+gnu::bank_switch:
+gnu::fast_interrupt:
+gnu::model:
+gnu::model -> small:
+gnu::model -> medium:
+gnu::model -> large:
+gnu::interrupt_thread:
+gnu::near:
+gnu::far:
+gnu::vliw:
+gnu::save_volatiles:
+gnu::break_handler:
+gnu::dllexport:
+gnu::dllimport:
+gnu::interrupt -> use_shadow_register_set:
+gnu::interrupt -> keep_interrupts_masked:
+gnu::interrupt -> use_debug_exception_return:
+gnu::mips16:
+gnu::nomips16:
+gnu::micromips:
+gnu::nomicromips:
+gnu::nocompression:
+gnu::critical:
+gnu::reentrant:
+gnu::wakeup:
+gnu::lower:
+gnu::upper:
+gnu::either:
+gnu::exception:
+gnu::nested:
+gnu::not_nested:
+gnu::nested_ready:
+gnu::save_all:
+gnu::partial_save:
+gnu::reset:
+gnu::nmi:
+gnu::warm:
+gnu::target -> custom-INSN:
+gnu::target -> no-custom-INSN:
+gnu::target -> custom-fpu-cfg:
+gnu::kernel:
+gnu::target -> altivec:
+gnu::target -> no-altivec:
+gnu::target -> cmpb:
+gnu::target -> no-cmpb:
+gnu::target -> dlmzb:
+gnu::target -> no-dlmzb:
+gnu::target -> fprnd:
+gnu::target -> no-fprnd:
+gnu::target -> hard-dfp:
+gnu::target -> no-hard-dfp:
+gnu::target -> isel:
+gnu::target -> no-isel:
+gnu::target -> mfcrf:
+gnu::target -> no-mfcrf:
+gnu::target -> mulhw:
+gnu::target -> no-mulhw:
+gnu::target -> multiple:
+gnu::target -> no-multiple:
+gnu::target -> update:
+gnu::targer -> no-update:
+gnu::target -> popcntb:
+gnu::target -> no-popcntb:
+gnu::target -> popcntd:
+gnu::target -> no-popcntd:
+gnu::target -> powerpc-gfxopt:
+gnu::target -> no-powerpc-gfxopt:
+gnu::target -> powerpc-gpopt:
+gnu::target -> no-powerpc-gpopt:
+gnu::target -> recip-precision:
+gnu::target -> no-recip-precision:
+gnu::target -> string:
+gnu::target -> no-string:
+gnu::target -> vsx:
+gnu::target -> no-vsx:
+gnu::target -> friz:
+gnu::target -> no-friz:
+gnu::target -> avoid-indexed-addresses:
+gnu::target -> no-avoid-indexed-addresses:
+gnu::target -> paired:
+gnu::target -> no-paired:
+gnu::target -> longcall:
+gnu::target -> no-longcall:
+gnu::interrupt -> user:
+gnu::interrupt -> supervisor:
+gnu::interrupt -> machine:
+gnu::brk_interrupt:
+gnu::vector:
+gnu::hotpatch:
+gnu::target -> stack-guard:
+gnu::target -> stack-size:
+gnu::target -> branch-cost:
+gnu::target -> warn-framesize:
+gnu::target -> backchain:
+gnu::target -> no-backchain:
+gnu::target -> hard-float:
+gnu::target -> soft-float:
+gnu::target -> htm:
+gnu::target -> no-htm:
+gnu::target -> vx:
+gnu::target -> no-vx:
+gnu::target -> packed-stack:
+gnu::target -> no-packed-stack:
+gnu::target -> small-exec:
+gnu::target -> no-small-exec:
+gnu::target -> mvcle:
+gnu::target -> no-mvcle:
+gnu::target -> warn-dynamicstack:
+gnu::target -> no-warn-dynamicstack:
+gnu::nosave_low_regs:
+gnu::renesas:
+gnu::resbank:
+gnu::sp_switch:
+gnu::trap_exit:
+gnu::trapa_handler:
+gnu::cdecl:
+gnu::fastcall:
+gnu::thiscall:
+gnu::ms_abi:
+gnu::sysv_abi:
+gnu::callee_pop_aggregate_return:
+gnu::ms_hook_prologue:
+gnu::regparm:
+gnu::sseregparm:
+gnu::force_align_arg_pointer:
+gnu::stdcall:
+gnu::no_caller_saved_registers:
+gnu::target -> 3dnow:
+gnu::target -> no-3dnow:
+gnu::target -> 3dnowa:
+gnu::target -> no-3dnowa:
+gnu::target -> abm:
+gnu::target -> no-abm:
+gnu::target -> adx:
+gnu::target -> no-adx:
+gnu::target -> aes:
+gnu::target -> no-aes:
+gnu::target -> avx:
+gnu::target -> no-avx:
+gnu::target -> avx2:
+gnu::target -> no-avx2:
+gnu::target -> avx5124fmaps:
+gnu::target -> no-avx5124fmaps:
+gnu::target -> avx5124vnniw:
+gnu::target -> no-avx5124vnniw:
+gnu::target -> avx512bitalg:
+gnu::target -> no-avx512bitalg:
+gnu::target -> avx512bw:
+gnu::target -> no-avx512bw:
+gnu::target -> avx512cd:
+gnu::target -> no-avx512cd:
+gnu::target -> avx512dq:
+gnu::target -> no-avx512dq:
+gnu::target -> avx512er:
+gnu::target -> no-avx512er:
+gnu::target -> avx512f:
+gnu::target -> no-avx512f:
+gnu::target -> avx512ifma:
+gnu::target -> no-avx512ifma:
+gnu::target -> avx512pf:
+gnu::target -> no-avx512pf:
+gnu::target -> avx512vbmi:
+gnu::target -> no-avx512vbmi:
+gnu::target -> avx512vbmi2:
+gnu::target -> no-avx512vbmi2:
+gnu::target -> avx512vl:
+gnu::target -> no-avx512vl:
+gnu::target -> avx512vnni:
+gnu::target -> no-avx512vnni:
+gnu::target -> avx512vpopcntdq:
+gnu::target -> no-avx512vpopcntdq:
+gnu::target -> bmi:
+gnu::target -> no-bmi:
+gnu::target -> bmi2:
+gnu::target -> no-bmi2:
+gnu::target -> cldemote:
+gnu::target -> no-cldemote:
+gnu::target -> clflushopt:
+gnu::target -> no-clflushopt:
+gnu::target -> clwb:
+gnu::target -> no-clwb:
+gnu::target -> clzero:
+gnu::target -> no-clzero:
+gnu::target -> crc32:
+gnu::target -> no-crc32:
+gnu::target -> cx16:
+gnu::target -> no-cx16:
+gnu::target -> default:
+gnu::target -> f16c:
+gnu::target -> no-f16c:
+gnu::target -> fma:
+gnu::target -> no-fma:
+gnu::target -> fma4:
+gnu::target -> no-fma4:
+gnu::target -> fsgsbase:
+gnu::target -> no-fsgsbase:
+gnu::target -> fxsr:
+gnu::target -> no-fxsr:
+gnu::target -> gfni:
+gnu::target -> no-gfni:
+gnu::target -> hle:
+gnu::target -> no-hle:
+gnu::target -> lwp:
+gnu::target -> no-lwp:
+gnu::target -> lzcnt:
+gnu::target -> no-lzcnt:
+gnu::target -> mmx:
+gnu::target -> no-mmx:
+gnu::target -> movbe:
+gnu::target -> no-movbe:
+gnu::target -> movdir64b:
+gnu::target -> no-movdir64b:
+gnu::target -> movdiri:
+gnu::target -> no-movdiri:
+gnu::target -> mwait:
+gnu::target -> no-mwait:
+gnu::target -> mwaitx:
+gnu::target -> no-mwaitx:
+gnu::target -> pclmul:
+gnu::target -> no-pclmul:
+gnu::target -> pconfig:
+gnu::target -> no-pconfig:
+gnu::target -> pku:
+gnu::target -> no-pku:
+gnu::target -> popcnt:
+gnu::target -> no-popcnt:
+gnu::target -> prefetchwt1:
+gnu::target -> no-prefetchwt1:
+gnu::target -> prfchw:
+gnu::target -> no-prfchw:
+gnu::target -> ptwrite:
+gnu::target -> no-ptwrite:
+gnu::target -> rdpid:
+gnu::target -> no-rdpid:
+gnu::target -> rdrnd:
+gnu::target -> no-rdrnd:
+gnu::target -> rdseed:
+gnu::target -> no-rdseed:
+gnu::target -> rtm:
+gnu::target -> no-rtm:
+gnu::target -> sahf:
+gnu::target -> no-sahf:
+gnu::target -> sgx:
+gnu::target -> no-sgx:
+gnu::target -> sha:
+gnu::target -> no-sha:
+gnu::target -> shstk:
+gnu::target -> no-shstk:
+gnu::target -> sse:
+gnu::target -> no-sse:
+gnu::target -> sse2:
+gnu::target -> no-sse2:
+gnu::target -> sse3:
+gnu::target -> no-sse3:
+gnu::target -> sse4:
+gnu::target -> no-sse4:
+gnu::target -> sse4.1:
+gnu::target -> no-sse4.1:
+gnu::target -> sse4.2:
+gnu::target -> no-sse4.2:
+gnu::target -> sse4a:
+gnu::target -> no-sse4a:
+gnu::target -> ssse3:
+gnu::target -> no-ssse3:
+gnu::target -> tbm:
+gnu::target -> no-tbm:
+gnu::target -> vaes:
+gnu::target -> no-vaes:
+gnu::target -> vpclmulqdq:
+gnu::target -> no-vpclmulqdq:
+gnu::target -> waitpkg:
+gnu::target -> no-waitpkg:
+gnu::target -> wbnoinvd:
+gnu::target -> no-wbnoinvd:
+gnu::target -> xop:
+gnu::target -> no-xop:
+gnu::target -> xsave:
+gnu::target -> no-xsave:
+gnu::target -> xsavec:
+gnu::target -> no-xsavec:
+gnu::target -> xsaveopt:
+gnu::target -> no-xsaveopt:
+gnu::target -> xsaves:
+gnu::target -> no-xsaves:
+gnu::target -> amx-tile:
+gnu::target -> no-amx-tile:
+gnu::target -> amx-int8:
+gnu::target -> no-amx-int8:
+gnu::target -> amx-bf16:
+gnu::target -> no-amx-bf16:
+gnu::target -> uintr:
+gnu::target -> no-uintr:
+gnu::target -> hreset:
+gnu::target -> no-hreset:
+gnu::target -> kl:
+gnu::target -> no-kl:
+gnu::target -> widekl:
+gnu::target -> no-widekl:
+gnu::target -> amxvnni:
+gnu::target -> no-amxvnni:
+gnu::target -> cld:
+gnu::target -> no-cld:
+gnu::target -> fancy-math-387:
+gnu::target -> no-fancy-math-387:
+gnu::target -> ieee-fp:
+gnu::target -> no-ieee-fp:
+gnu::target -> inline-all-stringops:
+gnu::target -> no-inline-all-stringops:
+gnu::target -> inline-stringops-dynamically:
+gnu::target -> no-inline-stringops-dynamically:
+gnu::target -> align-stringops:
+gnu::target -> no-align-stringops:
+gnu::target -> recip:
+gnu::target -> no-recip:
+gnu::target -> fpmath:
+gnu::target -> prefer-vector-width:
+gnu::target -> prefer-vector-width -> none:
+gnu::target -> prefer-vector-width -> 128:
+gnu::target -> prefer-vector-width -> 256:
+gnu::target -> prefer-vector-width -> 512:
+gnu::indirect_branch:
+gnu::function_return:
+gnu::nocf_check:
+gnu::cf_check:
+gnu::indirect_return:
+gnu::fentry_name:
+gnu::fentry_section:
+gnu::nodirect_extern_access:
+gnu::warn_if_not_aligned:
+gnu::cleanup:
+gnu::common:
+gnu::nocommon:
+gnu::nonstring:
+gnu::packed:
+gnu::tls_model:
+gnu::tls_model -> global-dynamic:
+gnu::tls_model -> local-dynamic:
+gnu::tls_model -> initial-exec:
+gnu::tls_model -> local-exec:
+gnu::uninitialized:
+gnu::vector_size:
+gnu::noinit:
+gnu::persistent:
+gnu::objc_nullability:
+gnu::objc_nullability -> unspecified:
+gnu::objc_nullability -> nonnull:
+gnu::objc_nullability -> nullable:
+gnu::objc_nullability -> resettable:
+gnu::aux:
+gnu::progmem:
+gnu::io:
+gnu::io_low:
+gnu::address:
+gnu::absdata:
+gnu::l1_data:
+gnu::l1_data_A:
+gnu::l1_data_B:
+gnu::eightbit_data:
+gnu::tiny_data:
+gnu::based:
+gnu::tiny:
+gnu::cb:
+gnu::selectany:
+gnu::shared:
+gnu::altivec:
+gnu::ms_struct:
+gnu::gcc_struct:
+gnu::saddr:
+gnu::sda:
+gnu::tda:
+gnu::zda:
+gnu::below100:
+gnu::designated_init:
+gnu::scalar_storage_order:
+gnu::scalar_storage_order -> big-endian:
+gnu::scalar_storage_order -> little-endian:
+gnu::transparent_union:
+gnu::objc_root_class:
+gnu::uncached:
+gnu::notshared:
+gnu::preserve_access_index:
+gnu::fallthrough:
+gnu::abi_tag:
+gnu::init_priority:
+gnu::warn_unused:
+gnu::diagnose_if:
+gnu::format_wprintf:
+gnu::format_wscanf:
+gnu::__counted_by__:
+msvc::no_unique_address:
+no_unique_address:
+gnu::__may_alias__:
+gnu::__target__:
+gnu::target -> +crc:

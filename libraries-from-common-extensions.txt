@@ -118,3 +118,9 @@ ucrtd:
 vccorlib:
 vcamp140:
 vcomp140:
+kernel32:
+kernelbase:
+ntdll:
+cygwin1:
+advapi32:
+runtimeobject:

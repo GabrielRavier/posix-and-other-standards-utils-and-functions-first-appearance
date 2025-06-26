@@ -2,3 +2,7 @@ Common extensions (declspecs):
 allocator:
 noalias:
 restrict:
+thread:
+dllexport:
+dllimport:
+naked:

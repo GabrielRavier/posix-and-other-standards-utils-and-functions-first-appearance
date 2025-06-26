@@ -5756,3 +5756,15 @@ cc -fp-model strict:
 cc -nodtk:
 cc -mt:
 cc -belf:
+cc -std=c++11:
+cc +std:
+cc +std=c++11:
+cc -h:
+cc -h std:
+cc -h std=c++11:
+cc -std=c++0x:
+cc -std=c++14:
+cc -std=c++1y:
+cc -std=c++1y:
+cc -std=c++17:
+cc -std=c++1z:

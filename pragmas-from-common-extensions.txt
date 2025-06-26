@@ -18,3 +18,52 @@ convert:
 convert -> ISO8859-1:
 data_seg:
 data_seg -> .data2:
+optimize:
+optimize -> "g":
+optimize -> off:
+clang:
+GCC:
+clang system_header:
+GCC system_header:
+warning:
+warning(push):
+warning(disable: N):
+clang diagnostic:
+clang diagnostic push:
+clang diagnostic ignored "option-name":
+GCC diagnostic:
+GCC diagnostic push:
+GCC diagnostic ignored "option-name":
+once:
+comment:
+comment -> lib:
+GCC diagnostic pop:
+diag:
+diag push:
+diag pop:
+diag_suppress:
+diag_suppress N:
+nv_diagnostic:
+nv_disgnostic push:
+nv_diagnostic pop:
+nv_diag_suppress:
+clang diagnostic pop:
+pack:
+pack():
+option:
+warn:
+warn(disable: N):
+pack(push, N):
+pack(pop):
+warning disable = N:
+warning N N:
+option option-name:
+option push:
+option push option-name:
+warning(pop):
+option pop:
+warn(push):
+warn(disable: N):
+warn(pop):
+routine:
+routine novector:
