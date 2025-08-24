@@ -67,3 +67,4 @@ warn(disable: N):
 warn(pop):
 routine:
 routine novector:
+argsused:

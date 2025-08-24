@@ -203,3 +203,5 @@ C:\command.com:
 /proc/<PID>/path:
 /proc/<PID>/path/a.out:
 /proc/<PID>/exefile:
+/System/Library/Frameworks:
+/System/Library/Frameworks/CoreWLAN.framework:
