@@ -7831,3 +7831,14 @@ NSScanner::scanHexInt:
 CWInteger::rssiValue:
 CWInteger::ssid:
 _tcschr:
+SUCCEEDED:
+CreateDXGIFactory:
+__uuidof:
+IDXGIFactory::EnumAdapters:
+IDXGIFactory1::EnumAdapters:
+IDXGIAdapter::GetDesc:
+IDXGIAdapter::CheckInterfaceSupport:
+IDXGIAdapter::Release:
+std::numeric_limits<T>::max:
+IDXGIFactory::Release:
+IDXGIFactory1::Release:

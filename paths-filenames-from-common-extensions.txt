@@ -205,3 +205,4 @@ C:\command.com:
 /proc/<PID>/exefile:
 /System/Library/Frameworks:
 /System/Library/Frameworks/CoreWLAN.framework:
+nvd3d9wrap.dll:

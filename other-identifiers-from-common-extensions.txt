@@ -9528,3 +9528,10 @@ NSRange:
 NSScanner:
 NSInteger:
 UTF8String:
+IDXGIFactory:
+IDXGIFactory1:
+IDXGIAdapter:
+DXGI_ERROR_NOT_FOUND:
+DXGI_ADAPTER_DESC:
+std:
+std::numeric_limits:
