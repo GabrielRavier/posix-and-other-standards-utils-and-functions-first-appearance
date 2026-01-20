@@ -7842,3 +7842,4 @@ IDXGIAdapter::Release:
 std::numeric_limits<T>::max:
 IDXGIFactory::Release:
 IDXGIFactory1::Release:
+GetModuleHandleExW:
