@@ -235,6 +235,8 @@ booga-boo-bugaboo-la-pulga/msx original release (1986/??/??)
 1986 IOCCC winners
 Documenters_Workbench (1986/??/??)
 old-ultrix-32.tar-extracted/decnet-1.1 (1986/??/??)
+metroid/1-nes original release (1986/08/06)
+(More releases after this)
 v10blit.tar-extracted (1986/08/19)
 ../heritage-society/tree/V9 (1986/09/??)
 compiler_s36_v31_doc, cx36_v31_bin and cx36_v31_src (1986/09/??)
