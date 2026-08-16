@@ -2928,6 +2928,8 @@ operating-systems/ghost initial commit (2015/07/26) (b2901e6caaecc53c1d54777c14e
 (More releases after this)
 ucrt 10.0.10240.0 (2015/07/29)
 (More releases after this)
+zig initial commit (2015/08/05) (d519ce87dd3c112dbaa087e2ef08514d5253f02a)
+(More releases after this)
 procps 3.3.11 (2015/08/09)
 (More releases after this)
 FreeBSD-release/10.2.0 (2015/08/12)
