@@ -256,6 +256,8 @@ emacs mid 1987 (042c85b84f)
 Amsterdam Compiler Kit mid 1987 (0e4defe03)
 1987 IOCCC winners
 TuningUnixLex_Jacobson_USENIX_Winter_1987_pp163_164.pdf (1987/??/??) (what does "Winter" mean here ? Start or end of year ?)
+bros./2-usa original release (1987/07/10)
+(More release after this)
 metal-gear/1 original release (1987/07/13)
 (More releases after this)
 usenix87 (1987/08/20)
