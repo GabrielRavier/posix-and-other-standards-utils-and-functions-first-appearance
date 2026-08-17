@@ -809,6 +809,8 @@ OpenBSD/src initial commit (1995/10/18) (291a051a255dd23bcaf9f4cf99ebbba47fd8069
 Solaris 2.5 (>=1995/10/30) (../Solaris/2.5)
 gcc 2.7.1 (1995/11/12) (diff with 2.7.0)
 Distributions/UCB/2.11BSD_patch277 (1995/11/13)
+2-diddys-kong-quest-super-2-dixie-and-diddy original release (1995/11/21)
+(More releases after this)
 Norman_v10/secombe-extracted (1995/11/24)
 gcc 2.7.2 (1995/11/26) (gnu-compiler-collection/tarballs)
 sharutils 4.2 (1995/12/04)
